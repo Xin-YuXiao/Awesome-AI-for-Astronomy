@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 388 papers and 65 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 390 papers and 65 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 
 ## About
 
@@ -510,6 +510,8 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [New Constraints on the Ultrahigh Energy Neutrino Flux from the First Array-Wide Search with the Askaryan Radio Array](https://arxiv.org/abs/2611.14350 "Station-specific linear discriminant classifiers separate simulated neutrinos from thermal backgrounds in the first array-wide ARA search.") | arXiv 2026 | - | - |
+| 2026.11 | [Analysis Methodology of the Search for Ultrahigh Energy Neutrinos in 10.6 Years of Askaryan Radio Array Data](https://arxiv.org/abs/2611.14354 "This companion methods paper details supervised linear discriminants for timing preselection and thermal-background rejection across 10.6 years of ARA data.") | arXiv 2026 | - | - |
 | 2026.10 | **GammaLearn** [Deep Learning for Cherenkov Astronomy: Performance of GammaLearn on LST-1](https://arxiv.org/abs/2610.10392 "Applies the gamma-PhysNet CNN to LST-1 Crab Nebula observations, improving sensitivity over the random forest analysis below 1 TeV.") | arXiv 2026 | - | - |
 | 2026.09 | **candela** [A Differentiable Neural Surrogate for Photon Propagation in Neutrino Telescopes](https://arxiv.org/abs/2609.04695 "SIREN neural field that learns the IceCube photon Green function, predicting photon yield and arrival-time distributions for a point energy deposit and sensor.") | arXiv 2026 | - | - |
 | 2025.10 | [Multivariate Time Series Classification of Fermi-Detected Gamma-Ray Transients Using Convolutional-Recurrent Neural Networks](https://arxiv.org/abs/2510.22412 "CNN-LSTM classifiers that separate GRBs, TGFs, solar flares and SGRs in Fermi-GBM light curves and flag outliers.") | arXiv 2025 | - | - |

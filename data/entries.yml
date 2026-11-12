@@ -2212,6 +2212,16 @@ sections:
     desc: Unified interface over sbi, pydelfi and lampe with validation and calibration tools.
 - title: High-Energy Astrophysics and Astroparticle Physics
   entries:
+  - title: New Constraints on the Ultrahigh Energy Neutrino Flux from the First Array-Wide Search with the Askaryan Radio Array
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.14350
+    desc: Station-specific linear discriminant classifiers separate simulated neutrinos from thermal backgrounds in the first array-wide ARA search.
+  - title: Analysis Methodology of the Search for Ultrahigh Energy Neutrinos in 10.6 Years of Askaryan Radio Array Data
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.14354
+    desc: This companion methods paper details supervised linear discriminants for timing preselection and thermal-background rejection across 10.6 years of ARA data.
   - name: GCE BGCNN
     title: 'Galactic Center Excess in a New Light: Disentangling the γ-Ray Sky with Bayesian Graph Convolutional Neural Networks'
     venue: PRL 2020
