@@ -1516,6 +1516,12 @@ sections:
     desc: Fine-tunes a large language model on LAMOST low-resolution spectra in two stages to infer stellar parameters and elemental abundances, validated against Gaia-ESO and GALAH DR4.
 - title: Time-Domain Astronomy and Transients
   entries:
+  - name: TITAN DR1
+    title: 'TITAN DR1: The Type Ia Supernova Trove from ATLAS in the Nearby Universe - Host Galaxies I: Associations, Redshifts and Derived Properties'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.13195
+    desc: Combines Sherlock decision-tree crossmatching, Bayesian association and visual review to assign confident host galaxies to 7,856 Type Ia supernovae.
   - name: DeepAP
     title: 'DeepAP: Deep Learning-based Aperture Photometry Feasibility Assessment and Aperture Size Prediction'
     venue: RAA 2025

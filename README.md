@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 388 papers and 65 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 389 papers and 65 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 
 ## About
 
@@ -380,6 +380,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [TITAN DR1: The Type Ia Supernova Trove from ATLAS in the Nearby Universe - Host Galaxies I: Associations, Redshifts and Derived Properties](https://arxiv.org/abs/2611.13195 "Combines Sherlock decision-tree crossmatching, Bayesian association and visual review to assign confident host galaxies to 7,856 Type Ia supernovae.") | arXiv 2026 | - | - |
 | 2026.07 | [NAPTIME: A Neural-Process Framework for Rubin Alert Classification](https://arxiv.org/abs/2607.19236 "Neural process that jointly reconstructs and classifies sparse multiband light curves on ELAsTiCC2 and MALLORN.") | arXiv 2026 | - | - |
 | 2026.06 | [PIE-ADA: Physics-Informed Ensemble with Adaptive Data Augmentation for Photometric Transient Classification](https://arxiv.org/abs/2606.29367 "Physics-motivated light-curve augmentation for rare classes combined with gradient boosted ensembles.") | arXiv 2026 | - | - |
 | 2025.08 | [DeepAP: Deep Learning-based Aperture Photometry Feasibility Assessment and Aperture Size Prediction](https://arxiv.org/abs/2508.03400 "Two-stage framework uses a Vision Transformer to assess aperture-photometry feasibility and a ResNet to predict aperture size for optical survey photometry, achieving a test ROC AUC of 0.96 for feasibility assessment.") | **RAA 2025** | [Code](https://github.com/ruiyicheng/DeepAP) | [Journal](https://doi.org/10.1088/1674-4527/adf716) |
