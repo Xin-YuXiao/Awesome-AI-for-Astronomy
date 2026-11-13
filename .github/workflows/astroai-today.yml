@@ -4,13 +4,14 @@ name: AstroAI Today
 # refresh the weekly and monthly digests, commit data/today/ and rebuild the web page.
 
 on:
-  # arXiv announces new papers at 20:00 US Eastern time, and GitHub may delay or skip a
-  # scheduled run. The later runs pick up anything the first one missed; a run with nothing
-  # new commits nothing.
+  # arXiv announces new papers at 20:00 US Eastern time (00:00 or 01:00 UTC). The runs fall in
+  # DeepSeek off-peak hours; peak pricing applies 01:00-04:00 and 06:00-10:00 UTC on weekdays,
+  # and a run that GitHub delays into those hours does nothing. The later runs pick up anything
+  # an earlier one missed, and a run with nothing new commits nothing.
   schedule:
-    - cron: "41 2 * * *"
-    - cron: "23 5 * * *"
-    - cron: "37 11 * * *"
+    - cron: "13 4 * * *"
+    - cron: "47 10 * * *"
+    - cron: "29 17 * * *"
   workflow_dispatch:
     inputs:
       backfill:
@@ -19,6 +20,10 @@ on:
       lookup:
         description: Only print arXiv metadata for these comma-separated ids
         default: ""
+      force:
+        description: Run even during DeepSeek peak hours
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -58,7 +63,8 @@ jobs:
           # Optional. Raises the Semantic Scholar rate limit for the TL;DR lookups.
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
           BACKFILL: ${{ inputs.backfill || '0' }}
-        run: python scripts/today.py --backfill "$BACKFILL"
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: python scripts/today.py --backfill "$BACKFILL" $FORCE
       - name: Commit the new data and rebuild the web page
         if: inputs.lookup == ''
         env:

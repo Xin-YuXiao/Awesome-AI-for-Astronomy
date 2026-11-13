@@ -480,6 +480,13 @@ def candidates(since, today, loose=False):
 
 # Language model --------------------------------------------------------------------
 
+def deepseek_peak(now=None):
+    """True during DeepSeek peak pricing: 01:00-04:00 and 06:00-10:00 UTC, Monday to Friday.
+    Chinese public holidays are off-peak as well but are not modelled, so a holiday run may be skipped."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    return now.weekday() < 5 and (1 <= now.hour < 4 or 6 <= now.hour < 10)
+
+
 class Writer:
     """Thin client for an OpenAI-compatible service such as DeepSeek, or for Claude.
     `name` is None when no model is available."""
@@ -827,6 +834,7 @@ def main():
     ap.add_argument("--backfill", type=int, default=0, help="collect the last N days instead of the last four")
     ap.add_argument("--lookup", help="comma-separated arXiv ids to print; nothing is written")
     ap.add_argument("--date", help="file today's papers under this date (YYYY-MM-DD) instead of the current UTC date")
+    ap.add_argument("--force", action="store_true", help="run even during DeepSeek peak hours")
     args = ap.parse_args()
 
     if args.lookup:
@@ -837,6 +845,10 @@ def main():
     writer = Writer()
     thinking = f", reasoning effort {writer.effort}" if writer.name and writer.openai and "deepseek.com" in writer.base else ""
     print(f"model: {writer.name or 'none'}{thinking}")
+    if writer.name and writer.openai and "deepseek.com" in writer.base and deepseek_peak() and not args.force:
+        print("DeepSeek peak hours (01:00-04:00 and 06:00-10:00 UTC on weekdays): nothing is done in this run, "
+              "and the next off-peak run collects the papers.")
+        return
     window = max(args.backfill, 4)
     since = (today - dt.timedelta(days=window)).isoformat()
     known = known_ids()
