@@ -349,7 +349,7 @@ def keyword_topic(p):
 
 # arXiv listing dates -----------------------------------------------------------------
 
-ET = ZoneInfo("America/New_York")
+EASTERN = ZoneInfo("America/New_York")
 DAY = dt.timedelta(days=1)
 
 
@@ -367,7 +367,7 @@ def listing_date(submitted):
     that evening (Friday's on Sunday evening) and listed on the next weekday. Holidays and
     papers held for moderation are not modelled; see `listed`.
     """
-    t = submitted.astimezone(ET)
+    t = submitted.astimezone(EASTERN)
     deadline = t.date()
     if t.weekday() >= 5 or t.hour >= 14:
         deadline = next_weekday(deadline)
@@ -376,7 +376,7 @@ def listing_date(submitted):
 
 def latest_listing(now):
     """Listing date of the most recent announcement at `now` (announcements are Sunday to Thursday at 20:00 ET)."""
-    t = now.astimezone(ET)
+    t = now.astimezone(EASTERN)
     d = t.date() if t.hour >= 20 else t.date() - DAY
     while d.weekday() in (4, 5):
         d -= DAY
