@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 402 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 403 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -62,6 +62,7 @@ This list tracks machine learning work in astronomy with public papers, linking 
 - [Solar Physics and Heliophysics](#solar-physics-and-heliophysics)
 - [Radio Astronomy](#radio-astronomy)
 - [Planetary Science and Small Bodies](#planetary-science-and-small-bodies)
+- [Observing and Instrumentation](#observing-and-instrumentation)
 - [Datasets](#datasets)
   - [Observational Datasets](#observational-datasets)
   - [Simulation Datasets](#simulation-datasets)
@@ -632,6 +633,14 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 | 2023.04 | [A Flexible Deep Learning Crater Detection Scheme Using Segment Anything Model (SAM)](https://arxiv.org/abs/2304.07764 "Zero-shot crater segmentation with SAM on lunar and Martian images and DEMs.") | **Icarus 2024** | - | [Journal](https://doi.org/10.1016/j.icarus.2023.115797) |
 | 2022.08 | [AstroVision: Towards Autonomous Feature Detection and Description for Missions to Small Bodies Using Deep Learning](https://arxiv.org/abs/2208.02053 "115,970 annotated real images of 16 small bodies for keypoint detection and description benchmarks.") | **Acta Astronaut. 2023** | - | [Data](https://huggingface.co/datasets/travisdriver/astrovision-data) [Journal](https://doi.org/10.1016/j.actaastro.2023.01.009) |
 | 2018.03 | **DeepMoon** [Lunar Crater Identification via Deep Learning](https://arxiv.org/abs/1803.02192 "CNN crater detection on lunar digital elevation maps, transferred to Mercury.") | **Icarus 2019** | [Code](https://github.com/silburt/DeepMoon) | [Data](https://doi.org/10.5281/zenodo.1133969) |
+
+<p align="right"><a href="#contents">Back to contents</a></p>
+
+## Observing and Instrumentation
+
+| Date | Paper | Venue | Code | Links |
+|:--|:--|:--|:--|:--|
+| 2026.11 | [Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps](https://arxiv.org/abs/2611.14987 "A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.") | arXiv 2026 | [Code](https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations) | - |
 
 <p align="right"><a href="#contents">Back to contents</a></p>
 

@@ -2807,6 +2807,14 @@ sections:
       Journal: https://doi.org/10.1038/s41467-026-72646-8
       Code: https://github.com/zsjnb7/ThermoONet-Comet
     desc: DeepONet thermophysical model of water sublimation, fitted with simulated annealing to the water production curves of 28 comets to estimate nucleus sizes.
+- title: Observing and Instrumentation
+  entries:
+  - title: 'Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.14987
+      Code: https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations
+    desc: 'A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.'
 - title: Datasets
   subsections:
   - title: Observational Datasets
