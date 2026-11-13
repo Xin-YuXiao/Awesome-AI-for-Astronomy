@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 402 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 404 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -526,6 +526,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog](https://arxiv.org/abs/2611.16539 "A hexagonal self-organizing map trained on 36,904 Chandra ACIS detections supports an abstaining classifier for X-ray sources.") | arXiv 2026 | [Code](https://github.com/andreascaudo/SOM-CSC) | - |
 | 2026.10 | **GammaLearn** [Deep Learning for Cherenkov Astronomy: Performance of GammaLearn on LST-1](https://arxiv.org/abs/2610.10392 "Applies the gamma-PhysNet CNN to LST-1 Crab Nebula observations, improving sensitivity over the random forest analysis below 1 TeV.") | arXiv 2026 | - | - |
 | 2026.09 | **candela** [A Differentiable Neural Surrogate for Photon Propagation in Neutrino Telescopes](https://arxiv.org/abs/2609.04695 "SIREN neural field that learns the IceCube photon Green function, predicting photon yield and arrival-time distributions for a point energy deposit and sensor.") | arXiv 2026 | - | - |
 | 2025.10 | [Multivariate Time Series Classification of Fermi-Detected Gamma-Ray Transients Using Convolutional-Recurrent Neural Networks](https://arxiv.org/abs/2510.22412 "CNN-LSTM classifiers that separate GRBs, TGFs, solar flares and SGRs in Fermi-GBM light curves and flag outliers.") | arXiv 2025 | - | - |
@@ -595,6 +596,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Identification of extragalactic radio sources in the VISTA survey of the Magellanic Clouds using an unsupervised machine learning algorithm](https://arxiv.org/abs/2611.15880 "Unsupervised t-SNE organizes optical-to-radio photometry for 8,008 sources toward the Magellanic Clouds, with SALT follow-up identifying new active galactic nuclei.") | arXiv 2026 | - | - |
 | 2026.08 | **YOLO-Chars** [Radio Galaxies Detection and Characterization Using Deep Learning Techniques](https://arxiv.org/abs/2608.21474 "Two-stage YOLO detection and characterisation network for flux, size and position angle on SKA SDC1 images.") | **MNRAS 2026** | - | - |
 | 2025.09 | [YOLO-CIANNA: Galaxy Detection with Deep Learning in Radio Data. II. Winning the SKA SDC2 Using a Generalized 3D-YOLO Network](https://arxiv.org/abs/2509.12082 "3D CNN detector for HI sources in SKA SDC2 hyperspectral cubes, extending the method that won SDC2.") | **A&A 2026** | - | - |
 | 2025.06 | [Simulating Realistic Radio Continuum Survey Maps with Diffusion Models](https://arxiv.org/abs/2506.11715 "Diffusion-generated radio galaxies assembled into sky models and imaged to mimic LoTSS pointings.") | arXiv 2025 | - | - |
