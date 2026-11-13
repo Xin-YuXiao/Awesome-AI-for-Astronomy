@@ -212,13 +212,54 @@ def oai_page(params):
     raise RuntimeError("the OAI-PMH interface did not respond")
 
 
+def oai_paper(head, meta):
+    """Paper record from an arXivRaw OAI record, and the date of its first version."""
+    text = lambda tag: " ".join((meta.findtext(f"r:{tag}", "", OAI_NS) or "").split())
+    versions = meta.findall("r:version", OAI_NS)
+    try:
+        submitted = email.utils.parsedate_to_datetime(versions[0].findtext("r:date", "", OAI_NS))
+        first = submitted.date().isoformat()
+    except (IndexError, TypeError, ValueError):
+        submitted, first = None, ""
+    stamp = head.findtext("o:datestamp", "", OAI_NS)
+    cats = text("categories").split()
+    abstract, comment = text("abstract"), text("comments")
+    return {
+        "id": text("id"),
+        "title": text("title") if "$" in text("title") else detex(text("title")),
+        "authors": split_authors(meta.findtext("r:authors", "", OAI_NS)),
+        "abstract": abstract,
+        "comment": comment,
+        "journal_ref": text("journal-ref"),
+        "doi": text("doi"),
+        "primary": cats[0] if cats else "",
+        "categories": cats,
+        "published": submitted.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") if submitted else stamp,
+        "stamp": stamp,
+        "versions": len(versions),
+        "links": sorted({u.rstrip(".") for u in LINK.findall(abstract + " " + comment)}),
+    }, first
+
+
+def oai_records(ids):
+    """Records of individual papers through OAI-PMH GetRecord, used when the search API is busy."""
+    out = []
+    for pid in ids:
+        root = oai_page({"verb": "GetRecord", "identifier": f"oai:arXiv.org:{pid}", "metadataPrefix": "arXivRaw"})
+        rec = root.find("o:GetRecord/o:record", OAI_NS)
+        meta = rec.find("o:metadata/r:arXivRaw", OAI_NS) if rec is not None else None
+        if meta is not None:
+            out.append(oai_paper(rec.find("o:header", OAI_NS), meta)[0])
+    return out
+
+
 def oai_recent(since, today):
     """New astro-ph papers announced on or after `since`, newest first.
 
     A record counts as new when its identifier is from the month of `since` or later and it has a
     single version or a first version submitted in the window; this leaves out replacements and
-    metadata updates of older papers. The date used is
-    the OAI datestamp, which for a new paper is the day it was announced.
+    metadata updates of older papers. OAI datestamps do not follow the arXiv listings closely
+    (one datestamp can cover two listings), so papers are dated with `listed`.
     """
     params = {"verb": "ListRecords", "metadataPrefix": "arXivRaw", "set": "physics:astro-ph", "from": since}
     out, records = [], 0
@@ -235,41 +276,20 @@ def oai_recent(since, today):
             head, meta = rec.find("o:header", OAI_NS), rec.find("o:metadata/r:arXivRaw", OAI_NS)
             if head.get("status") == "deleted" or meta is None:
                 continue
-            text = lambda tag: " ".join((meta.findtext(f"r:{tag}", "", OAI_NS) or "").split())
-            versions = meta.findall("r:version", OAI_NS)
-            try:
-                submitted = email.utils.parsedate_to_datetime(versions[0].findtext("r:date", "", OAI_NS))
-                first = submitted.date().isoformat()
-            except (IndexError, TypeError, ValueError):
-                submitted, first = None, ""
-            stamp = head.findtext("o:datestamp", "", OAI_NS)
-            if len(versions) > 1 and first < since:
+            p, first = oai_paper(head, meta)
+            if p["versions"] > 1 and first < since:
                 continue
             # A metadata update, such as an added journal reference, also moves the datestamp of an
             # older paper into the window. New papers carry an identifier of the announcement month.
-            m = re.match(r"(\d{2})(\d{2})\.\d{4,5}$", text("id"))
+            m = re.match(r"(\d{2})(\d{2})\.\d{4,5}$", p["id"])
             if not m or ("20" + m.group(1), m.group(2)) < (since[:4], since[5:7]):
                 continue
-            cats = text("categories").split()
-            abstract, comment = text("abstract"), text("comments")
-            out.append({
-                "id": text("id"),
-                "title": text("title") if "$" in text("title") else detex(text("title")),
-                "authors": split_authors(meta.findtext("r:authors", "", OAI_NS)),
-                "abstract": abstract,
-                "comment": comment,
-                "journal_ref": text("journal-ref"),
-                "doi": text("doi"),
-                "primary": cats[0] if cats else "",
-                "categories": cats,
-                "published": submitted.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") if submitted else stamp,
-                "stamp": stamp,
-                "links": sorted({u.rstrip(".") for u in LINK.findall(abstract + " " + comment)}),
-            })
+            out.append(p)
         token = listing.find("o:resumptionToken", OAI_NS)
         if token is None or not (token.text or "").strip():
             break
         params = {"verb": "ListRecords", "resumptionToken": token.text.strip()}
+    date_by_listing(out)
     print(f"OAI-PMH returned {records} astro-ph records, {len(out)} of them new papers")
     stamps = {}
     for p in out:
@@ -383,19 +403,54 @@ def latest_listing(now):
     return d + DAY
 
 
+def first_listing(pid):
+    """First weekday of the month in the arXiv identifier. Identifiers are assigned when a paper is
+    announced, so a paper cannot be listed before the month its identifier names."""
+    m = re.match(r"(\d{2})(\d{2})\.\d{4,5}$", pid)
+    if not m:
+        return None
+    d = dt.date(2000 + int(m.group(1)), int(m.group(2)), 1)
+    while d.weekday() >= 5:
+        d += DAY
+    return d
+
+
+def date_by_listing(papers):
+    """Set `listed` for OAI records. The submission time gives the listing for most papers; since
+    identifiers grow with announcement order, a paper never gets an earlier listing than a paper
+    with a smaller identifier of the same month, which places papers held for moderation."""
+    def key(p):
+        return tuple(int(x) for x in p["id"].split("."))
+    latest = {}
+    for p in sorted(papers, key=key):
+        try:
+            day = listing_date(dt.datetime.fromisoformat(p["published"].replace("Z", "+00:00")))
+        except ValueError:
+            day = dt.date.fromisoformat(p["stamp"])
+        floor = first_listing(p["id"])
+        month = p["id"][:4]
+        day = max(d for d in (day, floor, latest.get(month)) if d)
+        latest[month] = day
+        p["listed"] = day.isoformat()
+
+
 def listed(p, now):
-    """Listing date of a candidate as YYYY-MM-DD. The OAI datestamp corrects papers that were held
-    for moderation, and no paper is dated after the latest announcement."""
-    try:
-        submitted = dt.datetime.fromisoformat(p["published"].replace("Z", "+00:00"))
-        if submitted.tzinfo is None:
-            submitted = submitted.replace(tzinfo=dt.timezone.utc)
-        day = listing_date(submitted)
-    except (KeyError, ValueError):
-        day = dt.date.fromisoformat(p.get("stamp") or now.date().isoformat())
-    stamp = p.get("stamp")
-    if stamp and dt.date.fromisoformat(stamp) > day + 3 * DAY:
-        day = dt.date.fromisoformat(stamp)
+    """Listing date of a candidate as YYYY-MM-DD, never after the latest announcement. OAI records carry
+    `listed` from `date_by_listing`; papers from the search API are dated by their submission time,
+    no earlier than the month of their identifier."""
+    if p.get("listed"):
+        day = dt.date.fromisoformat(p["listed"])
+    else:
+        try:
+            submitted = dt.datetime.fromisoformat(p["published"].replace("Z", "+00:00"))
+            if submitted.tzinfo is None:
+                submitted = submitted.replace(tzinfo=dt.timezone.utc)
+            day = listing_date(submitted)
+        except (KeyError, ValueError):
+            day = dt.date.fromisoformat(p.get("stamp") or now.date().isoformat())
+        floor = first_listing(p["id"])
+        if floor and day < floor:
+            day = floor
     return min(day, latest_listing(now)).isoformat()
 
 
@@ -502,9 +557,8 @@ Answer with a JSON array only, one object per paper: {"id": ..., "relevant": ...
 
 
 def assess(writer, papers):
-    """Fill relevant, summary and topic for each paper, eight at a time."""
-    for i in range(0, len(papers), 8):
-        batch = papers[i:i + 8]
+    """Fill relevant, summary and topic for each paper, eight at a time, then retry unanswered ones four at a time."""
+    def ask(batch):
         prompt = "Section titles:\n" + "\n".join(SECTIONS) + "\n\nPapers:\n\n" + "\n\n".join(
             f"id: {p['id']}\ntitle: {p['title']}\ncategories: {', '.join(p['categories'])}\nabstract: {p['abstract'][:1800]}"
             for p in batch)
@@ -513,13 +567,22 @@ def assess(writer, papers):
         by_id = {norm(a.get("id", "")): a for a in answer or [] if isinstance(a, dict)}
         for p in batch:
             a = by_id.get(p["id"])
-            if a and isinstance(a.get("relevant"), bool) and a.get("summary"):
-                p["relevant"] = a["relevant"]
+            if not a or not isinstance(a.get("relevant"), bool):
+                continue
+            if a["relevant"] is False:
+                p["relevant"], p["model"] = False, writer.name
+            elif a.get("summary"):
+                p["relevant"] = True
                 p["summary"] = " ".join(str(a["summary"]).split())
                 p["topic"] = a.get("topic") if a.get("topic") in SECTIONS else ""
                 p["model"] = writer.name
-    return papers
 
+    for i in range(0, len(papers), 8):
+        ask(papers[i:i + 8])
+    missing = [p for p in papers if "relevant" not in p]
+    for i in range(0, len(missing), 4):
+        ask(missing[i:i + 4])
+    return papers
 
 def excerpt(abstract, limit=260):
     sentence = re.split(r"(?<=[.!?])\s+", abstract.strip(), maxsplit=1)[0]
@@ -648,10 +711,15 @@ def resummarise(writer, days=7):
         if not todo:
             continue
         try:
-            meta = {p["id"]: p for p in arxiv_api({"id_list": ",".join(p["id"] for p in todo), "max_results": len(todo)})}
-        except ArxivUnavailable as exc:
-            print(f"warning: {exc}; summaries of earlier papers are retried in the next run", file=sys.stderr)
-            return
+            meta = {p["id"]: p for p in oai_records([p["id"] for p in todo])}
+        except Exception as exc:
+            print(f"warning: OAI-PMH lookup failed ({exc}); trying the search API", file=sys.stderr)
+            try:
+                meta = {p["id"]: p for p in arxiv_api({"id_list": ",".join(p["id"] for p in todo),
+                                                        "max_results": len(todo)})}
+            except ArxivUnavailable as exc2:
+                print(f"warning: {exc2}; summaries of earlier papers are retried in the next run", file=sys.stderr)
+                return
         fresh = assess(writer, [meta[p["id"]] for p in todo if p["id"] in meta])
         kept = []
         for p in day["papers"]:

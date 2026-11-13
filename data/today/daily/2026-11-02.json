@@ -24,6 +24,30 @@
    "summary": "Two-stage unsupervised and supervised contrastive learning adapts ASTROMER 2 light-curve representations, improving macro-F1 for astronomical light-curve classification over the finetune baseline, especially with few labels.",
    "topic": "Foundation Models and Representation Learning",
    "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.00121",
+   "title": "Beyond Point Photo-$z$ Estimates: Normalizing Flows for Tomographic $N(z)$ Reconstruction with DESI DR1",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-10-29T09:48:26Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Zhuo Chen",
+    "Antoine Rocher",
+    "Kwan Chuen Chan",
+    "Jean-Paul Kneib"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Conditional normalizing flows reconstruct tomographic N(z) from DESI DR1 photometry, outperforming random forests at high redshift and improving calibration.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
   }
  ],
  "excluded": [],

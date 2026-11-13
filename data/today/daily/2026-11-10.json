@@ -160,33 +160,6 @@
    "summary": "The Payne neural network derives NLTE Cepheid parameters and abundances from 4MOST-like spectra, producing Milky Way radial gradients and first NLTE gradients for several elements.",
    "topic": "Stars and Stellar Spectroscopy",
    "model": "deepseek-flash"
-  },
-  {
-   "id": "2611.07174",
-   "title": "MapHub: Daily Relevance Heatmaps of New arXiv Preprints for a Research Community",
-   "primary": "astro-ph.IM",
-   "categories": [
-    "astro-ph.IM",
-    "cs.DL",
-    "cs.IR"
-   ],
-   "published": "2026-11-04T21:59:29Z",
-   "comment": "3 pages, 1 figure, matches version accepted for publication",
-   "journal_ref": "",
-   "doi": "",
-   "links": [
-    "https://github.com/kailicao/maphub-public"
-   ],
-   "authors": [
-    "Kaili Cao",
-    "Camille Avestruz",
-    "Feige Wang"
-   ],
-   "n_authors": 3,
-   "relevant": true,
-   "summary": "MapHub uses an LLM to score each day's arXiv submissions against researcher portfolios and publishes relevance heatmaps, outperforming text matching.",
-   "topic": "Language and Vision-Language Models",
-   "model": "deepseek-flash"
   }
  ],
  "excluded": [],
