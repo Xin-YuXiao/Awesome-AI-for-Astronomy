@@ -1476,6 +1476,11 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
+  - title: 'Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.14639
+    desc: 'An XGBoost model predicts intrinsic stellar colors from DESI spectroscopic parameters to estimate reddening and constrain extinction curves at high Galactic latitude.'
   - name: astroNN
     title: Deep Learning of Multi-element Abundances from High-resolution Spectroscopic Data
     venue: MNRAS 2019
