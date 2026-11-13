@@ -2376,6 +2376,12 @@ sections:
       Paper: https://arxiv.org/abs/2611.14710
       Code: https://github.com/francescomonastra/MAGI
     desc: 'A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.'
+  - title: 'Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.16539
+      Code: https://github.com/andreascaudo/SOM-CSC
+    desc: 'A hexagonal self-organizing map trained on 36,904 Chandra ACIS detections supports an abstaining classifier for X-ray sources.'
   - name: GCE BGCNN
     title: 'Galactic Center Excess in a New Light: Disentangling the γ-Ray Sky with Bayesian Graph Convolutional Neural Networks'
     venue: PRL 2020
@@ -2686,6 +2692,11 @@ sections:
     desc: Attention model on 13 co-aligned SDO AIA and HMI channels that forecasts daily 6.5 nm EVE irradiance over three days for 33 significant flares.
 - title: Radio Astronomy
   entries:
+  - title: 'Identification of extragalactic radio sources in the VISTA survey of the Magellanic Clouds using an unsupervised machine learning algorithm'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.15880
+    desc: 'Unsupervised t-SNE organizes optical-to-radio photometry for 8,008 sources toward the Magellanic Clouds, with SALT follow-up identifying new active galactic nuclei.'
   - name: FETCH
     title: 'FETCH: A Deep-learning Based Classifier for Fast Transient Classification'
     venue: MNRAS 2020
