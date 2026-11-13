@@ -2385,6 +2385,12 @@ sections:
     desc: Predicts hits on virtual optical modules between real ones to super-resolve neutrino telescope events, improving muon angular reconstruction.
 - title: Gravitational Waves
   entries:
+  - title: 'Efficient Standard Siren Cosmological Inference with Posterior Reuse'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.16697
+      Code: https://github.com/alexpapad0poulos/aspire_gwcosmo
+    desc: 'ASPIRE combines normalizing flows and sequential Monte Carlo to reuse posterior samples across GWTC-5.0 dark-siren cosmological analyses.'
   - name: Magic Bullet
     title: 'Convolutional Neural Networks: A Magic Bullet for Gravitational-wave Detection?'
     venue: PRD 2019
