@@ -72,11 +72,10 @@
     "Simone Lotti"
    ],
    "n_authors": 7,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "Conditional variational autoencoder accelerates multi-stage Geant4 particle simulations by learning and resampling particle crossings, achieving 2.1–240× speed-up with validated detector-level spectra.",
    "topic": "High-Energy Astrophysics and Astroparticle Physics",
-   "model": null,
-   "excerpt": "Monte Carlo particle simulations are hindered by the computational cost of particle transport."
+   "model": "deepseek-flash"
   },
   {
    "id": "2611.14678",
@@ -148,11 +147,10 @@
     "Carolin Villforth"
    ],
    "n_authors": 4,
-   "relevant": null,
-   "summary": "",
-   "topic": "Cosmology and Large-Scale Structure",
-   "model": null,
-   "excerpt": "Galaxy mergers play an important role in galaxy evolution; they enhance star formation, transform morphologies, and may drive accretion onto black holes."
+   "relevant": true,
+   "summary": "Solid harmonic wavelet bispectrum regresses galaxy merger mass ratio and time since merger on simulated galaxies, outperforming CNNs with fewer training samples and ~0.33 dex/~0.66 Gyr uncertainties.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
   },
   {
    "id": "2611.14614",

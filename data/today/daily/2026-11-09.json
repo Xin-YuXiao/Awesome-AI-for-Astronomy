@@ -48,11 +48,10 @@
     "Malvina Bellotti"
    ],
    "n_authors": 5,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "A two-step search and machine-learning classifier distinguishes gravitational-wave transients from instrumental glitches in simulated LISA data, reaching about 98% accuracy.",
    "topic": "Gravitational Waves",
-   "model": null,
-   "excerpt": "The Laser Interferometer Space Antenna (LISA) is a space-based gravitational wave detector scheduled for launch in the 2030s by the European Space Agency."
+   "model": "deepseek-flash"
   },
   {
    "id": "2611.08583",

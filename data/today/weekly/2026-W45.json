@@ -1,0 +1,41 @@
+{
+ "period": "2026-W45",
+ "start": "2026-11-02",
+ "end": "2026-11-08",
+ "final": true,
+ "count": 26,
+ "topics": {
+  "Simulation-Based Inference": 4,
+  "Solar Physics and Heliophysics": 3,
+  "Stars and Stellar Spectroscopy": 3,
+  "Foundation Models and Representation Learning": 2,
+  "Galaxies": 2,
+  "High-Energy Astrophysics and Astroparticle Physics": 2,
+  "Agents and Retrieval Systems": 2,
+  "Benchmarks": 2,
+  "Cosmology and Large-Scale Structure": 1,
+  "Source Detection, Deblending and Image Simulation": 1,
+  "Gravitational Waves": 1,
+  "Time-Domain Astronomy and Transients": 1,
+  "Radio Astronomy": 1,
+  "Language and Vision-Language Models": 1
+ },
+ "overview": "This period centers on simulation-based inference and neural surrogates: normalizing flows for DESI DR1 N(z), field-level weak-lensing corrections, SBi3PCF in DES Y3, and neural operators for MHD turbulence and rotating neutron stars. New benchmarks include COSMIO (LSST/Euclid/Roman imputation) and the Agentic Observer survey hackathon; Survey of Surveys DR3 homogenises nine spectroscopic surveys.",
+ "themes": [
+  "Simulation-based inference",
+  "Neural surrogates and operators",
+  "Cross-survey benchmarks and agents",
+  "Light-curve and stellar catalogues",
+  "Solar/heliospheric and radio source selection"
+ ],
+ "highlights": [
+  "2611.04139",
+  "2611.07936",
+  "2611.01988",
+  "2611.04713",
+  "2611.04389",
+  "2611.05790"
+ ],
+ "model": "deepseek-flash",
+ "updated": "2026-11-13T05:04:58+00:00"
+}

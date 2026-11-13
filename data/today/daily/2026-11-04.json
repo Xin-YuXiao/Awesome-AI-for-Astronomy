@@ -121,11 +121,10 @@
     "Xianghe Ma"
    ],
    "n_authors": 7,
-   "relevant": null,
-   "summary": "",
-   "topic": "Stars and Stellar Spectroscopy",
-   "model": null,
-   "excerpt": "The astrophysical discovery potential of future gravitational wave detectors will hinge on accurate and rapid waveform generation.",
+   "relevant": true,
+   "summary": "A deep-learning framework generates unified compact-binary-coalescence waveforms for black holes, neutron stars and mixed binaries, reaching mismatches of 5.9e-4–5.3e-2 and up to 1800× speedup.",
+   "topic": "Gravitational Waves",
+   "model": "deepseek-flash",
    "tldr": "A unified framework that combines physical modeling with deep learning is developed that generates waveforms for binary black holes, binary neutron stars, and neutron star black hole binaries, providing a single unified generator for all compact binary coalescences."
   },
   {
@@ -150,38 +149,11 @@
     "M. Zedan"
    ],
    "n_authors": 10,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "Feature-based models outperform end-to-end deep networks on ZTF variable-star classification across seven imbalanced classes; limited labels explain the gap and motivate self-supervised pretraining.",
    "topic": "Time-Domain Astronomy and Transients",
-   "model": null,
-   "excerpt": "We compare feature-based machine learning and end-to-end deep learning for variable star classification using the Zwicky Transient Facility (ZTF) StarEmbed dataset, which contains about 40,000 objects across seven imbalanced classes.",
+   "model": "deepseek-flash",
    "tldr": "It is found that limited labeled data contributes to the performance gap, while the multivariate, irregularly sampled, and morphologically diverse nature of light curves poses additional challenges for deep learning models."
-  },
-  {
-   "id": "2611.04484",
-   "title": "Structural axes of sources in the SUMSS survey and their alignments",
-   "primary": "astro-ph.CO",
-   "categories": [
-    "astro-ph.CO"
-   ],
-   "published": "2026-11-03T08:13:34Z",
-   "comment": "9 pages, 6 figures",
-   "journal_ref": "",
-   "doi": "",
-   "links": [],
-   "authors": [
-    "D. Blinov",
-    "T. Bhattarai",
-    "I. Liodakis",
-    "A. Kumar",
-    "P. Bonfini"
-   ],
-   "n_authors": 5,
-   "relevant": null,
-   "summary": "",
-   "topic": "Radio Astronomy",
-   "model": null,
-   "excerpt": "Coherent orientations of extragalactic radio sources have been reported on large angular scales, but their statistical significance and susceptibility to observational systematics remain debated."
   },
   {
    "id": "2611.04389",
@@ -204,11 +176,10 @@
     "Jason D. McEwen"
    ],
    "n_authors": 4,
-   "relevant": null,
-   "summary": "",
-   "topic": "Gravitational Lensing",
-   "model": null,
-   "excerpt": "Many fields of physical interest on the sphere, such as wind, the polarisation of the cosmic microwave background and the shear of weak gravitational lensing, are spin fields, whose values change phase when the local frame rotates.",
+   "relevant": true,
+   "summary": "Spin spherical Fourier neural operators are extended with exactly rotationally equivariant lifted convolutions, achieving machine-precision equivariance and state-of-the-art results on spherical spin-field benchmarks.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash",
    "tldr": "This work extends spherical Fourier neural operators (SFNOs) to fields of any spin, through lifted spherical convolutions that are exactly rotationally equivariant, and demonstrates empirically that rotational equivariance holds to machine precision for these layers."
   },
   {
@@ -235,15 +206,19 @@
     "Yuanpeng Liu"
    ],
    "n_authors": 11,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "COSMIO benchmark forward-renders shared scenes across LSST, Euclid and Roman to test cross-survey imputation; existing methods transfer poorly, especially for rare gravitational lenses.",
    "topic": "Benchmarks",
-   "model": null,
-   "excerpt": "Large-scale astronomical surveys define a heterogeneous, partially observed multi-survey learning setting: each object is observed by only a subset of surveys, while survey observations differ in resolutions, wavelength coverage, noise characteristics, and...",
+   "model": "deepseek-flash",
    "tldr": "COSMIO is introduced, a multi-survey benchmark of aligned observations obtained by forward-rendered shared astrophysical scenes across LSST, Euclid, and Roman under survey-specific instrument characteristics, which enables systematic evaluation of imputation across source-target survey combinations and missing-survey patterns."
   }
  ],
- "excluded": [],
+ "excluded": [
+  {
+   "id": "2611.04484",
+   "title": "Structural axes of sources in the SUMSS survey and their alignments"
+  }
+ ],
  "updated": "2026-11-13T04:43:39+00:00",
  "model": "deepseek-flash"
 }

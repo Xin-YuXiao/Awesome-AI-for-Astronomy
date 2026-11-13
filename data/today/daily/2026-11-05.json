@@ -44,11 +44,10 @@
     "D. Farrah"
    ],
    "n_authors": 16,
-   "relevant": null,
-   "summary": "",
-   "topic": "Galaxies",
-   "model": null,
-   "excerpt": "Sources detected by recent large-area radio surveys require robust classification and characterisation.",
+   "relevant": true,
+   "summary": "Machine-learning pipeline classifies EMU pilot radio sources as AGN or star-forming from optical-infrared photometry, expanding known samples by factors of 15 to 100.",
+   "topic": "Radio Astronomy",
+   "model": "deepseek-flash",
    "tldr": "The ML-based pipeline provides a scalable way to produce large catalogues for the ongoing EMU survey and future Square Kilometre Array observations and reveals that multi-wavelength analysis can uncover radio populations and trends often missed by colour cuts or spectroscopy alone."
   },
   {
@@ -93,11 +92,10 @@
     "Anarya Ray"
    ],
    "n_authors": 1,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "Physics-informed neural operators solve axisymmetric rotating neutron-star structure unsupervised, achieving 10^3 speed-up and enabling scalable equation-of-state inference and pulsar spin evolution.",
    "topic": "High-Energy Astrophysics and Astroparticle Physics",
-   "model": null,
-   "excerpt": "Observed populations of rotating neutron stars~(NSs) with millisecond-order periods are powerful probes of fundamental physics.",
+   "model": "deepseek-flash",
    "tldr": "These solvers enable scalable EoS inference that self-consistently accounts for rotation and repeated stellar-structure calculations during binary evolution, making spin predictions that account for rotational structure and EoS uncertainties computationally accessible to population synthesis."
   }
  ],

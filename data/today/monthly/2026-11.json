@@ -1,0 +1,45 @@
+{
+ "period": "2026-11",
+ "start": "2026-11-01",
+ "end": "2026-11-30",
+ "final": false,
+ "count": 52,
+ "topics": {
+  "Galaxies": 7,
+  "Solar Physics and Heliophysics": 4,
+  "Simulation-Based Inference": 4,
+  "High-Energy Astrophysics and Astroparticle Physics": 4,
+  "Stars and Stellar Spectroscopy": 4,
+  "Gravitational Waves": 4,
+  "Gravitational Lensing": 4,
+  "Foundation Models and Representation Learning": 3,
+  "Cosmology and Large-Scale Structure": 3,
+  "Benchmarks": 3,
+  "Language and Vision-Language Models": 3,
+  "Agents and Retrieval Systems": 2,
+  "Radio Astronomy": 2,
+  "Source Detection, Deblending and Image Simulation": 1,
+  "Time-Domain Astronomy and Transients": 1,
+  "Exoplanets": 1,
+  "Planetary Science and Small Bodies": 1,
+  "Datasets": 1
+ },
+ "overview": "November 2026 mixes simulation-based inference and generative surrogates with survey-scale data products. Normalizing flows and neural operators target tomographic N(z), weak-lensing fields, MHD turbulence and rotating neutron stars; equivariant spherical Fourier operators and differentiable JAX/PyTorch tools extend methods. Euclid DR1 strong-lens catalogues, Survey of Surveys DR3 stellar parameters, COSMIO cross-survey imputation and the FAIR Universe weak-lensing challenge provide benchmarks and catalogues. LLM agents and foundation-model interpretability appear in literature extraction and provenance-checked pipelines, while CNN classifiers address LISA, BNS early warning and solar forecasting.",
+ "themes": [
+  "Simulation-based inference and neural surrogates",
+  "Survey-scale catalogues and strong-lens searches",
+  "LLM agents and foundation-model analysis",
+  "Gravitational-wave and time-domain classifiers",
+  "Differentiable and equivariant ML tools"
+ ],
+ "highlights": [
+  "2611.04139",
+  "2611.10228",
+  "2611.15883",
+  "2611.07936",
+  "2611.14614",
+  "2611.09198"
+ ],
+ "model": "deepseek-flash",
+ "updated": "2026-11-13T05:05:15+00:00"
+}

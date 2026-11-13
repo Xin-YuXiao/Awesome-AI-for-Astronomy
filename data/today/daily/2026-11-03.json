@@ -41,38 +41,11 @@
     "A. B. Bendre"
    ],
    "n_authors": 3,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "Two-phase GRU/LSTM pipeline forecasts monthly and next-day GOES X-ray flare classes, achieving MAE 204 flares/yr and TSS 0.351, though persistence is competitive.",
    "topic": "Solar Physics and Heliophysics",
-   "model": null,
-   "excerpt": "Solar flares are the most energetic impulsive events in the solar system, and reliable operational forecasting of the rarest and most destructive M- and X-class events remains an open problem.",
+   "model": "deepseek-flash",
    "tldr": "Solar Heliospherical Analysis and Prediction of Eruptions (SHAPE), a two-phase deep-learning pipeline that bypasses sunspot proxies in favour of direct soft X-ray observations from the GOES X-ray Sensor, shows that competitive flare forecasting is achievable with compact architectures that retain in minutes on standard hardware, without sunspot proxy inputs."
-  },
-  {
-   "id": "2611.02697",
-   "title": "Two Fast Radio Burst Candidates Detected in the RATAN-600 Blind Survey",
-   "primary": "astro-ph.HE",
-   "categories": [
-    "astro-ph.HE",
-    "astro-ph.GA"
-   ],
-   "published": "2026-11-02T07:47:43Z",
-   "comment": "11 pages, 7 figures, 1 table. Accepted to Astrophysical Bulletin, 2026, v.81, N.4",
-   "journal_ref": "",
-   "doi": "",
-   "links": [],
-   "authors": [
-    "S.A. Trushkin",
-    "D.O. Kudryavtsev",
-    "P.G. Tsybulev",
-    "N.N. Bursov"
-   ],
-   "n_authors": 4,
-   "relevant": null,
-   "summary": "",
-   "topic": "Radio Astronomy",
-   "model": null,
-   "excerpt": "We report the detection of two single dispersed pulses with widths of about 6.7\\,ms and 15.6\\,ms and flux densities of about 0.8 and 1.7\\,Jy."
   },
   {
    "id": "2611.02627",
@@ -230,6 +203,10 @@
   {
    "id": "2611.00415",
    "title": "A multiprobe $\\Lambda$CDM consistency analysis with gravitational-wave standard sirens"
+  },
+  {
+   "id": "2611.02697",
+   "title": "Two Fast Radio Burst Candidates Detected in the RATAN-600 Blind Survey"
   }
  ],
  "updated": "2026-11-13T04:43:39+00:00",

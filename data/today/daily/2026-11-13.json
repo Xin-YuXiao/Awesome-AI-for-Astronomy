@@ -2,6 +2,55 @@
  "date": "2026-11-13",
  "papers": [
   {
+   "id": "2611.16598",
+   "title": "Mitigating variance shrinkage in multi-task galaxy property inference from imaging data via statistical manifold alignment",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-12T10:30:25Z",
+   "comment": "12 pages, 5 figures, 2 tables, accepted by A&A",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Zhijian Luo",
+    "Jianzhen Chen"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Vision transformer with multi-scale MMD loss infers photometric redshifts and stellar population properties from HSC imaging, reducing variance shrinkage while matching DESI distributions.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.16539",
+   "title": "Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-12T09:33:58Z",
+   "comment": "34 pages, 19 figures, 5 tables. Accepted for publication in ApJ",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Andrea Scaudo",
+    "Raffaele D'Abrusco",
+    "V. Samuel Pérez-Díaz",
+    "Juan Rafael Martínez-Galarza",
+    "Marco Landoni"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Self-organizing maps project Chandra source spectral and variability features, revealing class structure and classifying unlabeled X-ray detections with ~53% coverage.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
+  },
+  {
    "id": "2611.16286",
    "title": "Machine-Learning Reconstruction of Intergalactic Medium Column-Density Maps from Observed Ly$\\alpha$ Emission Cubes",
    "primary": "astro-ph.GA",
@@ -104,11 +153,10 @@
     "Heinz Andernach"
    ],
    "n_authors": 14,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "t-SNE clustering of optical-to-radio photometry separates AGN, galaxies, blazars, dusty objects and stars among ASKAP/VMC sources in the Magellanic Clouds.",
    "topic": "Radio Astronomy",
-   "model": null,
-   "excerpt": "The Magellanic Clouds benefit from a wealth of data across the electromagnetic spectrum, but extracting extragalactic sources from these crowded fields is a less than straightforward endeavour."
+   "model": "deepseek-flash"
   }
  ],
  "excluded": [
@@ -117,6 +165,6 @@
    "title": "An analytic diffusion model for viewing-angle effects in explosive transients"
   }
  ],
- "updated": "2026-11-13T04:43:39+00:00",
+ "updated": "2026-11-13T04:59:51+00:00",
  "model": "deepseek-flash"
 }
