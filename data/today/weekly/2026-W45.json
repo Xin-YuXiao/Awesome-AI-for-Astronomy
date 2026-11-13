@@ -1,0 +1,40 @@
+{
+ "period": "2026-W45",
+ "start": "2026-11-02",
+ "end": "2026-11-08",
+ "final": true,
+ "count": 26,
+ "topics": {
+  "Stars and Stellar Spectroscopy": 4,
+  "Galaxies": 3,
+  "Solar Physics and Heliophysics": 3,
+  "Simulation-Based Inference": 3,
+  "Radio Astronomy": 2,
+  "High-Energy Astrophysics and Astroparticle Physics": 2,
+  "Agents and Retrieval Systems": 2,
+  "Benchmarks": 2,
+  "Foundation Models and Representation Learning": 1,
+  "Cosmology and Large-Scale Structure": 1,
+  "Source Detection, Deblending and Image Simulation": 1,
+  "Time-Domain Astronomy and Transients": 1,
+  "Gravitational Lensing": 1
+ },
+ "overview": "Work this week centers on learned representations and surrogates: contrastive ASTROMER 2 for light curves, neural operators for MHD turbulence and rotating stars, and physics-informed solar-wind and flare models. Cosmology papers apply simulation-based inference to DES Y3 shear and normalizing flows to DESI DR1 N(z). New benchmarks include COSMIO for LSST/Euclid/Roman cross-survey imputation and agentic survey decision-making.",
+ "themes": [
+  "Light-curve representation learning and classification",
+  "Neural surrogates and physics-informed models for simulation",
+  "Simulation-based inference and cosmological parameter estimation",
+  "Cross-survey benchmarks and multimodal imputation",
+  "LLM agents for survey operations and high-energy workflows"
+ ],
+ "highlights": [
+  "2611.04139",
+  "2611.07936",
+  "2611.04389",
+  "2611.04713",
+  "2611.01356",
+  "2611.00121"
+ ],
+ "model": "deepseek-flash",
+ "updated": "2026-11-13T04:49:45+00:00"
+}

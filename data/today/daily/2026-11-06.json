@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-06",
+ "papers": [
+  {
+   "id": "2611.07936",
+   "title": "Survey of Surveys Data Release 3. Homogenised stellar parameters across nine spectroscopic surveys",
+   "primary": "astro-ph.SR",
+   "categories": [
+    "astro-ph.SR",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-05T12:38:44Z",
+   "comment": "Submitted to A&A. 20 pages, 17 figures, 5 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "A. Avdeeva",
+    "E. Pancino",
+    "A. Turchi",
+    "P. M. Marrese",
+    "S. Marinoni",
+    "G. Fanari"
+   ],
+   "n_authors": 15,
+   "relevant": true,
+   "summary": "Machine-learning regression homogenises effective temperatures, surface gravities, and metallicities across nine spectroscopic surveys, producing a 10.13-million-star catalogue validated on benchmark stars.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.07433",
+   "title": "MP-DualNet: A Dual-Branch Deep Learning Approach for Magnetopause Boundary Detection Using Simulated SXI Images",
+   "primary": "astro-ph.SR",
+   "categories": [
+    "astro-ph.SR",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-05T04:31:15Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Cheng Zhong",
+    "Zhongwei Yang",
+    "Tianran Sun",
+    "Chengyan Huang",
+    "Jiajia Liu",
+    "Jingnan Guo"
+   ],
+   "n_authors": 8,
+   "relevant": true,
+   "summary": "Dual-branch deep learning detects and segments the magnetopause in simulated SMILE soft X-ray images, reaching >0.94 classification accuracy and >0.97 IoU.",
+   "topic": "Solar Physics and Heliophysics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.07162",
+   "title": "A Machine Learning Approach to Coupling Photoionization & Multi-Frequency Radiation Hydrodynamics",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.GA",
+    "astro-ph.IM",
+    "astro-ph.SR"
+   ],
+   "published": "2026-11-04T21:38:45Z",
+   "comment": "11 pages, 7 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Sergei Dyda",
+    "Randall C. Dannen"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Random-forest emulators trained on XSTAR outputs replace direct photoionization calculations in Athena++ radiation-hydrodynamic simulations of line-driven winds.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [],
+ "updated": "2026-11-13T04:43:39+00:00",
+ "model": "deepseek-flash"
+}

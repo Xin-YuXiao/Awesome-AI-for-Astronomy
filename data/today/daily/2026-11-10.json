@@ -1,0 +1,195 @@
+{
+ "date": "2026-11-10",
+ "papers": [
+  {
+   "id": "2611.12787",
+   "title": "MarsNet: Learning the Martian Atmosphere from Observations Alone",
+   "primary": "astro-ph.EP",
+   "categories": [
+    "astro-ph.EP",
+    "physics.ao-ph"
+   ],
+   "published": "2026-11-09T17:57:01Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Sebastian Mengwall",
+    "J. Michael Battalio"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "MarsNet combines learned two-hour forecasts with bounded Kalman updates to assimilate observations, matching reanalysis temperatures near the surface and improving surface pressures on Mars.",
+   "topic": "Planetary Science and Small Bodies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.11922",
+   "title": "Deep-Learning-Assisted Bayesian Inference for Extreme-Mass-Ratio Inspirals",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.IM",
+    "stat.ML"
+   ],
+   "published": "2026-11-09T05:49:14Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Jian-Jun Song",
+    "Zhong-Wu Xia",
+    "Wen-Hong Ruan",
+    "Zu-Cheng Chen",
+    "Hongwei Yu",
+    "Puxun Wu"
+   ],
+   "n_authors": 6,
+   "relevant": true,
+   "summary": "A neural-network-guided pipeline combining particle swarm optimization and MCMC recovers EMRI posteriors from simulated six-month signals without true-parameter initialization in about ten hours.",
+   "topic": "Gravitational Waves",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.10861",
+   "title": "SWXAI: A Unified Multimodal Explainability Library for Space Weather Forecasting and Heliophysics",
+   "primary": "cs.LG",
+   "categories": [
+    "cs.LG",
+    "astro-ph.SR",
+    "physics.space-ph"
+   ],
+   "published": "2026-11-07T17:22:48Z",
+   "comment": "6 pages, 5 figures. Accepted at CIKM 2026 (Resource Track), Rome, Italy, November 7-11, 2026. Code: https://bitbucket.org/gsudmlab/swxai Docs: https://swxai.readthedocs.io",
+   "journal_ref": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM '26), 2026",
+   "doi": "10.1145/3799682.3840198",
+   "links": [],
+   "authors": [
+    "Benedict Antonio Mervyn",
+    "Anli Ji",
+    "Manolis K. Georgoulis",
+    "Berkay Aydin"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "An open-source library unifies explainable-AI workflows for solar images, time series, and tabular data in space-weather and heliophysics models, reducing code without runtime cost.",
+   "topic": "Solar Physics and Heliophysics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.10228",
+   "title": "FAIR Universe Weak Lensing ML Uncertainty Challenge: Dataset and Cosmological Inference Competition",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "cs.AI",
+    "cs.CV",
+    "cs.LG",
+    "physics.data-an"
+   ],
+   "published": "2026-11-06T21:16:37Z",
+   "comment": "10+7 pages, 2+4 figures, 2+1 tables. Key results of the NeurIPS 2025 FAIR Universe Weak Lensing ML Challenge Phase 1. The challenge dataset is publicly available at Zenodo: https://zenodo.org/records/20056065. Challenge GitHub repository: https://github.com/FAIR-Universe/Cosmology_Challenge",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/FAIR-Universe/Cosmology_Challenge",
+    "https://zenodo.org/records/20056065"
+   ],
+   "authors": [
+    "Biwei Dai",
+    "Po-Wen Chang",
+    "Erwan Allys",
+    "Wahid Bhimji",
+    "Boris Bolliet",
+    "Thomas Borrett"
+   ],
+   "n_authors": 40,
+   "relevant": true,
+   "summary": "A NeurIPS 2025 weak-lensing benchmark provides realistic simulations with systematics and summarizes winning ML methods for robust cosmological inference under uncertainty.",
+   "topic": "Benchmarks",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.10133",
+   "title": "Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.HE"
+   ],
+   "published": "2026-11-06T19:01:22Z",
+   "comment": "13 pages, 7 figures, 6 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Martin Gerini",
+    "Rodrigo Tenorio",
+    "Davide Gerosa"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "A convolutional neural network on short-time Fourier transforms detects binary neutron-star mergers with matched-filter-comparable sensitivity while cutting computational cost by over four orders of magnitude.",
+   "topic": "Gravitational Waves",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.10132",
+   "title": "Classical Cepheids in the 4MOST era I: Methodology for 4MOST variable stars and NLTE abundance gradients in the Milky Way",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-06T19:01:17Z",
+   "comment": "24 pages, 19 figures, Accepted for publication by A&A",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "R. Albarracín",
+    "M. Bergemann",
+    "N. Storm",
+    "G. Guiglion",
+    "R. I. Anderson",
+    "V. D'Orazi"
+   ],
+   "n_authors": 12,
+   "relevant": true,
+   "summary": "The Payne neural network derives NLTE Cepheid parameters and abundances from 4MOST-like spectra, producing Milky Way radial gradients and first NLTE gradients for several elements.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.07174",
+   "title": "MapHub: Daily Relevance Heatmaps of New arXiv Preprints for a Research Community",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "cs.DL",
+    "cs.IR"
+   ],
+   "published": "2026-11-04T21:59:29Z",
+   "comment": "3 pages, 1 figure, matches version accepted for publication",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/kailicao/maphub-public"
+   ],
+   "authors": [
+    "Kaili Cao",
+    "Camille Avestruz",
+    "Feige Wang"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "MapHub uses an LLM to score each day's arXiv submissions against researcher portfolios and publishes relevance heatmaps, outperforming text matching.",
+   "topic": "Language and Vision-Language Models",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [],
+ "updated": "2026-11-13T04:43:39+00:00",
+ "model": "deepseek-flash"
+}

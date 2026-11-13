@@ -1,0 +1,238 @@
+{
+ "date": "2026-11-03",
+ "papers": [
+  {
+   "id": "2611.03450",
+   "title": "A Physics Informed Neural Network Approach to Decipher Environmental Confinement of Molecular Clouds in the Third Galactic Quadrant",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-02T16:58:45Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Ashok Mondal"
+   ],
+   "n_authors": 1,
+   "relevant": null,
+   "summary": "",
+   "topic": "Galaxies",
+   "model": null,
+   "excerpt": "Recent high-sensitivity and high-resolution surveys of the Third Galactic Quadrant [$219.75 \\leq l \\leq 229.75$ and $-5.25 \\leq b \\leq 5.25$], such as the Milky Way Imaging Scroll Painting ( MWISP) survey, have revealed a significant population of molecular..."
+  },
+  {
+   "id": "2611.03234",
+   "title": "SHAPE: Solar Heliospherical Analysis and Prediction of Eruptions A machine learning approach to solar flare forecasting",
+   "primary": "astro-ph.SR",
+   "categories": [
+    "astro-ph.SR"
+   ],
+   "published": "2026-11-02T14:49:19Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "S. Kadakol",
+    "P. Deshmukh",
+    "A. B. Bendre"
+   ],
+   "n_authors": 3,
+   "relevant": null,
+   "summary": "",
+   "topic": "Solar Physics and Heliophysics",
+   "model": null,
+   "excerpt": "Solar flares are the most energetic impulsive events in the solar system, and reliable operational forecasting of the rarest and most destructive M- and X-class events remains an open problem.",
+   "tldr": "Solar Heliospherical Analysis and Prediction of Eruptions (SHAPE), a two-phase deep-learning pipeline that bypasses sunspot proxies in favour of direct soft X-ray observations from the GOES X-ray Sensor, shows that competitive flare forecasting is achievable with compact architectures that retain in minutes on standard hardware, without sunspot proxy inputs."
+  },
+  {
+   "id": "2611.02697",
+   "title": "Two Fast Radio Burst Candidates Detected in the RATAN-600 Blind Survey",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-02T07:47:43Z",
+   "comment": "11 pages, 7 figures, 1 table. Accepted to Astrophysical Bulletin, 2026, v.81, N.4",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "S.A. Trushkin",
+    "D.O. Kudryavtsev",
+    "P.G. Tsybulev",
+    "N.N. Bursov"
+   ],
+   "n_authors": 4,
+   "relevant": null,
+   "summary": "",
+   "topic": "Radio Astronomy",
+   "model": null,
+   "excerpt": "We report the detection of two single dispersed pulses with widths of about 6.7\\,ms and 15.6\\,ms and flux densities of about 0.8 and 1.7\\,Jy."
+  },
+  {
+   "id": "2611.02064",
+   "title": "Effects of Competing Reactions on $^{59}\\mathrm{Cu}$ and $^{63}\\mathrm{Ga}$ on Abundance Distributions in Type I X-Ray Bursts",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "nucl-th"
+   ],
+   "published": "2026-11-01T17:09:38Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Yinwen Guan",
+    "Ertao Li",
+    "Zhihong Li",
+    "Youbao Wang",
+    "Bing Guo",
+    "Yunju Li"
+   ],
+   "n_authors": 12,
+   "relevant": true,
+   "summary": "XGBoost and SHAP analyses of Monte Carlo X-ray burst models identify competing proton-capture reactions on 59Cu and 63Ga as main sources of secondary abundance peaks.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.01988",
+   "title": "The Agentic Observer Hackathon: Autonomous Decision-making in Simulated Astronomical Surveys",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-01T15:25:42Z",
+   "comment": "28 pages, 11 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Haosong Wang",
+    "Ting Tan",
+    "Yao Li",
+    "Huanyuan Shan",
+    "Dezi Liu",
+    "Xiangkun Liu"
+   ],
+   "n_authors": 10,
+   "relevant": true,
+   "summary": "A hackathon evaluates autonomous survey decision systems from 102 teams; leading systems combine numerical exposure planning with language models for operations and long-term decisions.",
+   "topic": "Agents and Retrieval Systems",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.01356",
+   "title": "Learned Surrogates of Three-Dimensional Magnetohydrodynamic Turbulence",
+   "primary": "cs.LG",
+   "categories": [
+    "cs.LG",
+    "astro-ph.IM",
+    "physics.flu-dyn",
+    "physics.plasm-ph"
+   ],
+   "published": "2026-10-31T23:54:52Z",
+   "comment": "25 pages, 7 figures, 12 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Semih Kacmaz",
+    "E. A. Huerta"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "UNet, shifted-window transformer, and Fourier neural operator surrogates emulate 3D resistive MHD turbulence, matching simulation statistics and beating prior benchmarks with far fewer parameters.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.01310",
+   "title": "Forecasting the Ambient Solar Wind With a Physics-Informed Learned Inner Boundary: Part I-Differentiable Inverse Reconstruction From Solar Images",
+   "primary": "physics.space-ph",
+   "categories": [
+    "physics.space-ph",
+    "astro-ph.SR"
+   ],
+   "published": "2026-10-31T22:19:10Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Enrico Camporeale",
+    "Andong Hu",
+    "Prateek Mayank",
+    "Thomas E. Berger"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Differentiable heliospheric transport maps solar images and magnetograms to solar-wind speed at 21.5 solar radii, outperforming recurrence and linear baselines in cycle-24 validation.",
+   "topic": "Solar Physics and Heliophysics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.00701",
+   "title": "Boosted Physics-Informed Neural Networks for Solving Homogeneous and Non-Homogeneous Lane-Emden Type Equations",
+   "primary": "math-ph",
+   "categories": [
+    "math-ph",
+    "astro-ph.GA",
+    "cs.LG",
+    "cs.NE",
+    "math.MP"
+   ],
+   "published": "2026-10-31T06:51:14Z",
+   "comment": "24 pages, 25 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Luke Oluwaseye Joel"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "Boosted physics-informed neural networks with LightGBM, random forest, XGBoost, and SVR post-correction reduce error and improve generalization for Lane-Emden equations modeling stellar structure.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.00121",
+   "title": "Beyond Point Photo-$z$ Estimates: Normalizing Flows for Tomographic $N(z)$ Reconstruction with DESI DR1",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-10-29T09:48:26Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Zhuo Chen",
+    "Antoine Rocher",
+    "Kwan Chuen Chan",
+    "Jean-Paul Kneib"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Conditional normalizing flows reconstruct tomographic N(z) from DESI DR1 photometry, outperforming random forests at high redshift and improving calibration.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.00415",
+   "title": "A multiprobe $\\Lambda$CDM consistency analysis with gravitational-wave standard sirens"
+  }
+ ],
+ "updated": "2026-11-13T04:43:39+00:00",
+ "model": "deepseek-flash"
+}

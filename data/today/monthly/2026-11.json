@@ -1,0 +1,45 @@
+{
+ "period": "2026-11",
+ "start": "2026-11-01",
+ "end": "2026-11-30",
+ "final": false,
+ "count": 52,
+ "topics": {
+  "Galaxies": 6,
+  "Stars and Stellar Spectroscopy": 5,
+  "Gravitational Lensing": 5,
+  "Solar Physics and Heliophysics": 4,
+  "Simulation-Based Inference": 4,
+  "Cosmology and Large-Scale Structure": 4,
+  "Radio Astronomy": 3,
+  "High-Energy Astrophysics and Astroparticle Physics": 3,
+  "Benchmarks": 3,
+  "Gravitational Waves": 3,
+  "Language and Vision-Language Models": 3,
+  "Foundation Models and Representation Learning": 2,
+  "Agents and Retrieval Systems": 2,
+  "Source Detection, Deblending and Image Simulation": 1,
+  "Time-Domain Astronomy and Transients": 1,
+  "Exoplanets": 1,
+  "Planetary Science and Small Bodies": 1,
+  "Datasets": 1
+ },
+ "overview": "Euclid DR1 strong-lens catalogues (ECLIPSE, 15,072 candidates) and weak-lensing benchmarks (COSMIO, FAIR Universe) dominate the period. DESI/DES inference uses normalizing flows and simulation-based inference, while neural operators and surrogates target MHD turbulence, rotating stars, and 21cm lightcones. LLM pipelines extract dark-matter models and galaxy discussions from arXiv. Reusable tooling includes differentiable galpy backends, JAX Gaussian processes, and SWXAI.",
+ "themes": [
+  "Euclid DR1 strong-lens catalogues",
+  "Weak-lensing benchmarks and simulation-based inference",
+  "Neural operators and learned surrogates",
+  "LLM agents and literature extraction",
+  "Differentiable and explainable tooling"
+ ],
+ "highlights": [
+  "2611.15883",
+  "2611.04139",
+  "2611.10228",
+  "2611.14614",
+  "2611.10861",
+  "2611.07936"
+ ],
+ "model": "deepseek-flash",
+ "updated": "2026-11-13T04:50:00+00:00"
+}

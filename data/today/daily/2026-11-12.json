@@ -1,0 +1,210 @@
+{
+ "date": "2026-11-12",
+ "papers": [
+  {
+   "id": "2611.15653",
+   "title": "A Mechanistic Interpretability Study of an Astronomy Foundation Model",
+   "primary": "cs.LG",
+   "categories": [
+    "cs.LG",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-11T16:03:15Z",
+   "comment": "Accepted at NeurIPS 2026. A condensed version was selected for an oral presentation at the NeurIPS 2026 Workshop on Interpretability for Discovery",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Rachel C. Zhang",
+    "Alberto Bietti",
+    "Wes Gurnee",
+    "Alessandro Favero",
+    "Miles Cranmer"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Causal mechanistic interpretability of the AION-1 astronomy foundation model shows its multimodal redshift advantage localizes to one early encoder block and a single attention head.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14987",
+   "title": "Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-11T03:42:16Z",
+   "comment": "9 pages, 8 figures, 5 tables. Code and application: https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations"
+   ],
+   "authors": [
+    "Muhammad Waqas"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "A CNN ensemble classifies all-sky camera frames as clear or cloudy with 86.7% accuracy on held-out nights, and releases an open-source tool.",
+   "topic": "Datasets",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14710",
+   "title": "MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "hep-ex"
+   ],
+   "published": "2026-11-10T20:16:18Z",
+   "comment": "6 pages, 1 figure, submitted as Conference Proceeding for \"International Conference on Machine Learning for Astrophysics 3rd Ed.\" (ML4ASTRO3)",
+   "journal_ref": "",
+   "doi": "10.5281/zenodo.24119082",
+   "links": [],
+   "authors": [
+    "Francesco Monastra",
+    "Marco Pietrosanto",
+    "Giuseppe Angora",
+    "Stefano Cavuoti",
+    "Francesco Fenu",
+    "Simone Lotti"
+   ],
+   "n_authors": 7,
+   "relevant": null,
+   "summary": "",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": null,
+   "excerpt": "Monte Carlo particle simulations are hindered by the computational cost of particle transport."
+  },
+  {
+   "id": "2611.14678",
+   "title": "CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-10T19:32:48Z",
+   "comment": "10 pages, 9 figures, 9 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Ben David Normann",
+    "Oda Hjemli",
+    "Hans Georg Schaathun"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "CosmoSim simulates lenses and trains a CNN to estimate SIE lens and source parameters, validated on 21 Euclid and AGEL lens images, including the Einstein Cross NGC 6505.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14639",
+   "title": "Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-10T19:00:08Z",
+   "comment": "25 pages, 15 figures, 4 tables. Submitted to AAS Journals. Data product available at https://doi.org/10.5281/zenodo.23151436",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Sarv Parteek Singh",
+    "Edward F. Schlafly",
+    "Rongpu Zhou",
+    "Sergey E. Koposov",
+    "Joan R. Najita",
+    "J. Aguilar"
+   ],
+   "n_authors": 65,
+   "relevant": true,
+   "summary": "XGBoost predicts intrinsic stellar colors from DESI spectroscopy to measure reddening directly, revealing bimodal R(V) variation at high Galactic latitudes.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14630",
+   "title": "Beyond classification: regressing physical merger properties using solid harmonic wavelet bispectrum",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-10T19:00:05Z",
+   "comment": "accepted for publication in MNRAS, results for regression of merger properties shown in Figs 4&7",
+   "journal_ref": "",
+   "doi": "10.1093/mnras/stag2160",
+   "links": [],
+   "authors": [
+    "Alex Brown",
+    "Georgios Exarchakis",
+    "Mathilda Avirett-Mackenzie",
+    "Carolin Villforth"
+   ],
+   "n_authors": 4,
+   "relevant": null,
+   "summary": "",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": null,
+   "excerpt": "Galaxy mergers play an important role in galaxy evolution; they enhance star formation, transform morphologies, and may drive accretion onto black holes."
+  },
+  {
+   "id": "2611.14614",
+   "title": "galpy with differentiable, accelerated backends: galactic dynamics in jax and PyTorch",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-10T19:00:01Z",
+   "comment": "44 pages, 28 figures, 30 code examples. galpy version 2 is available at https://github.com/jobovy/galpy and the code behind this paper's figures, together with the record of the development, at https://github.com/jobovy/galpy-backends",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/jobovy/galpy",
+    "https://github.com/jobovy/galpy-backends"
+   ],
+   "authors": [
+    "Jo Bovy"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "galpy gains differentiable jax and PyTorch backends for GPU-accelerated potentials, orbits and distribution functions, demonstrated by fitting the Galactic potential and learning action-angle transforms.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14617",
+   "title": "ViViViT: a Video-to-Video Vision Transformer for Cosmological Lightcone Reconstruction",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-10T19:00:01Z",
+   "comment": "15 pages, 6 figures, Accepted to the Sim2Science Workshop (NeurIPS 2026)",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Federico Semenzato",
+    "Alvise Raccanelli",
+    "Michele Liguori"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "ViViViT, a factorized-attention vision transformer, reconstructs matter fields from 21cm lightcones as video-to-video translation, preserving power, phase and three-point correlations.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [],
+ "updated": "2026-11-13T04:43:39+00:00",
+ "model": "deepseek-flash"
+}

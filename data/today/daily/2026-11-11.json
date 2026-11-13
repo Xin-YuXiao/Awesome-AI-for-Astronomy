@@ -1,0 +1,93 @@
+{
+ "date": "2026-11-11",
+ "papers": [
+  {
+   "id": "2611.14301",
+   "title": "SHINE: Shear inference environment - Generative forward modelling for radio weak gravitational lensing",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-10T16:34:44Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Ezequiel Centofanti",
+    "Benjamin Remy",
+    "Emma Ayçoberry",
+    "François Lanusse",
+    "Jean-Luc Starck",
+    "Samuel Farrens"
+   ],
+   "n_authors": 6,
+   "relevant": true,
+   "summary": "SHINE estimates cosmic shear from radio interferometric visibilities via forward generative modelling and posterior sampling in Fourier space, yielding sub-percent unbiased shear estimates.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14582",
+   "title": "MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.CO",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-10T05:39:44Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Paula S. Ferreira",
+    "Ribamar R. R. Reis",
+    "Renyue Cen"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "MAHA-z combines kNN regression with a Mahalanobis metric learned from spectroscopy to produce photometric redshifts and posteriors, reaching sigma_NMAD 0.015 on Euclid mocks.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.13118",
+   "title": "Extracting Published Discussions of 13,616 Galaxies with Language Models",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-09T19:05:31Z",
+   "comment": "Accepted to the Workshop on Artificial Intelligence for Scientific Publications (WASP) 2026",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/NolanKoblischke/galaxywiki-paper"
+   ],
+   "authors": [
+    "Nolan Koblischke",
+    "Jo Bovy"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Language-model agents identify galaxies discussed across 156,006 arXiv papers, extracting 44,332 discussions and grouping them into 13,616 objects in GalaxyWiki.",
+   "topic": "Language and Vision-Language Models",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.14238",
+   "title": "Unveiling the Extreme Universe with Recent IACT Discoveries"
+  },
+  {
+   "id": "2611.13083",
+   "title": "Less is More: Unbiased Galaxy Clustering from Fewer Merger Trees"
+  }
+ ],
+ "updated": "2026-11-13T04:43:39+00:00",
+ "model": "deepseek-flash"
+}

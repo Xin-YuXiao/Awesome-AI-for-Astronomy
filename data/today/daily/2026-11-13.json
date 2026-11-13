@@ -1,0 +1,145 @@
+{
+ "date": "2026-11-13",
+ "papers": [
+  {
+   "id": "2611.16286",
+   "title": "Machine-Learning Reconstruction of Intergalactic Medium Column-Density Maps from Observed Ly$\\alpha$ Emission Cubes",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-12T04:38:52Z",
+   "comment": "35 pages, 20 figures. Accepted for publication in The Astrophysical Journal (ApJ)",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Xihan Deng",
+    "Christopher Martin",
+    "Aaron Smith",
+    "Sultan Hassan",
+    "Drew M. Miles",
+    "Nikolaus Z. Prusinski"
+   ],
+   "n_authors": 10,
+   "relevant": true,
+   "summary": "A CNN trained on IllustrisTNG and radiative-transfer simulations reconstructs intergalactic medium column-density maps from noisy KCWI Lyα emission cubes, recovering filamentary structures.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.15886",
+   "title": "Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) B: Discovery pipeline overview",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-11T19:00:41Z",
+   "comment": "23 pages, 13 figures, submitted to A&A. Paper intended for the A&A Special Issue \"Euclid First Data Release\"",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Euclid Collaboration: P. Holloway",
+    "A. Verma",
+    "N. E. P. Lines",
+    "T. Li",
+    "S. H. Vincken",
+    "J. A. Acevedo Barroso"
+   ],
+   "n_authors": 1454,
+   "relevant": true,
+   "summary": "The multi-stage Euclid DR1 lens search combines neural-network classification of 68 million objects with citizen science and expert grading, reaching 0.73 completeness for grade-A lenses.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.15883",
+   "title": "Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) A: Strong lens catalogue overview",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-11T19:00:37Z",
+   "comment": "28 pages. Submitted to A&A as part of the Special Issue \"Euclid First Data Release\"",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Euclid Collaboration: N. E. P. Lines",
+    "P. Holloway",
+    "T. Li",
+    "T. E. Collett",
+    "S. Schuldt",
+    "S. H. Vincken"
+   ],
+   "n_authors": 1425,
+   "relevant": true,
+   "summary": "Euclid DR1 yields 15,072 high-confidence strong lens candidates found by fusing five machine-learning model scores with citizen-scientist and expert visual classification over 2000 deg2.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.15880",
+   "title": "Identification of extragalactic radio sources in the VISTA survey of the Magellanic Clouds using an unsupervised machine learning algorithm",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-11T19:00:29Z",
+   "comment": "MNRAS accepted",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Clara M. Pennock",
+    "Jacco Th. van Loon",
+    "Mohammed Iddrisu Nlowie",
+    "Elizabeth Joy Leese",
+    "Maja Nowaczyk",
+    "Heinz Andernach"
+   ],
+   "n_authors": 14,
+   "relevant": null,
+   "summary": "",
+   "topic": "Radio Astronomy",
+   "model": null,
+   "excerpt": "The Magellanic Clouds benefit from a wealth of data across the electromagnetic spectrum, but extracting extragalactic sources from these crowded fields is a less than straightforward endeavour."
+  },
+  {
+   "id": "2611.02627",
+   "title": "Recovering Missing Degrees of Freedom in Simulation-Trained Field-Level Generative Models",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "cs.LG"
+   ],
+   "published": "2026-11-02T06:53:22Z",
+   "comment": "15 pages, 9 figures. Expanded manuscript prepared for submission to Phys. Rev. D",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Masato Shirasaki",
+    "Shiro Ikeda"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Physics-informed latent corrections to a continuous normalizing flow recover missing variability in simulation-trained weak-lensing field-level inference, improving out-of-distribution robustness.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.15905",
+   "title": "An analytic diffusion model for viewing-angle effects in explosive transients"
+  }
+ ],
+ "updated": "2026-11-13T04:43:39+00:00",
+ "model": "deepseek-flash"
+}

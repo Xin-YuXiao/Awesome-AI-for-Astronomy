@@ -1,0 +1,112 @@
+{
+ "date": "2026-11-05",
+ "papers": [
+  {
+   "id": "2611.06484",
+   "title": "Object-independent evaluation of small-data astronomical image classifiers: architecture, representation, and acquisition shortcuts",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "cs.CV"
+   ],
+   "published": "2026-11-04T13:25:21Z",
+   "comment": "17 pages and 3 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Eraldo Pereira Marinho"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "A grouped four-class astronomical image dataset shows that context and acquisition metadata, not just morphology, inflate small-data classifier performance across CNN and Transformer models.",
+   "topic": "Benchmarks",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.06190",
+   "title": "Evolutionary Map of the Universe (EMU): Selection of active galactic nuclei and star-formation emission with machine-learning techniques",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-04T09:04:17Z",
+   "comment": "Accepted for publication in A&A, 19 pages, 20 figures, and two tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "R. Carvajal",
+    "I. Matute",
+    "J. Afonso",
+    "H. Messias",
+    "M. J. I. Brown",
+    "D. Farrah"
+   ],
+   "n_authors": 16,
+   "relevant": null,
+   "summary": "",
+   "topic": "Galaxies",
+   "model": null,
+   "excerpt": "Sources detected by recent large-area radio surveys require robust classification and characterisation.",
+   "tldr": "The ML-based pipeline provides a scalable way to produce large catalogues for the ongoing EMU survey and future Square Kilometre Array observations and reveals that multi-wavelength analysis can uncover radio populations and trends often missed by colour cuts or spectroscopy alone."
+  },
+  {
+   "id": "2611.06026",
+   "title": "Spectroscopy-informed Deep Learning Searches for Photometric Little Red Dots in JWST Surveys",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-04T06:29:01Z",
+   "comment": "11 figures (9 in the main text and 2 additional in appendix), 5 tables, to appear in ApJS soon 35 new LRD candidates with NIRSpec/PRISM are identified",
+   "journal_ref": "",
+   "doi": "10.3847/1538-4365/aebc7f",
+   "links": [],
+   "authors": [
+    "Chenxuan Zhang",
+    "Huanian Zhang",
+    "Qingwen Wu"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "A cross-modal framework transfers NIRSpec spectroscopic information into NIRCam imaging representations to identify Little Red Dots, finding hundreds of new candidates.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.05790",
+   "title": "Unsupervised Neural Operators for Rotating Relativistic Stars: High-Fidelity Equation of State Inference and Pulsar Spin Evolution at Scale",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "cs.AI",
+    "cs.LG",
+    "gr-qc"
+   ],
+   "published": "2026-11-04T00:57:22Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Anarya Ray"
+   ],
+   "n_authors": 1,
+   "relevant": null,
+   "summary": "",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": null,
+   "excerpt": "Observed populations of rotating neutron stars~(NSs) with millisecond-order periods are powerful probes of fundamental physics.",
+   "tldr": "These solvers enable scalable EoS inference that self-consistently accounts for rotation and repeated stellar-structure calculations during binary evolution, making spin predictions that account for rotational structure and EoS uncertainties computationally accessible to population synthesis."
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.05808",
+   "title": "A Laplace-Transform Green's Function for Two-Zone Diffusion with Energy Losses: Application to the Geminga Pulsar Halo"
+  }
+ ],
+ "updated": "2026-11-13T04:43:39+00:00",
+ "model": "deepseek-flash"
+}
