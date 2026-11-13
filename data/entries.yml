@@ -2302,6 +2302,12 @@ sections:
     desc: Unified interface over sbi, pydelfi and lampe with validation and calibration tools.
 - title: High-Energy Astrophysics and Astroparticle Physics
   entries:
+  - title: 'MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.14710
+      Code: https://github.com/francescomonastra/MAGI
+    desc: 'A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.'
   - name: GCE BGCNN
     title: 'Galactic Center Excess in a New Light: Disentangling the γ-Ray Sky with Bayesian Graph Convolutional Neural Networks'
     venue: PRL 2020
