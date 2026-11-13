@@ -1,0 +1,321 @@
+{
+ "date": "2026-11-13",
+ "papers": [
+  {
+   "id": "2611.14582",
+   "title": "MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.CO",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-13",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Paula S. Ferreira",
+    "Ribamar R. R. Reis",
+    "Renyue Cen"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Learned-Mahalanobis-distance kNN with kernel-density posteriors estimates photometric redshifts for Euclid, DES and VIPERS galaxies, reaching sigma_NMAD 0.015-0.023 at low cost.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14614",
+   "title": "galpy with differentiable, accelerated backends: galactic dynamics in jax and PyTorch",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-13",
+   "comment": "44 pages, 28 figures, 30 code examples. galpy version 2 is available at https://github.com/jobovy/galpy and the code behind this paper's figures, together with the record of the development, at https://github.com/jobovy/galpy-backends",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/jobovy/galpy",
+    "https://github.com/jobovy/galpy-backends"
+   ],
+   "authors": [
+    "Jo Bovy"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "galpy gains JAX and PyTorch backends giving differentiable, GPU-accelerated potentials, orbits and distribution functions, with examples fitting the Galactic potential and learning action-angle transforms.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14617",
+   "title": "ViViViT: a Video-to-Video Vision Transformer for Cosmological Lightcone Reconstruction",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-13",
+   "comment": "15 pages, 6 figures, Accepted to the Sim2Science Workshop (NeurIPS 2026)",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Federico Semenzato",
+    "Alvise Raccanelli",
+    "Michele Liguori"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Vision transformer ViViViT reconstructs 21cm lightcone matter fields as video-to-video translation, preserving power, phase and bispectrum better than a 3D U-Net baseline.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14630",
+   "title": "Beyond classification: regressing physical merger properties using solid harmonic wavelet bispectrum",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-13",
+   "comment": "accepted for publication in MNRAS, results for regression of merger properties shown in Figs 4&7",
+   "journal_ref": "",
+   "doi": "10.1093/mnras/stag2160",
+   "links": [],
+   "authors": [
+    "Alex Brown",
+    "Georgios Exarchakis",
+    "Mathilda Avirett-Mackenzie",
+    "Carolin Villforth"
+   ],
+   "n_authors": 4,
+   "relevant": null,
+   "summary": "",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": null,
+   "excerpt": "Galaxy mergers play an important role in galaxy evolution; they enhance star formation, transform morphologies, and may drive accretion onto black holes."
+  },
+  {
+   "id": "2611.14639",
+   "title": "Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-13",
+   "comment": "25 pages, 15 figures, 4 tables. Submitted to AAS Journals. Data product available at https://doi.org/10.5281/zenodo.23151436",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Sarv Parteek Singh",
+    "Edward F. Schlafly",
+    "Rongpu Zhou",
+    "Sergey E. Koposov",
+    "Joan R. Najita",
+    "J. Aguilar"
+   ],
+   "n_authors": 65,
+   "relevant": true,
+   "summary": "XGBoost predicts intrinsic stellar colours from DESI spectroscopic parameters to measure reddening, revealing bimodal R(V) varying by sigma_NMAD=0.23 at high Galactic latitudes.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14678",
+   "title": "CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-13",
+   "comment": "10 pages, 9 figures, 9 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Ben David Normann",
+    "Oda Hjemli",
+    "Hans Georg Schaathun"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "A CNN trained solely on CosmoSim simulations estimates lens and source parameters from Euclid and AGEL images, reconstructing NGC 6505 as well as published models.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.14710",
+   "title": "MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "hep-ex"
+   ],
+   "published": "2026-11-13",
+   "comment": "6 pages, 1 figure, submitted as Conference Proceeding for \"International Conference on Machine Learning for Astrophysics 3rd Ed.\" (ML4ASTRO3)",
+   "journal_ref": "",
+   "doi": "10.5281/zenodo.24119082",
+   "links": [],
+   "authors": [
+    "Francesco Monastra",
+    "Marco Pietrosanto",
+    "Giuseppe Angora",
+    "Stefano Cavuoti",
+    "Francesco Fenu",
+    "Simone Lotti"
+   ],
+   "n_authors": 7,
+   "relevant": null,
+   "summary": "",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": null,
+   "excerpt": "Monte Carlo particle simulations are hindered by the computational cost of particle transport."
+  },
+  {
+   "id": "2611.14987",
+   "title": "Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-13",
+   "comment": "9 pages, 8 figures, 5 tables. Code and application: https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations"
+   ],
+   "authors": [
+    "Muhammad Waqas"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "A CNN ensemble classifies all-sky camera frames as clear or cloudy across held-out nights with 86.7% accuracy, releasing the open-source Sky Monitor AI application.",
+   "topic": "Datasets",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.15653",
+   "title": "A Mechanistic Interpretability Study of an Astronomy Foundation Model",
+   "primary": "cs.LG",
+   "categories": [
+    "cs.LG",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-13",
+   "comment": "Accepted at NeurIPS 2026. A condensed version was selected for an oral presentation at the NeurIPS 2026 Workshop on Interpretability for Discovery",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Rachel C. Zhang",
+    "Alberto Bietti",
+    "Wes Gurnee",
+    "Alessandro Favero",
+    "Miles Cranmer"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Causal interpretability analysis of AION-1 finds its multimodal redshift advantage localized to the first encoder block and a dust-sensitive attention head.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.15880",
+   "title": "Identification of extragalactic radio sources in the VISTA survey of the Magellanic Clouds using an unsupervised machine learning algorithm",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-13",
+   "comment": "MNRAS accepted",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Clara M. Pennock",
+    "Jacco Th. van Loon",
+    "Mohammed Iddrisu Nlowie",
+    "Elizabeth Joy Leese",
+    "Maja Nowaczyk",
+    "Heinz Andernach"
+   ],
+   "n_authors": 14,
+   "relevant": true,
+   "summary": "t-SNE clustering of optical-to-radio photometry for 8,008 VMC/EMU sources separates AGN, galaxies, blazars and stars, with SALT spectroscopy confirming new AGN.",
+   "topic": "Radio Astronomy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.15883",
+   "title": "Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) A: Strong lens catalogue overview",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-13",
+   "comment": "28 pages. Submitted to A&A as part of the Special Issue \"Euclid First Data Release\"",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Euclid Collaboration: N. E. P. Lines",
+    "P. Holloway",
+    "T. Li",
+    "T. E. Collett",
+    "S. Schuldt",
+    "S. H. Vincken"
+   ],
+   "n_authors": 1425,
+   "relevant": true,
+   "summary": "Euclid DR1 strong-lens catalogue reports 15,072 candidates found by a five-model machine-learning and citizen-science pipeline, with lens models and deflector properties.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.15886",
+   "title": "Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) B: Discovery pipeline overview",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-13",
+   "comment": "23 pages, 13 figures, submitted to A&A. Paper intended for the A&A Special Issue \"Euclid First Data Release\"",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Euclid Collaboration: P. Holloway",
+    "A. Verma",
+    "N. E. P. Lines",
+    "T. Li",
+    "S. H. Vincken",
+    "J. A. Acevedo Barroso"
+   ],
+   "n_authors": 1454,
+   "relevant": true,
+   "summary": "Multi-stage Euclid DR1 lens search combines neural-network classification of 68 million objects, citizen science and expert grading to identify 15,000 strong-lens candidates.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.15905",
+   "title": "An analytic diffusion model for viewing-angle effects in explosive transients"
+  }
+ ],
+ "updated": "2026-11-13T04:16:31+00:00",
+ "model": "deepseek-flash"
+}
