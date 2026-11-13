@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 402 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 404 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -455,6 +455,8 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [ViViViT: a Video-to-Video Vision Transformer for Cosmological Lightcone Reconstruction](https://arxiv.org/abs/2611.14617 "A video-to-video vision transformer separates spatial and line-of-sight attention to reconstruct matter density from simulated 21-cm lightcones at redshifts 7.66–16.") | arXiv 2026 | - | - |
+| 2026.11 | [Machine-Learning Reconstruction of Intergalactic Medium Column-Density Maps from Observed Lyα Emission Cubes](https://arxiv.org/abs/2611.16286 "A CNN trained with IllustrisTNG100 simulations and approximate KCWI noise reconstructs neutral-hydrogen column density from Lyα emission cubes.") | arXiv 2026 | - | - |
 | 2026.11 | [Self-Interacting Neutrinos in NEDE and DRMD Cosmologies: Posteriors, profiles and evidence using CLiENT](https://arxiv.org/abs/2611.13756 "An actively trained neural emulator approximates the joint cosmological and nuisance-parameter log posterior using roughly 300,000 likelihood evaluations per dataset.") | arXiv 2026 | [Code](https://github.com/AarhusCosmology/client-f/tree/papers/2026-sidr-drmd) | - |
 | 2026.09 | [Neural Posterior Estimation for Tomographic Weak Lensing Mass Mapping](https://arxiv.org/abs/2609.07833 "Amortised network that maps multiband images directly to a variational posterior over tomographic shear and convergence, validated on LSST DESC DC2 images.") | arXiv 2026 | - | - |
 | 2026.07 | [From Dark Matter to Galaxies: Halo-Free Mock Generation via Conditional Point-Cloud Diffusion](https://arxiv.org/abs/2607.19808 "Point-cloud diffusion that generates galaxy positions and star formation rates from IllustrisTNG dark matter fields.") | arXiv 2026 | - | - |
