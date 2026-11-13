@@ -1214,6 +1214,22 @@ sections:
       desc: Semi-supervised network that combines contrastive, color and redshift losses on CANDELS images.
 - title: Gravitational Lensing
   entries:
+  - title: 'CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.14678
+      Code: https://github.com/CosmoAI-AES/CosmoSim
+    desc: 'A CNN trained on simulated Einstein crosses estimates lens and source parameters and is evaluated on 21 images of 19 real lenses, including NGC 6505.'
+  - title: 'Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) A: Strong lens catalogue overview'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.15883
+    desc: 'Euclid ECLIPSE combines five machine-learning models with citizen-science and expert grading to identify 15,072 high-confidence or probable strong lens candidates.'
+  - title: 'Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) B: Discovery pipeline overview'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.15886
+    desc: 'The Euclid ECLIPSE discovery pipeline uses neural-network screening, two citizen-science stages, expert grading and injected mock lenses to measure completeness.'
   - name: SHINE
     title: 'SHINE: Shear inference environment - Generative forward modelling for radio weak gravitational lensing'
     venue: arXiv 2026
