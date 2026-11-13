@@ -2,6 +2,80 @@
  "date": "2026-11-13",
  "papers": [
   {
+   "id": "2611.17038",
+   "title": "Rapid Multiparameter Gravitational-Wave Tests of General Relativity with Neural Posterior Estimation",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-12T16:22:58Z",
+   "comment": "17 pages, 10 figures, 5 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Hong Su",
+    "Tao Yang",
+    "He Wang"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Neural posterior estimation with importance sampling infers six post-Newtonian deformations for gravitational-wave tests of general relativity, matching bilby-dynesty and cutting inference time.",
+   "topic": "Gravitational Waves",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.16741",
+   "title": "Active Learning for Molecular Discovery: A Retrospective Test toward TMC-1",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-12T12:55:54Z",
+   "comment": "13 pages, 3 figures, 3 tables; submitted to ApJ; code and data at doi:10.5281/zenodo.23312984",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "R. I. El-Kholy",
+    "Z. M. Hayman"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Retrospective active-learning reranking of 1,434 interstellar molecule candidates toward TMC-1 improves later-detection ranking (AUC 0.867) but candidate generation limits discovery.",
+   "topic": "Datasets",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.16697",
+   "title": "Efficient Standard Siren Cosmological Inference with Posterior Reuse",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "astro-ph.HE",
+    "gr-qc"
+   ],
+   "published": "2026-11-12T12:13:17Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Alexander Papadopoulos",
+    "Michael J. Williams",
+    "Christian E. A. Chapman-Bird",
+    "Rachel Gray",
+    "Christopher Messenger"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "ASPIRE reuses posterior samples with normalizing flows and sequential Monte Carlo for dark-siren cosmology, matching nested sampling and speeding analyses 6–28 times.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
    "id": "2611.16598",
    "title": "Mitigating variance shrinkage in multi-task galaxy property inference from imaging data via statistical manifold alignment",
    "primary": "astro-ph.GA",
@@ -163,8 +237,12 @@
   {
    "id": "2611.15905",
    "title": "An analytic diffusion model for viewing-angle effects in explosive transients"
+  },
+  {
+   "id": "2611.17052",
+   "title": "Auditing AI peer reviewers: a benchmark on real scientific papers"
   }
  ],
- "updated": "2026-11-13T04:59:51+00:00",
+ "updated": "2026-11-13T18:06:37+00:00",
  "model": "deepseek-flash"
 }

@@ -3,14 +3,14 @@
  "start": "2026-11-09",
  "end": "2026-11-15",
  "final": false,
- "count": 26,
+ "count": 29,
  "topics": {
   "Galaxies": 5,
+  "Gravitational Waves": 4,
   "Gravitational Lensing": 4,
-  "Gravitational Waves": 3,
+  "Cosmology and Large-Scale Structure": 3,
   "Language and Vision-Language Models": 2,
-  "High-Energy Astrophysics and Astroparticle Physics": 2,
-  "Cosmology and Large-Scale Structure": 2,
+  "Observing and Instrumentation": 2,
   "Exoplanets": 1,
   "Planetary Science and Small Bodies": 1,
   "Solar Physics and Heliophysics": 1,
@@ -18,24 +18,25 @@
   "Stars and Stellar Spectroscopy": 1,
   "Foundation Models and Representation Learning": 1,
   "Datasets": 1,
+  "High-Energy Astrophysics and Astroparticle Physics": 1,
   "Radio Astronomy": 1
  },
- "overview": "Euclid DR1 strong-lens searches pair neural networks with citizen science, and the FAIR Universe challenge benchmarks weak-lensing uncertainty. LLM pipelines extract dark-matter models and galaxy discussions; differentiable JAX/PyTorch tools (galpy, 2D Gaussian-process inference) target dynamics and JWST time-series. CNN early-warning and LISA classifiers address gravitational-wave data.",
+ "overview": "Euclid DR1 dominated the period: a pipeline combining neural-network classification, citizen science and expert grading released 15,072 strong-lens candidates. Other work released benchmarks and tools — the FAIR Universe weak-lensing uncertainty challenge, differentiable JAX/PyTorch galpy backends, LLM-extracted dark-matter model and galaxy-discussion catalogues — alongside neural posterior estimation for gravitational-wave tests of general relativity.",
  "themes": [
-  "Euclid strong-lens catalogues",
-  "Differentiable and GPU astronomy software",
-  "LLM extraction and foundation-model interpretability",
-  "Gravitational-wave detection and glitch classification",
-  "Weak-lensing uncertainty benchmarks"
+  "Euclid DR1 strong-lens discovery pipelines",
+  "ML for gravitational-wave detection and parameter estimation",
+  "LLM and foundation-model tools for literature mining and interpretability",
+  "differentiable and generative simulation frameworks",
+  "benchmarks for cosmological inference and uncertainty quantification"
  ],
  "highlights": [
-  "2611.10228",
   "2611.15883",
-  "2611.08583",
+  "2611.10228",
   "2611.14614",
-  "2611.10861",
-  "2611.13118"
+  "2611.08583",
+  "2611.13118",
+  "2611.15653"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-13T05:05:06+00:00"
+ "updated": "2026-11-13T18:06:40+00:00"
 }
