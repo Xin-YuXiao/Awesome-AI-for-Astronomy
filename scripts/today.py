@@ -34,6 +34,7 @@ import re
 import sys
 import time
 import unicodedata
+from zoneinfo import ZoneInfo
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -237,9 +238,10 @@ def oai_recent(since, today):
             text = lambda tag: " ".join((meta.findtext(f"r:{tag}", "", OAI_NS) or "").split())
             versions = meta.findall("r:version", OAI_NS)
             try:
-                first = email.utils.parsedate_to_datetime(versions[0].findtext("r:date", "", OAI_NS)).date().isoformat()
+                submitted = email.utils.parsedate_to_datetime(versions[0].findtext("r:date", "", OAI_NS))
+                first = submitted.date().isoformat()
             except (IndexError, TypeError, ValueError):
-                first = ""
+                submitted, first = None, ""
             stamp = head.findtext("o:datestamp", "", OAI_NS)
             if len(versions) > 1 and first < since:
                 continue
@@ -260,7 +262,8 @@ def oai_recent(since, today):
                 "doi": text("doi"),
                 "primary": cats[0] if cats else "",
                 "categories": cats,
-                "published": min(stamp, today) if stamp else first,
+                "published": submitted.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") if submitted else stamp,
+                "stamp": stamp,
                 "links": sorted({u.rstrip(".") for u in LINK.findall(abstract + " " + comment)}),
             })
         token = listing.find("o:resumptionToken", OAI_NS)
@@ -270,9 +273,9 @@ def oai_recent(since, today):
     print(f"OAI-PMH returned {records} astro-ph records, {len(out)} of them new papers")
     stamps = {}
     for p in out:
-        stamps.setdefault(p["published"], []).append(p["id"])
+        stamps.setdefault(p["stamp"], []).append(p["id"])
     for day, ids in sorted(stamps.items()):
-        print(f"  announced {day}: {len(ids)} new papers, {min(ids)} to {max(ids)}")
+        print(f"  OAI datestamp {day}: {len(ids)} new papers, {min(ids)} to {max(ids)}")
     return sorted(out, key=lambda p: p["published"], reverse=True)
 
 
@@ -342,6 +345,58 @@ def keyword_topic(p):
         if s > score:
             best, score = name, s
     return best if best in SECTIONS else ""
+
+
+# arXiv listing dates -----------------------------------------------------------------
+
+ET = ZoneInfo("America/New_York")
+DAY = dt.timedelta(days=1)
+
+
+def next_weekday(d):
+    d += DAY
+    while d.weekday() >= 5:
+        d += DAY
+    return d
+
+
+def listing_date(submitted):
+    """Date of the arXiv listing that carries a paper first submitted at `submitted`.
+
+    Papers received before the 14:00 US Eastern deadline of a weekday are announced at 20:00
+    that evening (Friday's on Sunday evening) and listed on the next weekday. Holidays and
+    papers held for moderation are not modelled; see `listed`.
+    """
+    t = submitted.astimezone(ET)
+    deadline = t.date()
+    if t.weekday() >= 5 or t.hour >= 14:
+        deadline = next_weekday(deadline)
+    return next_weekday(deadline)
+
+
+def latest_listing(now):
+    """Listing date of the most recent announcement at `now` (announcements are Sunday to Thursday at 20:00 ET)."""
+    t = now.astimezone(ET)
+    d = t.date() if t.hour >= 20 else t.date() - DAY
+    while d.weekday() in (4, 5):
+        d -= DAY
+    return d + DAY
+
+
+def listed(p, now):
+    """Listing date of a candidate as YYYY-MM-DD. The OAI datestamp corrects papers that were held
+    for moderation, and no paper is dated after the latest announcement."""
+    try:
+        submitted = dt.datetime.fromisoformat(p["published"].replace("Z", "+00:00"))
+        if submitted.tzinfo is None:
+            submitted = submitted.replace(tzinfo=dt.timezone.utc)
+        day = listing_date(submitted)
+    except (KeyError, ValueError):
+        day = dt.date.fromisoformat(p.get("stamp") or now.date().isoformat())
+    stamp = p.get("stamp")
+    if stamp and dt.date.fromisoformat(stamp) > day + 3 * DAY:
+        day = dt.date.fromisoformat(stamp)
+    return min(day, latest_listing(now)).isoformat()
 
 
 def candidates(since, today, loose=False):
@@ -720,11 +775,13 @@ def main():
     new = [p for p in candidates(since, today.isoformat(), loose=bool(writer.name)) if p["id"] not in known]
     print(f"{len(new)} new candidate papers since {since}")
     assess(writer, new)
-    # Papers are filed under their arXiv announcement date (the OAI datestamp), or under the
-    # submission date for papers found through the search API.
+    # Papers are filed under the date of the arXiv listing that announced them.
+    now = dt.datetime.now(dt.timezone.utc)
     by_day = {}
     for p in new:
-        by_day.setdefault(min(p["published"][:10], today.isoformat()), []).append(p)
+        day = listed(p, now)
+        if day >= since:  # older papers, such as late replacements, belong to listings outside the window
+            by_day.setdefault(day, []).append(p)
     for day, papers in sorted(by_day.items()):
         print("wrote", write_day(day, papers, writer))
     resummarise(writer, days=max(7, args.backfill))
