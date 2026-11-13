@@ -1564,6 +1564,11 @@ sections:
     desc: Fine-tunes a large language model on LAMOST low-resolution spectra in two stages to infer stellar parameters and elemental abundances, validated against Gaia-ESO and GALAH DR4.
 - title: Time-Domain Astronomy and Transients
   entries:
+  - title: 'Moving Beyond the DRW Model: Learning Quasar Variability with Generative Models'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.15040
+    desc: 'Nullasar uses flow matching to generate quasar light curves for period-search null distributions, with tests on damped random walk and autoregressive simulations.'
   - name: DeepAP
     title: 'DeepAP: Deep Learning-based Aperture Photometry Feasibility Assessment and Aperture Size Prediction'
     venue: RAA 2025

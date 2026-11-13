@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 402 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 403 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -390,6 +390,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Moving Beyond the DRW Model: Learning Quasar Variability with Generative Models](https://arxiv.org/abs/2611.15040 "Nullasar uses flow matching to generate quasar light curves for period-search null distributions, with tests on damped random walk and autoregressive simulations.") | arXiv 2026 | - | - |
 | 2026.07 | [NAPTIME: A Neural-Process Framework for Rubin Alert Classification](https://arxiv.org/abs/2607.19236 "Neural process that jointly reconstructs and classifies sparse multiband light curves on ELAsTiCC2 and MALLORN.") | arXiv 2026 | - | - |
 | 2026.06 | [PIE-ADA: Physics-Informed Ensemble with Adaptive Data Augmentation for Photometric Transient Classification](https://arxiv.org/abs/2606.29367 "Physics-motivated light-curve augmentation for rare classes combined with gradient boosted ensembles.") | arXiv 2026 | - | - |
 | 2025.08 | [DeepAP: Deep Learning-based Aperture Photometry Feasibility Assessment and Aperture Size Prediction](https://arxiv.org/abs/2508.03400 "Two-stage framework uses a Vision Transformer to assess aperture-photometry feasibility and a ResNet to predict aperture size for optical survey photometry, achieving a test ROC AUC of 0.96 for feasibility assessment.") | **RAA 2025** | [Code](https://github.com/ruiyicheng/DeepAP) | [Journal](https://doi.org/10.1088/1674-4527/adf716) |
