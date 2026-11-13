@@ -1060,6 +1060,16 @@ sections:
       desc: DINOv2 light-curve embeddings, isolation forests and multimodal LLM agents that vet anomaly candidates.
   - title: Physical Properties and Photometric Redshifts
     entries:
+    - title: 'Beyond classification: regressing physical merger properties using solid harmonic wavelet bispectrum'
+      venue: MNRAS 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.14630
+      desc: 'A regressor uses rotation-invariant solid harmonic wavelet bispectrum features from idealized simulated galaxy images to estimate merger mass ratio and time since coalescence.'
+    - title: 'Mitigating variance shrinkage in multi-task galaxy property inference from imaging data via statistical manifold alignment'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.16598
+      desc: 'A multitask vision transformer with multiscale maximum mean discrepancy aligns joint galaxy property distributions with spectroscopic measurements, evaluated on 5,000 held-out HSC galaxies.'
     - name: ANNz2
       title: 'ANNz2: Photometric Redshift and Probability Distribution Function Estimation Using Machine Learning'
       venue: PASP 2016
