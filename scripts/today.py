@@ -350,6 +350,8 @@ TOPIC_RULES = [
      r"Cepheids?|binaries|white dwarfs?|abundances?)\b", False),
     ("Galaxies", r"\b(galax(?:y|ies)|morpholog\w*|AGNs?|active galactic|quasars?|Milky Way|star[- ]formation|"
      r"photometric redshifts?|interstellar)\b", False),
+    ("Observing and Instrumentation", r"\b(observator(?:y|ies)|all[- ]sky cameras?|observing (?:conditions|schedul\w*|strateg\w*)|"
+     r"telescope (?:scheduling|control|operations)|adaptive optics|wavefront|instrumentation|Geant4|cloud cover|seeing conditions)\b", False),
     ("Source Detection, Deblending and Image Simulation", r"\b(detection|deblend\w*|segmentation|denois\w*|"
      r"image simulation|PSF|point spread|photometry|astrometry|source extraction|super-resolution)\b", False),
     ("Datasets", r"\b(datasets?|data releases?|catalogu?es?)\b", True),

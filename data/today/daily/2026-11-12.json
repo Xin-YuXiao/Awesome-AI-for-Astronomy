@@ -47,7 +47,7 @@
    "n_authors": 1,
    "relevant": true,
    "summary": "A CNN ensemble classifies all-sky camera frames as clear or cloudy with 86.7% accuracy on held-out nights, and releases an open-source tool.",
-   "topic": "Datasets",
+   "topic": "Observing and Instrumentation",
    "model": "deepseek-flash"
   },
   {
@@ -74,7 +74,7 @@
    "n_authors": 7,
    "relevant": true,
    "summary": "Conditional variational autoencoder accelerates multi-stage Geant4 particle simulations by learning and resampling particle crossings, achieving 2.1–240× speed-up with validated detector-level spectra.",
-   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "topic": "Observing and Instrumentation",
    "model": "deepseek-flash"
   },
   {

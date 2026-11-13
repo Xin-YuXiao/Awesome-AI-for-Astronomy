@@ -1064,34 +1064,35 @@ sections:
       venue: arXiv 2026
       links:
         Paper: https://arxiv.org/abs/2611.14582
-      desc: 'A Mahalanobis-distance nearest-neighbor estimator returns photometric-redshift point estimates and densities for Euclid Flagship 2 mock galaxies.'
+      desc: A k-nearest-neighbour estimator with a Mahalanobis metric learned from the reference-sample covariance returns photometric-redshift point estimates and kernel-density posteriors, validated on Euclid Flagship 2, Legacy-KiDZ, VIPERS and DES Y3.
     - title: 'Euclid Data Release 1 (DR1): Photometric-redshift pipeline overview and validation'
       venue: arXiv 2026
       links:
         Paper: https://arxiv.org/abs/2611.15987
-      desc: 'The Euclid DR1 pipeline combines template fitting, nearest-neighbor redshift estimates and probabilistic random forests, validated against weighted spectroscopic samples.'
-    - title: 'Euclid Data Release 1 (DR1). The PHZ processing function for the physical properties of galaxies'
+      desc: The Euclid DR1 photometric-redshift pipeline combines Phosphoros template fitting, NNPZ nearest-neighbour estimates and probabilistic random forest classification, with performance measured against weighted spectroscopic samples.
+    - title: Euclid Data Release 1 (DR1). The PHZ processing function for the physical properties of galaxies
       venue: arXiv 2026
       links:
         Paper: https://arxiv.org/abs/2611.16444
-      desc: 'Euclid DR1 uses nearest neighbors in color–magnitude space to transfer redshifts and galaxy physical properties from deep COSMOS reference samples to wide and deep fields.'
+      desc: Euclid DR1 uses nearest neighbors in color–magnitude space to transfer redshifts and galaxy physical properties from deep COSMOS reference samples to wide and deep fields.
     - title: 'galpy with differentiable, accelerated backends: galactic dynamics in jax and PyTorch'
       venue: arXiv 2026
       links:
         Paper: https://arxiv.org/abs/2611.14614
         Code: https://github.com/jobovy/galpy
         Code (paper): https://github.com/jobovy/galpy-backends
-      desc: 'Differentiable JAX and PyTorch backends for galpy support batched Galactic orbit calculations and a neural approximation to the inverse action–angle transform.'
+      desc: Differentiable JAX and PyTorch backends for galpy support batched Galactic orbit calculations and a neural approximation to the inverse action–angle transform.
     - title: 'Beyond classification: regressing physical merger properties using solid harmonic wavelet bispectrum'
       venue: MNRAS 2026
       links:
         Paper: https://arxiv.org/abs/2611.14630
-      desc: 'A regressor uses rotation-invariant solid harmonic wavelet bispectrum features from idealized simulated galaxy images to estimate merger mass ratio and time since coalescence.'
-    - title: 'Mitigating variance shrinkage in multi-task galaxy property inference from imaging data via statistical manifold alignment'
+        Journal: https://doi.org/10.1093/mnras/stag2160
+      desc: A regressor uses rotation-invariant solid harmonic wavelet bispectrum features from simulated galaxy images to estimate merger mass ratio and time since merger jointly, with fewer training samples than CNNs.
+    - title: Mitigating variance shrinkage in multi-task galaxy property inference from imaging data via statistical manifold alignment
       venue: arXiv 2026
       links:
         Paper: https://arxiv.org/abs/2611.16598
-      desc: 'A multitask vision transformer with multiscale maximum mean discrepancy aligns joint galaxy property distributions with spectroscopic measurements, evaluated on 5,000 held-out HSC galaxies.'
+      desc: A multitask vision transformer with multiscale maximum mean discrepancy aligns joint galaxy property distributions with spectroscopic measurements, evaluated on 5,000 held-out HSC galaxies.
     - name: ANNz2
       title: 'ANNz2: Photometric Redshift and Probability Distribution Function Estimation Using Machine Learning'
       venue: PASP 2016
@@ -1219,17 +1220,17 @@ sections:
     links:
       Paper: https://arxiv.org/abs/2611.14678
       Code: https://github.com/CosmoAI-AES/CosmoSim
-    desc: 'A CNN trained on simulated Einstein crosses estimates lens and source parameters and is evaluated on 21 images of 19 real lenses, including NGC 6505.'
+    desc: A CNN trained on simulated Einstein crosses estimates lens and source parameters and is evaluated on 21 images of 19 real lenses, including NGC 6505.
   - title: 'Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) A: Strong lens catalogue overview'
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.15883
-    desc: 'Euclid ECLIPSE combines five machine-learning models with citizen-science and expert grading to identify 15,072 high-confidence or probable strong lens candidates.'
+    desc: Euclid ECLIPSE combines five machine-learning models with citizen-science and expert grading to identify 15,072 high-confidence or probable strong lens candidates.
   - title: 'Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) B: Discovery pipeline overview'
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.15886
-    desc: 'The Euclid ECLIPSE discovery pipeline uses neural-network screening, two citizen-science stages, expert grading and injected mock lenses to measure completeness.'
+    desc: The Euclid ECLIPSE discovery pipeline uses neural-network screening, two citizen-science stages, expert grading and injected mock lenses to measure completeness.
   - name: SHINE
     title: 'SHINE: Shear inference environment - Generative forward modelling for radio weak gravitational lensing'
     venue: arXiv 2026
@@ -1524,11 +1525,11 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
-  - title: 'Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument'
+  - title: Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.14639
-    desc: 'An XGBoost model predicts intrinsic stellar colors from DESI spectroscopic parameters to estimate reddening and constrain extinction curves at high Galactic latitude.'
+    desc: An XGBoost model predicts intrinsic stellar colors from DESI spectroscopic parameters to estimate reddening and constrain extinction curves at high Galactic latitude.
   - name: astroNN
     title: Deep Learning of Multi-element Abundances from High-resolution Spectroscopic Data
     venue: MNRAS 2019
@@ -1621,7 +1622,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.15040
-    desc: 'Nullasar uses flow matching to generate quasar light curves for period-search null distributions, with tests on damped random walk and autoregressive simulations.'
+    desc: Nullasar uses flow matching to generate quasar light curves for period-search null distributions, with tests on damped random walk and autoregressive simulations.
   - name: DeepAP
     title: 'DeepAP: Deep Learning-based Aperture Photometry Feasibility Assessment and Aperture Size Prediction'
     venue: RAA 2025
@@ -1973,12 +1974,12 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.14617
-    desc: 'A video-to-video vision transformer separates spatial and line-of-sight attention to reconstruct matter density from simulated 21-cm lightcones at redshifts 7.66–16.'
-  - title: 'Machine-Learning Reconstruction of Intergalactic Medium Column-Density Maps from Observed Lyα Emission Cubes'
+    desc: A video-to-video vision transformer separates spatial and line-of-sight attention to reconstruct matter density from simulated 21-cm lightcones at redshifts 7.66–16.
+  - title: Machine-Learning Reconstruction of Intergalactic Medium Column-Density Maps from Observed Lyα Emission Cubes
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.16286
-    desc: 'A CNN trained with IllustrisTNG100 simulations and approximate KCWI noise reconstructs neutral-hydrogen column density from Lyα emission cubes.'
+    desc: A CNN trained with IllustrisTNG100 simulations and approximate KCWI noise reconstructs neutral-hydrogen column density from Lyα emission cubes.
   - title: 'Self-Interacting Neutrinos in NEDE and DRMD Cosmologies: Posteriors, profiles and evidence using CLiENT'
     venue: arXiv 2026
     links:
@@ -2370,18 +2371,12 @@ sections:
     desc: Unified interface over sbi, pydelfi and lampe with validation and calibration tools.
 - title: High-Energy Astrophysics and Astroparticle Physics
   entries:
-  - title: 'MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations'
-    venue: arXiv 2026
-    links:
-      Paper: https://arxiv.org/abs/2611.14710
-      Code: https://github.com/francescomonastra/MAGI
-    desc: 'A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.'
-  - title: 'Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog'
+  - title: Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.16539
       Code: https://github.com/andreascaudo/SOM-CSC
-    desc: 'A hexagonal self-organizing map trained on 36,904 Chandra ACIS detections supports an abstaining classifier for X-ray sources.'
+    desc: A hexagonal self-organizing map trained on 36,904 Chandra ACIS detections supports an abstaining classifier for X-ray sources.
   - name: GCE BGCNN
     title: 'Galactic Center Excess in a New Light: Disentangling the γ-Ray Sky with Bayesian Graph Convolutional Neural Networks'
     venue: PRL 2020
@@ -2465,12 +2460,12 @@ sections:
     desc: Predicts hits on virtual optical modules between real ones to super-resolve neutrino telescope events, improving muon angular reconstruction.
 - title: Gravitational Waves
   entries:
-  - title: 'Efficient Standard Siren Cosmological Inference with Posterior Reuse'
+  - title: Efficient Standard Siren Cosmological Inference with Posterior Reuse
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.16697
       Code: https://github.com/alexpapad0poulos/aspire_gwcosmo
-    desc: 'ASPIRE combines normalizing flows and sequential Monte Carlo to reuse posterior samples across GWTC-5.0 dark-siren cosmological analyses.'
+    desc: ASPIRE combines normalizing flows and sequential Monte Carlo to reuse posterior samples across GWTC-5.0 dark-siren cosmological analyses.
   - name: Magic Bullet
     title: 'Convolutional Neural Networks: A Magic Bullet for Gravitational-wave Detection?'
     venue: PRD 2019
@@ -2698,17 +2693,17 @@ sections:
     desc: Attention model on 13 co-aligned SDO AIA and HMI channels that forecasts daily 6.5 nm EVE irradiance over three days for 33 significant flares.
 - title: Radio Astronomy
   entries:
-  - title: 'Identification of extragalactic radio sources in the VISTA survey of the Magellanic Clouds using an unsupervised machine learning algorithm'
+  - title: Identification of extragalactic radio sources in the VISTA survey of the Magellanic Clouds using an unsupervised machine learning algorithm
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.15880
-    desc: 'Unsupervised t-SNE organizes optical-to-radio photometry for 8,008 sources toward the Magellanic Clouds, with SALT follow-up identifying new active galactic nuclei.'
+    desc: Unsupervised t-SNE organizes optical-to-radio photometry for 8,008 sources toward the Magellanic Clouds, with SALT follow-up identifying new active galactic nuclei.
   - title: 'Active Learning for Molecular Discovery: A Retrospective Test toward TMC-1'
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.16741
       Code: https://github.com/rehamelkholy/TMC-1
-    desc: 'A seven-feature logistic-regression model prioritizes candidate molecules for radio spectroscopy and is evaluated on a time-ordered reconstruction of TMC-1 discovery history.'
+    desc: A seven-feature logistic-regression model prioritizes candidate molecules for radio spectroscopy and is evaluated on a time-ordered reconstruction of TMC-1 discovery history.
   - name: FETCH
     title: 'FETCH: A Deep-learning Based Classifier for Fast Transient Classification'
     venue: MNRAS 2020
@@ -2911,7 +2906,13 @@ sections:
     links:
       Paper: https://arxiv.org/abs/2611.14987
       Code: https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations
-    desc: 'A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.'
+    desc: A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.
+  - title: 'MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.14710
+      Code: https://github.com/francescomonastra/MAGI
+    desc: A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.
 - title: Datasets
   subsections:
   - title: Observational Datasets
