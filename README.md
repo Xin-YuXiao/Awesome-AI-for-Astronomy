@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 402 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 405 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -286,6 +286,9 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts](https://arxiv.org/abs/2611.14582 "A Mahalanobis-distance nearest-neighbor estimator returns photometric-redshift point estimates and densities for Euclid Flagship 2 mock galaxies.") | arXiv 2026 | - | - |
+| 2026.11 | [Euclid Data Release 1 (DR1): Photometric-redshift pipeline overview and validation](https://arxiv.org/abs/2611.15987 "The Euclid DR1 pipeline combines template fitting, nearest-neighbor redshift estimates and probabilistic random forests, validated against weighted spectroscopic samples.") | arXiv 2026 | - | - |
+| 2026.11 | [Euclid Data Release 1 (DR1). The PHZ processing function for the physical properties of galaxies](https://arxiv.org/abs/2611.16444 "Euclid DR1 uses nearest neighbors in color–magnitude space to transfer redshifts and galaxy physical properties from deep COSMOS reference samples to wide and deep fields.") | arXiv 2026 | - | - |
 | 2026.02 | **PITA** [Optimizing Deep Learning Photometric Redshifts for the Roman Space Telescope with HST/CANDELS](https://arxiv.org/abs/2602.10207 "Semi-supervised network that combines contrastive, color and redshift losses on CANDELS images.") | arXiv 2026 | - | - |
 | 2025.07 | [Template-Fitting Meets Deep Learning: Redshift Estimation Using Physics-Guided Neural Networks](https://arxiv.org/abs/2507.00866 "Multimodal network with cross-attention and Bayesian layers that integrates SED templates on HSC PDR3 data.") | arXiv 2025 | - | - |
 | 2025.07 | [Deep Learning Improves Photometric Redshifts in All Regions of Color Space](https://arxiv.org/abs/2507.06299 "Self-organizing map analysis showing lower scatter and attenuation bias for image-based photo-z on SDSS.") | arXiv 2025 | - | - |

@@ -1060,6 +1060,21 @@ sections:
       desc: DINOv2 light-curve embeddings, isolation forests and multimodal LLM agents that vet anomaly candidates.
   - title: Physical Properties and Photometric Redshifts
     entries:
+    - title: 'MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.14582
+      desc: 'A Mahalanobis-distance nearest-neighbor estimator returns photometric-redshift point estimates and densities for Euclid Flagship 2 mock galaxies.'
+    - title: 'Euclid Data Release 1 (DR1): Photometric-redshift pipeline overview and validation'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.15987
+      desc: 'The Euclid DR1 pipeline combines template fitting, nearest-neighbor redshift estimates and probabilistic random forests, validated against weighted spectroscopic samples.'
+    - title: 'Euclid Data Release 1 (DR1). The PHZ processing function for the physical properties of galaxies'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.16444
+      desc: 'Euclid DR1 uses nearest neighbors in color–magnitude space to transfer redshifts and galaxy physical properties from deep COSMOS reference samples to wide and deep fields.'
     - name: ANNz2
       title: 'ANNz2: Photometric Redshift and Probability Distribution Function Estimation Using Machine Learning'
       venue: PASP 2016
