@@ -1075,6 +1075,13 @@ sections:
       links:
         Paper: https://arxiv.org/abs/2611.16444
       desc: 'Euclid DR1 uses nearest neighbors in color–magnitude space to transfer redshifts and galaxy physical properties from deep COSMOS reference samples to wide and deep fields.'
+    - title: 'galpy with differentiable, accelerated backends: galactic dynamics in jax and PyTorch'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.14614
+        Code: https://github.com/jobovy/galpy
+        Code (paper): https://github.com/jobovy/galpy-backends
+      desc: 'Differentiable JAX and PyTorch backends for galpy support batched Galactic orbit calculations and a neural approximation to the inverse action–angle transform.'
     - name: ANNz2
       title: 'ANNz2: Photometric Redshift and Probability Distribution Function Estimation Using Machine Learning'
       venue: PASP 2016
