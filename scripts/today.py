@@ -101,17 +101,23 @@ def clause(field, terms):
     return "(" + " OR ".join(f'{field}:"{t}"' if " " in t or "-" in t else f"{field}:{t}" for t in terms) + ")"
 
 
+class ArxivUnavailable(RuntimeError):
+    pass
+
+
 def arxiv_api(params):
     url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(params)
-    for attempt in range(4):
+    for attempt in range(6):
         try:
             body = http(url)
             time.sleep(3)  # arXiv asks for no more than one request every three seconds
             return parse(body)
         except (urllib.error.URLError, TimeoutError) as exc:
-            print(f"arXiv request failed ({exc}), retrying", file=sys.stderr)
-            time.sleep(10 * (attempt + 1))
-    sys.exit("The arXiv API did not respond.")
+            retry = getattr(exc, "headers", None) and exc.headers.get("Retry-After")
+            wait = int(retry) if retry and str(retry).isdigit() else 15 * (attempt + 1)
+            print(f"arXiv request failed ({exc}), retrying in {min(wait, 120)} s", file=sys.stderr)
+            time.sleep(min(wait, 120))
+    raise ArxivUnavailable("the arXiv search API did not respond")
 
 
 def parse(body):
@@ -343,7 +349,12 @@ def candidates(since, today, loose=False):
     except Exception as exc:
         print(f"warning: OAI-PMH harvest failed ({exc}); using the search API", file=sys.stderr)
         astro = recent("(" + " OR ".join(f"cat:{c}" for c in ASTRO_CATS) + ")", since)
-    ml = recent("(" + " OR ".join(f"cat:{c}" for c in ML_CATS) + ") AND " + clause("abs", ASTRO_TERMS), since)
+    try:
+        ml = recent("(" + " OR ".join(f"cat:{c}" for c in ML_CATS) + ") AND " + clause("abs", ASTRO_TERMS), since)
+    except ArxivUnavailable as exc:
+        # These papers are picked up by a later run, since the window covers several days.
+        print(f"warning: {exc}; cs and stat.ML papers are skipped in this run", file=sys.stderr)
+        ml = []
     seen = {}
     for p in astro + ml:
         if keyword_match(p, loose):
@@ -576,7 +587,11 @@ def resummarise(writer, days=7):
         todo = [p for p in day["papers"] if not p.get("summary")]
         if not todo:
             continue
-        meta = {p["id"]: p for p in arxiv_api({"id_list": ",".join(p["id"] for p in todo), "max_results": len(todo)})}
+        try:
+            meta = {p["id"]: p for p in arxiv_api({"id_list": ",".join(p["id"] for p in todo), "max_results": len(todo)})}
+        except ArxivUnavailable as exc:
+            print(f"warning: {exc}; summaries of earlier papers are retried in the next run", file=sys.stderr)
+            return
         fresh = assess(writer, [meta[p["id"]] for p in todo if p["id"] in meta])
         kept = []
         for p in day["papers"]:
