@@ -4,8 +4,13 @@ name: AstroAI Today
 # refresh the weekly and monthly digests, commit data/today/ and rebuild the web page.
 
 on:
+  # arXiv announces new papers at 20:00 US Eastern time, and GitHub may delay or skip a
+  # scheduled run. The later runs pick up anything the first one missed; a run with nothing
+  # new commits nothing.
   schedule:
     - cron: "41 2 * * *"
+    - cron: "23 5 * * *"
+    - cron: "37 11 * * *"
   workflow_dispatch:
     inputs:
       backfill:

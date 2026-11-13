@@ -30,7 +30,7 @@ Once a month the Metadata Audit workflow ([`scripts/audit.py`](scripts/audit.py)
 
 ## Entry format
 
-Add the entry to the most specific section or subsection in `data/entries.yml`. The order inside the file does not matter, since the tables are sorted newest first by the date of the first arXiv version.
+Add the entry to the most specific section or subsection in `data/entries.yml`, chosen by the task the work addresses. Foundation Models and Representation Learning is for pretrained or self-supervised models meant for reuse across tasks, not for every model that uses images or spectra. The order inside the file does not matter, since the tables are sorted newest first by the date of the first arXiv version.
 
 ```yaml
 - name: ShortName               # optional model, dataset or benchmark name
@@ -54,6 +54,8 @@ Rules for the entry
 - `modality` lists the kinds of data the work uses, drawn from `Images`, `Spectra`, `Data cubes`, `Time series`, `Tabular`, `Text`, `Point clouds` and `Simulations`. It is filled in for the Foundation Models and Benchmarks sections so far and is optional elsewhere.
 - Keep the description to one factual sentence. Report data scale and model size when available.
 - Quote the title with single quotes when it contains a colon.
+- Leave out `name` when the work has no short name, rather than leaving the key empty.
+- Change only the lines of your entry. Do not re-indent, re-quote or reformat the rest of `data/entries.yml`, so that the diff shows only the new entry.
 
 Entries in Tools and Libraries, Communities and Groups and Related Awesome Lists use `name`, `url` and `desc`.
 

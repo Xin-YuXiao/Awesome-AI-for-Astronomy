@@ -8,4 +8,5 @@
 - [ ] Every link resolves, and the arXiv identifier matches the paper.
 - [ ] The venue and year match the publisher page or the official repository.
 - [ ] `python scripts/build.py` was run and the regenerated `README.md` is committed.
+- [ ] The entry sits in the section that matches its task, and the rest of `data/entries.yml` keeps its existing formatting.
 - [ ] The pull request covers one topic.
