@@ -268,6 +268,11 @@ def oai_recent(since, today):
             break
         params = {"verb": "ListRecords", "resumptionToken": token.text.strip()}
     print(f"OAI-PMH returned {records} astro-ph records, {len(out)} of them new papers")
+    stamps = {}
+    for p in out:
+        stamps.setdefault(p["published"], []).append(p["id"])
+    for day, ids in sorted(stamps.items()):
+        print(f"  announced {day}: {len(ids)} new papers, {min(ids)} to {max(ids)}")
     return sorted(out, key=lambda p: p["published"], reverse=True)
 
 
