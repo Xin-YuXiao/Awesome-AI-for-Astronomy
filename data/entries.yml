@@ -2612,6 +2612,12 @@ sections:
     desc: Attention model on 13 co-aligned SDO AIA and HMI channels that forecasts daily 6.5 nm EVE irradiance over three days for 33 significant flares.
 - title: Radio Astronomy
   entries:
+  - title: 'Active Learning for Molecular Discovery: A Retrospective Test toward TMC-1'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.16741
+      Code: https://github.com/rehamelkholy/TMC-1
+    desc: 'A seven-feature logistic-regression model prioritizes candidate molecules for radio spectroscopy and is evaluated on a time-ordered reconstruction of TMC-1 discovery history.'
   - name: FETCH
     title: 'FETCH: A Deep-learning Based Classifier for Fast Transient Classification'
     venue: MNRAS 2020

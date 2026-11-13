@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 402 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 403 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -595,6 +595,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Active Learning for Molecular Discovery: A Retrospective Test toward TMC-1](https://arxiv.org/abs/2611.16741 "A seven-feature logistic-regression model prioritizes candidate molecules for radio spectroscopy and is evaluated on a time-ordered reconstruction of TMC-1 discovery history.") | arXiv 2026 | [Code](https://github.com/rehamelkholy/TMC-1) | - |
 | 2026.08 | **YOLO-Chars** [Radio Galaxies Detection and Characterization Using Deep Learning Techniques](https://arxiv.org/abs/2608.21474 "Two-stage YOLO detection and characterisation network for flux, size and position angle on SKA SDC1 images.") | **MNRAS 2026** | - | - |
 | 2025.09 | [YOLO-CIANNA: Galaxy Detection with Deep Learning in Radio Data. II. Winning the SKA SDC2 Using a Generalized 3D-YOLO Network](https://arxiv.org/abs/2509.12082 "3D CNN detector for HI sources in SKA SDC2 hyperspectral cubes, extending the method that won SDC2.") | **A&A 2026** | - | - |
 | 2025.06 | [Simulating Realistic Radio Continuum Survey Maps with Diffusion Models](https://arxiv.org/abs/2506.11715 "Diffusion-generated radio galaxies assembled into sky models and imaged to mimic LoTSS pointings.") | arXiv 2025 | - | - |
