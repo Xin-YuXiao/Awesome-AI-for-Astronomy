@@ -2703,6 +2703,12 @@ sections:
     links:
       Paper: https://arxiv.org/abs/2611.15880
     desc: 'Unsupervised t-SNE organizes optical-to-radio photometry for 8,008 sources toward the Magellanic Clouds, with SALT follow-up identifying new active galactic nuclei.'
+  - title: 'Active Learning for Molecular Discovery: A Retrospective Test toward TMC-1'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.16741
+      Code: https://github.com/rehamelkholy/TMC-1
+    desc: 'A seven-feature logistic-regression model prioritizes candidate molecules for radio spectroscopy and is evaluated on a time-ordered reconstruction of TMC-1 discovery history.'
   - name: FETCH
     title: 'FETCH: A Deep-learning Based Classifier for Fast Transient Classification'
     venue: MNRAS 2020
