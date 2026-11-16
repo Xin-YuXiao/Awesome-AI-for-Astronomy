@@ -1525,6 +1525,12 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
+  - title: 'Symbolic Regression Fitting for Roche Lobe Radius'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.17997
+      Code: https://github.com/Iceberg0716/SRLochelobe
+    desc: 'Uses genetic-programming symbolic regression to approximate the Roche-lobe radius, reducing RMS error over mass ratios from 1e-5 to 1e5 relative to Eggleton''s formula.'
   - title: Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument
     venue: arXiv 2026
     links:
