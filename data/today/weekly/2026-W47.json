@@ -3,26 +3,29 @@
  "start": "2026-11-16",
  "end": "2026-11-22",
  "final": false,
- "count": 6,
+ "count": 8,
  "topics": {
-  "Cosmology and Large-Scale Structure": 2,
+  "Cosmology and Large-Scale Structure": 3,
   "Gravitational Lensing": 2,
   "Time-Domain Astronomy and Transients": 1,
+  "Stars and Stellar Spectroscopy": 1,
   "Galaxies": 1
  },
- "overview": "Six papers apply ML to survey and simulation data. Euclid DR1 strong-lens work covers vision-transformer segmentation and training/image-processing choices for detection. Other studies use UMAP/k-means on IllustrisTNG, tree ensembles and Gaussian-process emulation to augment FLAMINGO catalogues, deep learning for cluster mass maps from HST imaging, and unsupervised clustering of FAST FRB 20121102A bursts.",
+ "overview": "Euclid DR1 dominates with two strong-lens papers: a transformer-CNN segmentation pipeline and a CNN ablation/ensemble yielding 11,256 grade A/B candidates. Other work applies ML to cluster mass maps, LSST Y1 Galileon emulation, FLAMINGO catalogue augmentation, unsupervised FRB/galaxy classification, and symbolic regression for Roche lobe radii.",
  "themes": [
-  "Euclid strong-lens pipelines",
-  "Simulation catalogue augmentation",
-  "Unsupervised galaxy and FRB classification",
-  "Cluster mass-map reconstruction"
+  "Euclid DR1 strong-lens detection and segmentation",
+  "ML emulation for cosmology",
+  "Unsupervised classification of transients and galaxies",
+  "Simulation-based galaxy catalogue modelling",
+  "Symbolic regression for stellar astrophysics"
  ],
  "highlights": [
   "2611.17894",
   "2611.17420",
+  "2611.18211",
   "2611.17425",
-  "2611.18487"
+  "2611.17997"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-16T10:06:46+00:00"
+ "updated": "2026-11-16T10:08:53+00:00"
 }

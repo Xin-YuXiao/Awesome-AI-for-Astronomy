@@ -3,15 +3,15 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 61,
+ "count": 63,
  "topics": {
   "Galaxies": 8,
-  "Cosmology and Large-Scale Structure": 6,
+  "Cosmology and Large-Scale Structure": 7,
   "Gravitational Lensing": 6,
+  "Stars and Stellar Spectroscopy": 5,
   "Gravitational Waves": 5,
   "Solar Physics and Heliophysics": 4,
   "Simulation-Based Inference": 4,
-  "Stars and Stellar Spectroscopy": 4,
   "Foundation Models and Representation Learning": 3,
   "High-Energy Astrophysics and Astroparticle Physics": 3,
   "Benchmarks": 3,
@@ -25,22 +25,22 @@
   "Planetary Science and Small Bodies": 1,
   "Datasets": 1
  },
- "overview": "The period concentrates on simulation-based inference and neural surrogates — conditional normalizing flows for DESI DR1 tomographic N(z), Fourier and spherical neural operators for MHD turbulence and 21cm lightcones, and generator networks for data-efficient cosmology simulation — alongside generative forward models for lensing (SHINE, CosmoSim) and Euclid DR1 strong-lens selection (15,072 candidates). Gravitational-wave work covers neural posterior estimation for tests of general relativity, EMRI inference and LISA glitch classification. LLM agents, literature-mined catalogues (DarkMatterFM-Registry, GalaxyWiki) and survey homogenisation (Survey of Surveys DR3) also feature.",
+ "overview": "Euclid DR1 strong lensing continues to dominate, with the ECLIPSE catalogue of 15,072 candidates, a transformer-CNN segmentation pipeline for mass modelling, and a CNN ablation study. Benchmarks released include COSMIO for cross-survey imputation (LSST/Euclid/Roman) and the FAIR Universe weak-lensing uncertainty challenge. Method work spans normalizing flows for DESI DR1 tomographic N(z), field-level generative corrections, neural-operator and UNet surrogates for MHD turbulence and rotating neutron stars, neural posterior estimation for gravitational-wave tests of general relativity, and equivariant spherical Fourier neural operators.",
  "themes": [
+  "Euclid DR1 strong-lens detection pipelines",
   "Simulation-based inference and neural surrogates",
-  "Strong-lens detection and generative lens modelling",
-  "Gravitational-wave ML pipelines",
-  "LLM agents and literature-derived catalogues",
-  "Differentiable and equivariant architectures"
+  "Cross-survey benchmarks and imputation",
+  "LLM agents and literature extraction",
+  "Gravitational-wave posterior and waveform acceleration"
  ],
  "highlights": [
   "2611.15883",
-  "2611.10228",
   "2611.04139",
+  "2611.10228",
   "2611.07936",
   "2611.14614",
-  "2611.08583"
+  "2611.04389"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-16T10:06:55+00:00"
+ "updated": "2026-11-16T10:08:58+00:00"
 }

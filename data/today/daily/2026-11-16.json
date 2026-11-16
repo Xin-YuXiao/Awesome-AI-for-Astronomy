@@ -29,6 +29,32 @@
    "model": "deepseek-flash"
   },
   {
+   "id": "2611.18211",
+   "title": "Cubic Galileon Gravity on Nonlinear Scales with \\textttHi-COLA for LSST Year 1",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-13T14:16:21Z",
+   "comment": "37 pages, 12 figures, 2 tables. Prepared for submission to JCAP. Comments welcome",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "C. M. A. Zanoletti",
+    "A. Sen Gupta",
+    "N. Ramachandra",
+    "T. Baker",
+    "B. Fiorini",
+    "K. Heitmann"
+   ],
+   "n_authors": 11,
+   "relevant": true,
+   "summary": "Gaussian-process emulator trained on Hi-COLA simulations predicts nonlinear matter power spectra in Cubic Galileon gravity to ≲2%, enabling LSST Year 1 weak-lensing and clustering forecasts.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
    "id": "2611.18056",
    "title": "Unsupervised Machine Learning Classification of FRB 20121102A across Distinct Active Episodes: Implications for FRB Emission Physics and Source Environments",
    "primary": "astro-ph.HE",
@@ -48,6 +74,32 @@
    "relevant": true,
    "summary": "Unsupervised clustering of FAST bursts from FRB 20121102A finds four spectral groups whose fractions vary across active episodes, suggesting distinct emission populations or environments.",
    "topic": "Time-Domain Astronomy and Transients",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.17997",
+   "title": "Symbolic Regression Fitting for Roche Lobe Radius",
+   "primary": "astro-ph.SR",
+   "categories": [
+    "astro-ph.SR",
+    "astro-ph.EP"
+   ],
+   "published": "2026-11-13T10:24:12Z",
+   "comment": "7 pages, 3 figures, 3 tables, Accepted for publication in ApJ",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Ye Ma",
+    "Xiaodong Li",
+    "Bo Ma",
+    "Zhanwen Han",
+    "Cong Yu"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Symbolic regression yields a compact Roche lobe radius formula with lower RMS error than Eggleton's, maximum relative error 1.39%, and about twice the evaluation speed.",
+   "topic": "Stars and Stellar Spectroscopy",
    "model": "deepseek-flash"
   },
   {
@@ -150,14 +202,13 @@
     "T. Li"
    ],
    "n_authors": 1207,
-   "relevant": null,
-   "summary": "",
+   "relevant": true,
+   "summary": "Ablation study of CNN strong-lens detection in Euclid DR1, comparing image representations, training data, negatives, and ensembling; ensemble recovers 11,256 grade A/B lenses.",
    "topic": "Gravitational Lensing",
-   "model": null,
-   "excerpt": "Euclid is expected to discover ~$10^5$ galaxy-galaxy strong gravitational lenses across ~14,000deg$^2$, requiring automated searches with high completeness and low false-positive rates."
+   "model": "deepseek-flash"
   }
  ],
  "excluded": [],
- "updated": "2026-11-16T10:06:37+00:00",
+ "updated": "2026-11-16T10:08:45+00:00",
  "model": "deepseek-flash"
 }
