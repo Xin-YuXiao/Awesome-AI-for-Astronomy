@@ -859,12 +859,6 @@ sections:
   subsections:
   - title: Morphology and Catalogues
     entries:
-    - title: 'Augmenting Galaxy Catalogues using Machine Learning in the FLAMINGO Simulations'
-      venue: arXiv 2026
-      links:
-        Paper: https://arxiv.org/abs/2611.17425
-        Project: https://flamingo.strw.leidenuniv.nl/
-      desc: 'Uses extremely randomized trees for central and satellite stellar-mass distributions in the 2.8 Gpc FLAMINGO-10k dark-matter-only simulation.'
     - name: GaMorNet
       title: 'Galaxy Morphology Network: A Convolutional Neural Network Used to Study Morphology and Quenching in ~100,000 SDSS and ~20,000 CANDELS Galaxies'
       venue: ApJ 2020
@@ -1066,11 +1060,11 @@ sections:
       desc: DINOv2 light-curve embeddings, isolation forests and multimodal LLM agents that vet anomaly candidates.
   - title: Physical Properties and Photometric Redshifts
     entries:
-    - title: 'Unsupervised learning reveals a small number of galaxy formation pathways in IllustrisTNG'
+    - title: Unsupervised learning reveals a small number of galaxy formation pathways in IllustrisTNG
       venue: arXiv 2026
       links:
         Paper: https://arxiv.org/abs/2611.17559
-      desc: 'Uses UMAP and k-means on star-formation histories of roughly 10,000 IllustrisTNG galaxies to identify six groups with distinct assembly histories.'
+      desc: Uses UMAP and k-means on star-formation histories of roughly 10,000 IllustrisTNG galaxies to identify six groups with distinct assembly histories.
     - title: 'MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts'
       venue: arXiv 2026
       links:
@@ -1230,13 +1224,13 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.17420
-    desc: 'Ablates two-stage ConvNeXt lens-finder training and ensembles VIS-only and pseudo-RGB models over about 67 million Euclid DR1 cutouts.'
-  - name: 'AstroVink-TREX'
+    desc: Ablation study of the ECLIPSE lens-finding CNN covering image representation, file format, negative selection and multi-stage training; a VIS-only and pseudo-RGB ensemble over about 67 million DR1 cutouts recovers 11,256 grade A and B lenses.
+  - name: AstroVink-TREX
     title: 'Euclid Data Release 1 (DR1). AstroVink-TREX: Automated strong gravitational lens segmentation as input for mass modelling pipelines'
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.17894
-    desc: 'Combines a vision transformer and a convolutional branch to deblend Euclid strong lenses, with segmentation causing 39 failed fits among about 3,000 inspected models.'
+    desc: A vision-transformer encoder with a parallel convolutional branch separates lens light, lensed source and contaminants in Euclid DR1 lenses, and segmentation errors cause 39 failed models among about 3,000 inspected systems.
   - title: 'CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning'
     venue: arXiv 2026
     links:
@@ -1547,12 +1541,12 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
-  - title: 'Symbolic Regression Fitting for Roche Lobe Radius'
+  - title: Symbolic Regression Fitting for Roche Lobe Radius
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.17997
       Code: https://github.com/Iceberg0716/SRLochelobe
-    desc: 'Uses genetic-programming symbolic regression to approximate the Roche-lobe radius, reducing RMS error over mass ratios from 1e-5 to 1e5 relative to Eggleton''s formula.'
+    desc: Symbolic regression on radii computed from the full Roche potential gives a compact Roche-lobe formula that lowers the RMS error of Eggleton's approximation from 1.97e-3 to 5.95e-4 over mass ratios from 1e-5 to 1e5.
   - title: Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument
     venue: arXiv 2026
     links:
@@ -1650,7 +1644,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.18056
-    desc: 'Uses UMAP and HDBSCAN on 2,006 FAST bursts from FRB 20121102A to identify four clusters and compare their fractions across three active episodes.'
+    desc: Unsupervised clustering of FAST bursts from three active episodes of FRB 20121102A finds four clusters separated mainly by spectral properties, with cluster fractions changing between 2019, 2022 and 2023.
   - title: 'Moving Beyond the DRW Model: Learning Quasar Variability with Generative Models'
     venue: arXiv 2026
     links:
@@ -2003,19 +1997,19 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
-  - title: 'Cubic Galileon Gravity on Nonlinear Scales with \texttt{Hi-COLA} for LSST Year 1'
+  - title: Cubic Galileon Gravity on Nonlinear Scales with Hi-COLA for LSST Year 1
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.18211
       Code: https://github.com/LSSTDESC/CubicGalileonEmu
       Forecast Code: https://github.com/CarolaZano/CubicGalileon_Forecasts
-    desc: 'Trains a Gaussian-process emulator on Hi-COLA simulations for the nonlinear Cubic Galileon matter power-spectrum boost and validates it with LSST Y1 mock analyses.'
-  - title: 'Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations'
+    desc: Trains a Gaussian-process emulator on Hi-COLA simulations for the nonlinear Cubic Galileon matter power-spectrum boost and validates it with LSST Y1 mock analyses.
+  - title: Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.18487
       Code: https://github.com/atulit19/U-Net-Mass-Maps-HST-CLASH
-    desc: 'Trains U-Nets on mock HST imaging of 3,273 hydrodynamical-simulation halos and compares the mass maps of 21 CLASH clusters with lensing reconstructions.'
+    desc: U-Nets trained on mock optical images of hydrodynamical-simulation clusters reconstruct total mass maps and subhalo mass functions, and maps for HST CLASH clusters agree with independent lensing measurements.
   - title: 'ViViViT: a Video-to-Video Vision Transformer for Cosmological Lightcone Reconstruction'
     venue: arXiv 2026
     links:
@@ -2338,6 +2332,12 @@ sections:
       Journal: https://doi.org/10.1088/1475-7516/2026/08/018
       Code: https://github.com/AarhusCosmology/client_public
     desc: Emulates the likelihood of a data set directly with neural networks, giving an auto-differentiable surrogate that matches true-likelihood credible intervals to within 0.1 sigma using fewer than 20,000 evaluations.
+  - title: Augmenting Galaxy Catalogues using Machine Learning in the FLAMINGO Simulations
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.17425
+      Project: https://flamingo.strw.leidenuniv.nl/
+    desc: Extremely randomized trees for centrals and a Gaussian-process emulator with feature selection for satellites predict stellar-mass distributions from halo properties, producing a galaxy catalogue for the 2.8 Gpc FLAMINGO-10k dark-matter-only run.
 - title: Simulation-Based Inference
   entries:
   - name: pydelfi

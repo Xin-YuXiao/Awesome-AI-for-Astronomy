@@ -794,6 +794,8 @@ def digest(writer, kind, key, start, end, final, context=""):
             doc["themes"] = [str(t) for t in answer.get("themes", [])][:5]
             doc["highlights"] = [i for i in (str(x).strip() for x in answer.get("highlights", [])) if i in ids][:6]
             doc["model"] = writer.name
+    if old and {k: v for k, v in old.items() if k != "updated"} == {k: v for k, v in doc.items() if k != "updated"}:
+        return  # nothing changed, so no commit that only moves the timestamp
     save(path, doc)
 
 
