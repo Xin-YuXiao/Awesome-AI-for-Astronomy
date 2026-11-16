@@ -56,7 +56,9 @@ ML_STRONG = (r"machine[- ]learn\w*|deep[- ]learn\w*|neural[- ](?:network|net|ope
              r"gradient[- ]boost\w*|XGBoost|LightGBM|autoencoders?|variational auto\w*|reinforcement learning|"
              r"artificial intelligence|generative adversarial|GANs?|U-Net|ResNet|multi-?layer perceptrons?|"
              r"agentic|(?:AI|LLM) agents?|(?:semi-|un)?supervised learning|representation learning|"
-             r"support vector machines?|physics[- ]informed neural|neural networks?|deep neural")
+             r"support vector machines?|physics[- ]informed neural|neural networks?|deep neural|"
+             r"symbolic regression|Gaussian process regression|(?:extremely )?randomi[sz]ed trees|decision trees?|"
+             r"k-nearest[- ]neighbou?rs?|UMAP|t-SNE|self[- ]organi[sz]ing maps?|active learning")
 ML_WEAK = r"emulat(?:or|ors|ion)|Gaussian process(?:es)?|k-means|clustering algorithm|anomaly detection|classifiers?"
 ML_RE = re.compile(r"\b(" + ML_STRONG + "|" + ML_WEAK + r")\b", re.I)
 ML_STRONG_RE = re.compile(r"\b(" + ML_STRONG + r")\b", re.I)
@@ -303,13 +305,14 @@ def keyword_match(p, loose=False):
     """Keyword screen for papers that apply AI to astronomy.
 
     Machine learning has to be central, which is taken to mean a method term in the title or at
-    least two method terms in the abstract; weak terms such as emulator or Gaussian process do not
-    count. The paper has to be astronomical, which means an astronomy term in the title, or an
+    least two method terms in the abstract. One of the two may be a weak term such as emulator or
+    Gaussian process, but weak terms alone do not count. The paper has to be astronomical, which means an astronomy term in the title, or an
     astro-ph category together with a primary category in astronomy, physics.space-ph, gr-qc, cs
     or stat, or two astronomy terms in the abstract. With `loose`, used when a language model checks
     every candidate afterwards, one method term anywhere is enough."""
     need = 1 if loose else 2
-    if not ML_STRONG_RE.search(p["title"]) and len(ML_STRONG_RE.findall(p["abstract"])) < need:
+    strong = len(ML_STRONG_RE.findall(p["abstract"]))
+    if not ML_STRONG_RE.search(p["title"]) and (strong < 1 or len(ML_RE.findall(p["abstract"])) < need):
         return False
     if ASTRO_RE.search(p["title"]):
         return True
