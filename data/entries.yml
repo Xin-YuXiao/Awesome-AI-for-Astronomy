@@ -1215,6 +1215,17 @@ sections:
       desc: Semi-supervised network that combines contrastive, color and redshift losses on CANDELS images.
 - title: Gravitational Lensing
   entries:
+  - title: 'Euclid Data Release 1 (DR1). Enhancing deep-learning models: the impact of image processing and training data selection for strong-lens detection'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.17420
+    desc: 'Ablates two-stage ConvNeXt lens-finder training and ensembles VIS-only and pseudo-RGB models over about 67 million Euclid DR1 cutouts.'
+  - name: 'AstroVink-TREX'
+    title: 'Euclid Data Release 1 (DR1). AstroVink-TREX: Automated strong gravitational lens segmentation as input for mass modelling pipelines'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.17894
+    desc: 'Combines a vision transformer and a convolutional branch to deblend Euclid strong lenses, with segmentation causing 39 failed fits among about 3,000 inspected models.'
   - title: 'CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning'
     venue: arXiv 2026
     links:
