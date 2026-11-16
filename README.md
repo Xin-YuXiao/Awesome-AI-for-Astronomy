@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 421 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 422 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -287,6 +287,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Unsupervised learning reveals a small number of galaxy formation pathways in IllustrisTNG](https://arxiv.org/abs/2611.17559 "Uses UMAP and k-means on star-formation histories of roughly 10,000 IllustrisTNG galaxies to identify six groups with distinct assembly histories.") | arXiv 2026 | - | - |
 | 2026.11 | [MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts](https://arxiv.org/abs/2611.14582 "A k-nearest-neighbour estimator with a Mahalanobis metric learned from the reference-sample covariance returns photometric-redshift point estimates and kernel-density posteriors, validated on Euclid Flagship 2, Legacy-KiDZ, VIPERS and DES Y3.") | arXiv 2026 | - | - |
 | 2026.11 | [Euclid Data Release 1 (DR1): Photometric-redshift pipeline overview and validation](https://arxiv.org/abs/2611.15987 "The Euclid DR1 photometric-redshift pipeline combines Phosphoros template fitting, NNPZ nearest-neighbour estimates and probabilistic random forest classification, with performance measured against weighted spectroscopic samples.") | arXiv 2026 | - | - |
 | 2026.11 | [Euclid Data Release 1 (DR1). The PHZ processing function for the physical properties of galaxies](https://arxiv.org/abs/2611.16444 "Euclid DR1 uses nearest neighbors in color–magnitude space to transfer redshifts and galaxy physical properties from deep COSMOS reference samples to wide and deep fields.") | arXiv 2026 | - | - |
