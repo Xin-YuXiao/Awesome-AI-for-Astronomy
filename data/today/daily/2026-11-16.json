@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-16",
+ "papers": [
+  {
+   "id": "2611.18487",
+   "title": "Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-13T18:00:06Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Atulit Srivastava",
+    "Weiguang Cui",
+    "Daniel de Andres",
+    "Guillaume Bonnet",
+    "Romeel Davé",
+    "Stefano Ettori"
+   ],
+   "n_authors": 9,
+   "relevant": true,
+   "summary": "Deep-learning models trained on hydrodynamical simulations reconstruct galaxy cluster mass maps and substructures from HST optical imaging, agreeing with independent lensing measurements.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.18056",
+   "title": "Unsupervised Machine Learning Classification of FRB 20121102A across Distinct Active Episodes: Implications for FRB Emission Physics and Source Environments",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE"
+   ],
+   "published": "2026-11-13T11:31:23Z",
+   "comment": "16 pages, 2 table, 13 figures. Accepted for publication in ApJ",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Xiao Li",
+    "En-Wei Liang"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Unsupervised clustering of FAST bursts from FRB 20121102A finds four spectral groups whose fractions vary across active episodes, suggesting distinct emission populations or environments.",
+   "topic": "Time-Domain Astronomy and Transients",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.17894",
+   "title": "Euclid Data Release 1 (DR1). AstroVink-TREX: Automated strong gravitational lens segmentation as input for mass modelling pipelines",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-13T08:31:30Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Euclid Collaboration: S. H. Vincken",
+    "N. E. P. Lines",
+    "J. W. Nightingale",
+    "T. E. Collett",
+    "L. R. Ecker",
+    "S. Schuldt"
+   ],
+   "n_authors": 1329,
+   "relevant": true,
+   "summary": "A vision-transformer plus convolutional network automatically separates lens, source, and contaminant light for Euclid strong lenses, enabling mass modelling at survey scale.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.17559",
+   "title": "Unsupervised learning reveals a small number of galaxy formation pathways in IllustrisTNG",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-12T22:27:22Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "C. Alvarez-Fernandez",
+    "H. Dominguez Sanchez",
+    "J. Vega-Ferrero",
+    "E. Angeloudi",
+    "A. Ferre-Mateu",
+    "D. Sotillo-Ramos"
+   ],
+   "n_authors": 6,
+   "relevant": true,
+   "summary": "UMAP and k-means applied to IllustrisTNG star formation histories identify six galaxy groups with distinct masses, morphologies, angular momenta, and merger histories.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.17425",
+   "title": "Augmenting Galaxy Catalogues using Machine Learning in the FLAMINGO Simulations",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-12T19:00:12Z",
+   "comment": "21 pages, 14 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Elliot Scott",
+    "Marika Asgari",
+    "Joop Schaye",
+    "Matthieu Schaller",
+    "Markus Michael Rau"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Extremely randomized trees and Gaussian-process emulation populate a dark-matter-only FLAMINGO simulation, producing a galaxy catalogue that reproduces hydrodynamical clustering statistics.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.17420",
+   "title": "Euclid Data Release 1 (DR1). Enhancing deep-learning models: the impact of image processing and training data selection for strong-lens detection",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-12T19:00:07Z",
+   "comment": "30 pages, 13 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Euclid Collaboration: M. Fogliardi",
+    "P. Holloway",
+    "S. Schuldt",
+    "P. Rosati",
+    "S. H. Vincken",
+    "T. Li"
+   ],
+   "n_authors": 1207,
+   "relevant": null,
+   "summary": "",
+   "topic": "Gravitational Lensing",
+   "model": null,
+   "excerpt": "Euclid is expected to discover ~$10^5$ galaxy-galaxy strong gravitational lenses across ~14,000deg$^2$, requiring automated searches with high completeness and low false-positive rates."
+  }
+ ],
+ "excluded": [],
+ "updated": "2026-11-16T10:06:37+00:00",
+ "model": "deepseek-flash"
+}

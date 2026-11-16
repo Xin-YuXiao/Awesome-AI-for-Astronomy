@@ -3,44 +3,44 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 55,
+ "count": 61,
  "topics": {
-  "Galaxies": 7,
+  "Galaxies": 8,
+  "Cosmology and Large-Scale Structure": 6,
+  "Gravitational Lensing": 6,
   "Gravitational Waves": 5,
-  "Cosmology and Large-Scale Structure": 4,
   "Solar Physics and Heliophysics": 4,
   "Simulation-Based Inference": 4,
   "Stars and Stellar Spectroscopy": 4,
-  "Gravitational Lensing": 4,
   "Foundation Models and Representation Learning": 3,
   "High-Energy Astrophysics and Astroparticle Physics": 3,
   "Benchmarks": 3,
   "Language and Vision-Language Models": 3,
   "Agents and Retrieval Systems": 2,
+  "Time-Domain Astronomy and Transients": 2,
   "Radio Astronomy": 2,
   "Observing and Instrumentation": 2,
   "Source Detection, Deblending and Image Simulation": 1,
-  "Time-Domain Astronomy and Transients": 1,
   "Exoplanets": 1,
   "Planetary Science and Small Bodies": 1,
   "Datasets": 1
  },
- "overview": "Euclid DR1 dominates: a five-model plus citizen-science pipeline released 15,072 strong-lens candidates over 2000 deg2. The period also produced shared resources — the COSMIO cross-survey imputation benchmark, the FAIR Universe weak-lensing uncertainty challenge, Survey of Surveys DR3 (10.13 million homogenised stars) and differentiable JAX/PyTorch galpy backends. Methods centred on simulation-based inference and neural surrogates (normalizing flows for N(z), Fourier neural operators for MHD turbulence, equivariant spherical operators), unified gravitational-wave waveform networks and neural posterior estimation, plus LLM pipelines extracting dark-matter models, galaxy discussions and multi-agent high-energy analyses.",
+ "overview": "The period concentrates on simulation-based inference and neural surrogates — conditional normalizing flows for DESI DR1 tomographic N(z), Fourier and spherical neural operators for MHD turbulence and 21cm lightcones, and generator networks for data-efficient cosmology simulation — alongside generative forward models for lensing (SHINE, CosmoSim) and Euclid DR1 strong-lens selection (15,072 candidates). Gravitational-wave work covers neural posterior estimation for tests of general relativity, EMRI inference and LISA glitch classification. LLM agents, literature-mined catalogues (DarkMatterFM-Registry, GalaxyWiki) and survey homogenisation (Survey of Surveys DR3) also feature.",
  "themes": [
-  "Euclid DR1 strong-lens catalogue",
-  "Cross-survey benchmarks and catalogue releases",
   "Simulation-based inference and neural surrogates",
-  "Gravitational-wave waveform emulation and posterior estimation",
-  "Foundation-model interpretability and LLM agent pipelines"
+  "Strong-lens detection and generative lens modelling",
+  "Gravitational-wave ML pipelines",
+  "LLM agents and literature-derived catalogues",
+  "Differentiable and equivariant architectures"
  ],
  "highlights": [
   "2611.15883",
-  "2611.07936",
-  "2611.04139",
   "2611.10228",
+  "2611.04139",
+  "2611.07936",
   "2611.14614",
-  "2611.04389"
+  "2611.08583"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-15T21:59:42+00:00"
+ "updated": "2026-11-16T10:06:55+00:00"
 }
