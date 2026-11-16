@@ -2010,6 +2010,12 @@ sections:
       Code: https://github.com/LSSTDESC/CubicGalileonEmu
       Forecast Code: https://github.com/CarolaZano/CubicGalileon_Forecasts
     desc: 'Trains a Gaussian-process emulator on Hi-COLA simulations for the nonlinear Cubic Galileon matter power-spectrum boost and validates it with LSST Y1 mock analyses.'
+  - title: 'Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.18487
+      Code: https://github.com/atulit19/U-Net-Mass-Maps-HST-CLASH
+    desc: 'Trains U-Nets on mock HST imaging of 3,273 hydrodynamical-simulation halos and compares the mass maps of 21 CLASH clusters with lensing reconstructions.'
   - title: 'ViViViT: a Video-to-Video Vision Transformer for Cosmological Lightcone Reconstruction'
     venue: arXiv 2026
     links:
