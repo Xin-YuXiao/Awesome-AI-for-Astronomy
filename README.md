@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 421 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 422 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -246,6 +246,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Augmenting Galaxy Catalogues using Machine Learning in the FLAMINGO Simulations](https://arxiv.org/abs/2611.17425 "Uses extremely randomized trees for central and satellite stellar-mass distributions in the 2.8 Gpc FLAMINGO-10k dark-matter-only simulation.") | arXiv 2026 | - | [Project](https://flamingo.strw.leidenuniv.nl/) |
 | 2026.08 | [A General-Purpose VLM Can Teach an Astronomy Foundation Model to Better Recognize Galaxy Morphology](https://arxiv.org/abs/2608.02300 "Distils a general-purpose VLM answering Galaxy Zoo decision tree questions into Zoobot through side tuning, with teacher uncertainty guiding which galaxies are sent for human labels.") | arXiv 2026 | - | - |
 | 2025.03 | [Euclid Q1: Exploring Galaxy Morphology across Cosmic Time through Sersic Fits](https://arxiv.org/abs/2503.15309 "Euclid Q1 morphology study listed among Zoobot applications.") | arXiv 2025 | - | - |
 | 2025.03 | [Euclid Q1: First Visual Morphology Catalogue](https://arxiv.org/abs/2503.15310 "First Euclid visual morphology catalogue produced with Galaxy Zoo volunteers and Zoobot.") | arXiv 2025 | - | - |
