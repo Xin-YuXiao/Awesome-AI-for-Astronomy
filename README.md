@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 421 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 423 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -318,6 +318,8 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Euclid Data Release 1 (DR1). Enhancing deep-learning models: the impact of image processing and training data selection for strong-lens detection](https://arxiv.org/abs/2611.17420 "Ablates two-stage ConvNeXt lens-finder training and ensembles VIS-only and pseudo-RGB models over about 67 million Euclid DR1 cutouts.") | arXiv 2026 | - | - |
+| 2026.11 | **AstroVink-TREX** [Euclid Data Release 1 (DR1). AstroVink-TREX: Automated strong gravitational lens segmentation as input for mass modelling pipelines](https://arxiv.org/abs/2611.17894 "Combines a vision transformer and a convolutional branch to deblend Euclid strong lenses, with segmentation causing 39 failed fits among about 3,000 inspected models.") | arXiv 2026 | - | - |
 | 2026.11 | [CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning](https://arxiv.org/abs/2611.14678 "A CNN trained on simulated Einstein crosses estimates lens and source parameters and is evaluated on 21 images of 19 real lenses, including NGC 6505.") | arXiv 2026 | [Code](https://github.com/CosmoAI-AES/CosmoSim) | - |
 | 2026.11 | [Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) A: Strong lens catalogue overview](https://arxiv.org/abs/2611.15883 "Euclid ECLIPSE combines five machine-learning models with citizen-science and expert grading to identify 15,072 high-confidence or probable strong lens candidates.") | arXiv 2026 | - | - |
 | 2026.11 | [Euclid Data Release 1 (DR1). Euclid Lens Identification Pipeline and Scientific Exploration (ECLIPSE) B: Discovery pipeline overview](https://arxiv.org/abs/2611.15886 "The Euclid ECLIPSE discovery pipeline uses neural-network screening, two citizen-science stages, expert grading and injected mock lenses to measure completeness.") | arXiv 2026 | - | - |
