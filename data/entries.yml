@@ -1970,6 +1970,12 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - title: 'Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.18487
+      Code: https://github.com/atulit19/U-Net-Mass-Maps-HST-CLASH
+    desc: 'Trains U-Nets on mock HST imaging of 3,273 hydrodynamical-simulation halos and compares the mass maps of 21 CLASH clusters with lensing reconstructions.'
   - title: 'ViViViT: a Video-to-Video Vision Transformer for Cosmological Lightcone Reconstruction'
     venue: arXiv 2026
     links:
