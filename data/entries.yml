@@ -1066,6 +1066,11 @@ sections:
       desc: DINOv2 light-curve embeddings, isolation forests and multimodal LLM agents that vet anomaly candidates.
   - title: Physical Properties and Photometric Redshifts
     entries:
+    - title: 'Unsupervised learning reveals a small number of galaxy formation pathways in IllustrisTNG'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.17559
+      desc: 'Uses UMAP and k-means on star-formation histories of roughly 10,000 IllustrisTNG galaxies to identify six groups with distinct assembly histories.'
     - title: 'MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts'
       venue: arXiv 2026
       links:
