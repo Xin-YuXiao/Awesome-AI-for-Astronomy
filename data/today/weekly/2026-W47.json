@@ -3,29 +3,33 @@
  "start": "2026-11-16",
  "end": "2026-11-22",
  "final": false,
- "count": 8,
+ "count": 14,
  "topics": {
-  "Cosmology and Large-Scale Structure": 3,
+  "Cosmology and Large-Scale Structure": 4,
+  "Stars and Stellar Spectroscopy": 2,
   "Gravitational Lensing": 2,
+  "Galaxies": 2,
   "Time-Domain Astronomy and Transients": 1,
-  "Stars and Stellar Spectroscopy": 1,
-  "Galaxies": 1
+  "Simulation-Based Inference": 1,
+  "High-Energy Astrophysics and Astroparticle Physics": 1,
+  "Observing and Instrumentation": 1
  },
- "overview": "Euclid DR1 dominates with two strong-lens papers: a transformer-CNN segmentation pipeline and a CNN ablation/ensemble yielding 11,256 grade A/B candidates. Other work applies ML to cluster mass maps, LSST Y1 Galileon emulation, FLAMINGO catalogue augmentation, unsupervised FRB/galaxy classification, and symbolic regression for Roche lobe radii.",
+ "overview": "Euclid DR1 papers report CNN strong-lens detection and transformer segmentation; cosmology uses Gaussian-process and neural emulators; unsupervised learning classifies FRBs and IllustrisTNG galaxies; simulation-based inference and neural surrogates model chemical evolution and supernova equations of state.",
  "themes": [
-  "Euclid DR1 strong-lens detection and segmentation",
-  "ML emulation for cosmology",
-  "Unsupervised classification of transients and galaxies",
-  "Simulation-based galaxy catalogue modelling",
-  "Symbolic regression for stellar astrophysics"
+  "Euclid strong-lens detection and segmentation",
+  "Cosmological emulators for LSST and modified gravity",
+  "Unsupervised classification of FRBs and galaxy formation pathways",
+  "Simulation-based inference and neural equation-of-state surrogates",
+  "Neural stellar spectroscopy and spectral models"
  ],
  "highlights": [
-  "2611.17894",
   "2611.17420",
+  "2611.17894",
+  "2611.20633",
+  "2611.19400",
   "2611.18211",
-  "2611.17425",
-  "2611.17997"
+  "2611.21175"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-16T10:08:53+00:00"
+ "updated": "2026-11-17T10:08:32+00:00"
 }

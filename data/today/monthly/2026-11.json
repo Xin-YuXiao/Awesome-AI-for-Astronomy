@@ -3,44 +3,44 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 63,
+ "count": 69,
  "topics": {
-  "Galaxies": 8,
-  "Cosmology and Large-Scale Structure": 7,
+  "Galaxies": 9,
+  "Cosmology and Large-Scale Structure": 8,
+  "Stars and Stellar Spectroscopy": 6,
   "Gravitational Lensing": 6,
-  "Stars and Stellar Spectroscopy": 5,
+  "Simulation-Based Inference": 5,
   "Gravitational Waves": 5,
   "Solar Physics and Heliophysics": 4,
-  "Simulation-Based Inference": 4,
+  "High-Energy Astrophysics and Astroparticle Physics": 4,
   "Foundation Models and Representation Learning": 3,
-  "High-Energy Astrophysics and Astroparticle Physics": 3,
   "Benchmarks": 3,
   "Language and Vision-Language Models": 3,
+  "Observing and Instrumentation": 3,
   "Agents and Retrieval Systems": 2,
   "Time-Domain Astronomy and Transients": 2,
   "Radio Astronomy": 2,
-  "Observing and Instrumentation": 2,
   "Source Detection, Deblending and Image Simulation": 1,
   "Exoplanets": 1,
   "Planetary Science and Small Bodies": 1,
   "Datasets": 1
  },
- "overview": "Euclid DR1 strong lensing continues to dominate, with the ECLIPSE catalogue of 15,072 candidates, a transformer-CNN segmentation pipeline for mass modelling, and a CNN ablation study. Benchmarks released include COSMIO for cross-survey imputation (LSST/Euclid/Roman) and the FAIR Universe weak-lensing uncertainty challenge. Method work spans normalizing flows for DESI DR1 tomographic N(z), field-level generative corrections, neural-operator and UNet surrogates for MHD turbulence and rotating neutron stars, neural posterior estimation for gravitational-wave tests of general relativity, and equivariant spherical Fourier neural operators.",
+ "overview": "Euclid DR1 strong-lens work dominates: a catalogue of 15,072 candidates from neural classifiers, citizen science and expert grading, plus transformer segmentation. Cosmology and inference papers use normalizing flows, simulation-based inference and neural operators or surrogates for N(z), weak lensing, MHD, supernova equations of state and gravitational waves. New benchmarks and releases include COSMIO, the FAIR Universe weak-lensing challenge, Survey of Surveys DR3, and differentiable galpy backends.",
  "themes": [
-  "Euclid DR1 strong-lens detection pipelines",
+  "Euclid DR1 strong-lens catalogues",
   "Simulation-based inference and neural surrogates",
-  "Cross-survey benchmarks and imputation",
-  "LLM agents and literature extraction",
-  "Gravitational-wave posterior and waveform acceleration"
+  "Cross-survey benchmarks and weak-lensing challenges",
+  "Spectroscopic surveys and stellar-label models",
+  "Differentiable and LLM research tooling"
  ],
  "highlights": [
   "2611.15883",
-  "2611.04139",
   "2611.10228",
+  "2611.04139",
   "2611.07936",
   "2611.14614",
-  "2611.04389"
+  "2611.04713"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-16T10:08:58+00:00"
+ "updated": "2026-11-17T10:08:39+00:00"
 }

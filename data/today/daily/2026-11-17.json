@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-17",
+ "papers": [
+  {
+   "id": "2611.21175",
+   "title": "A COMPASS to the Galaxy: Joint nucleosynthetic yield set comparison and parameter inference in Galactic chemical evolution",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.IM",
+    "cs.LG",
+    "physics.data-an"
+   ],
+   "published": "2026-11-16T14:34:49Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Berkay Günes",
+    "Giuseppe Viterbo",
+    "Sven Buder",
+    "Tobias Buck"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Score-based diffusion simulation-based inference jointly compares nucleosynthetic yield sets and infers Galactic chemical evolution parameters, favoring hybrid NuGrid+IllustrisTNG yields for Milky Way data.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.20633",
+   "title": "Model-Driven Stellar Spectroscopy with the Total Differential Spectral Model (TDSM): Framework and Its Application to 11 Million LAMOST Low-Resolution Spectra",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-16T06:54:20Z",
+   "comment": "",
+   "journal_ref": "ApJS, 287, 24 (2026)",
+   "doi": "10.3847/1538-4365/aeab87",
+   "links": [],
+   "authors": [
+    "Lanya Mou",
+    "Maosheng Xiang",
+    "Haibo Yuan",
+    "Tianmin Wu",
+    "Meng Zhang"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "A physically motivated neural network emulates Kurucz flux and derivatives, deriving eight stellar labels for 11 million LAMOST low-resolution spectra.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.19400",
+   "title": "Neural Surrogates for Tabulated Nuclear Equations of State in Core-Collapse Supernova Simulations",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.IM",
+    "physics.comp-ph"
+   ],
+   "published": "2026-11-14T13:34:17Z",
+   "comment": "15 pages, 14 figures, accepted for publication in PASJ",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Youhei Masada",
+    "Jin Matsumoto",
+    "Tomoya Takiwaki"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Neural surrogate replaces tabulated nuclear equation of state in core-collapse supernova simulations, reproducing shock-tube and collapse dynamics while cutting EOS memory about 1500-fold.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.19211",
+   "title": "From Non-parametric Statistics to Images: Generating Galaxy Morphologies",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-14T07:02:57Z",
+   "comment": "19 pages, 8 figures,accepted for publication in Universe",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Quanfeng Xu",
+    "Mi Chen",
+    "Renhao Ye",
+    "Siyuan Chen",
+    "Nan Li",
+    "Shiyin Shen"
+   ],
+   "n_authors": 6,
+   "relevant": true,
+   "summary": "Flow-VAE combines a variational autoencoder and conditional normalizing flow to generate galaxy images matching prescribed CAS, Gini, and M20 statistics.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.19117",
+   "title": "Testing General Relativity by Reconstructing Dark Energy and the Growth Index with Physics-Informed Neural Networks",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "gr-qc"
+   ],
+   "published": "2026-11-14T03:01:35Z",
+   "comment": "35 pages, 13 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Andronikos Paliathanasis"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "Physics-informed neural networks reconstruct dark energy and growth index from DESI DR2 BAO, cosmic chronometers, supernovae, and redshift-space distortions, finding suppressed structure growth.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.18968",
+   "title": "Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-13T21:53:16Z",
+   "comment": "14 pages, 15 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Anna M. Heckel",
+    "Chris J. Pate",
+    "Jungmin Kim",
+    "Peter T. Timbie",
+    "Zongfu Yu"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "A deep neural network predicts phased-array beam patterns from antenna design, positions, frequency, and measured scattering parameters, accounting for mutual coupling.",
+   "topic": "Observing and Instrumentation",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.20166",
+   "title": "Euclid Data Release 1 (DR1). Double-source-plane lens candidates"
+  }
+ ],
+ "updated": "2026-11-17T10:08:30+00:00",
+ "model": "deepseek-flash"
+}
