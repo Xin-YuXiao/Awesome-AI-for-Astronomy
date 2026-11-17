@@ -4,14 +4,13 @@ name: AstroAI Today
 # refresh the weekly and monthly digests, commit data/today/ and rebuild the web page.
 
 on:
-  # arXiv announces new papers at 20:00 US Eastern time (00:00 or 01:00 UTC). The runs fall in
-  # DeepSeek off-peak hours; peak pricing applies 01:00-04:00 and 06:00-10:00 UTC on weekdays,
-  # and a run that GitHub delays into those hours does nothing. The later runs pick up anything
-  # an earlier one missed, and a run with nothing new commits nothing.
+  # arXiv announces new papers at 20:00 US Eastern time (00:00 or 01:00 UTC). GitHub often starts
+  # scheduled runs hours late, so the workflow is scheduled every hour and the first run in DeepSeek
+  # off-peak hours after the announcement does the work. Peak pricing applies 01:00-04:00 and
+  # 06:00-10:00 UTC on weekdays; a run in those hours exits before calling the model, and a run
+  # with nothing new commits nothing.
   schedule:
-    - cron: "13 4 * * *"
-    - cron: "47 10 * * *"
-    - cron: "29 17 * * *"
+    - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       backfill:
