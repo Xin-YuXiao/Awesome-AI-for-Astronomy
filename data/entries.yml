@@ -2368,6 +2368,14 @@ sections:
     desc: Extremely randomized trees for centrals and a Gaussian-process emulator with feature selection for satellites predict stellar-mass distributions from halo properties, producing a galaxy catalogue for the 2.8 Gpc FLAMINGO-10k dark-matter-only run.
 - title: Simulation-Based Inference
   entries:
+  - name: COMPASS
+    title: 'A COMPASS to the Galaxy: Joint nucleosynthetic yield set comparison and parameter inference in Galactic chemical evolution'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.21175
+      Code: https://github.com/bGuenes/COMPASS
+      Model: https://zenodo.org/records/18718146
+    desc: A conditional score-based diffusion transformer learns likelihoods and posteriors from simulations to compare stellar yield sets and infer Galactic chemical evolution parameters.
   - name: pydelfi
     title: Fast Likelihood-free Cosmology with Neural Density Estimators and Active Learning
     venue: MNRAS 2019
