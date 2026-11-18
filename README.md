@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 430 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 436 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -246,6 +246,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | **Flow-VAE** [From Non-parametric Statistics to Images: Generating Galaxy Morphologies](https://arxiv.org/abs/2611.19211 "A variational autoencoder and conditional normalizing flow learn to generate galaxy images with specified morphology statistics from 240,000 DESI Legacy Surveys r-band images.") | arXiv 2026 | [Code](https://github.com/xuquanfeng/Galaxy_Flow_VAE) | [Data](https://www.legacysurvey.org/) |
 | 2026.08 | [A General-Purpose VLM Can Teach an Astronomy Foundation Model to Better Recognize Galaxy Morphology](https://arxiv.org/abs/2608.02300 "Distils a general-purpose VLM answering Galaxy Zoo decision tree questions into Zoobot through side tuning, with teacher uncertainty guiding which galaxies are sent for human labels.") | arXiv 2026 | - | - |
 | 2025.03 | [Euclid Q1: Exploring Galaxy Morphology across Cosmic Time through Sersic Fits](https://arxiv.org/abs/2503.15309 "Euclid Q1 morphology study listed among Zoobot applications.") | arXiv 2025 | - | - |
 | 2025.03 | [Euclid Q1: First Visual Morphology Catalogue](https://arxiv.org/abs/2503.15310 "First Euclid visual morphology catalogue produced with Galaxy Zoo volunteers and Zoobot.") | arXiv 2025 | - | - |
@@ -319,6 +320,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Euclid Data Release 1 (DR1). Double-source-plane lens candidates](https://arxiv.org/abs/2611.20166 "Machine-learning lens-candidate selection, visual vetting and lens modelling identify 84 double-source-plane candidates in Euclid DR1, including 11 gold candidates with two sets of multiple images.") | arXiv 2026 | - | [Data](https://www.cosmos.esa.int/web/euclid/data-release-dr1) |
 | 2026.11 | [Euclid Data Release 1 (DR1). Enhancing deep-learning models: the impact of image processing and training data selection for strong-lens detection](https://arxiv.org/abs/2611.17420 "Ablation study of the ECLIPSE lens-finding CNN covering image representation, file format, negative selection and multi-stage training; a VIS-only and pseudo-RGB ensemble over about 67 million DR1 cutouts recovers 11,256 grade A and B lenses.") | arXiv 2026 | - | - |
 | 2026.11 | **AstroVink-TREX** [Euclid Data Release 1 (DR1). AstroVink-TREX: Automated strong gravitational lens segmentation as input for mass modelling pipelines](https://arxiv.org/abs/2611.17894 "A vision-transformer encoder with a parallel convolutional branch separates lens light, lensed source and contaminants in Euclid DR1 lenses, and segmentation errors cause 39 failed models among about 3,000 inspected systems.") | arXiv 2026 | - | - |
 | 2026.11 | [CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning](https://arxiv.org/abs/2611.14678 "A CNN trained on simulated Einstein crosses estimates lens and source parameters and is evaluated on 21 images of 19 real lenses, including NGC 6505.") | arXiv 2026 | [Code](https://github.com/CosmoAI-AES/CosmoSim) | - |
@@ -381,6 +383,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | **TDSM** [Model-Driven Stellar Spectroscopy with the Total Differential Spectral Model (TDSM): Framework and Its Application to 11 Million LAMOST Low-Resolution Spectra](https://arxiv.org/abs/2611.20633 "A neural emulator of Kurucz fluxes and their first-order derivatives infers eight stellar labels from 11 million low-resolution LAMOST DR10 spectra of eight million stars.") | **ApJS 2026** | - | [Journal](https://doi.org/10.3847/1538-4365/aeab87) [Data](https://www.lamost.org/dr10/) |
 | 2026.11 | [Symbolic Regression Fitting for Roche Lobe Radius](https://arxiv.org/abs/2611.17997 "Symbolic regression on radii computed from the full Roche potential gives a compact Roche-lobe formula that lowers the RMS error of Eggleton's approximation from 1.97e-3 to 5.95e-4 over mass ratios from 1e-5 to 1e5.") | arXiv 2026 | [Code](https://github.com/Iceberg0716/SRLochelobe) | - |
 | 2026.11 | [Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument](https://arxiv.org/abs/2611.14639 "An XGBoost model predicts intrinsic stellar colors from DESI spectroscopic parameters to estimate reddening and constrain extinction curves at high Galactic latitude.") | arXiv 2026 | - | - |
 | 2026.05 | [Spectra as Language: Large Language Models for Scalable Stellar Parameter and Abundance Inference](https://arxiv.org/abs/2605.22162 "Fine-tunes a large language model on LAMOST low-resolution spectra in two stages to infer stellar parameters and elemental abundances, validated against Gaia-ESO and GALAH DR4.") | arXiv 2026 | - | - |
@@ -472,6 +475,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | **Cosmo-PINN** [Testing General Relativity by Reconstructing Dark Energy and the Growth Index with Physics-Informed Neural Networks](https://arxiv.org/abs/2611.19117 "Cosmo-PINN reconstructs the dark-energy equation of state and the growth index from DESI DR2 BAO, cosmic chronometers, SNe Ia and redshift-space distortions, and compares growth predicted by general relativity with growth from the reconstructed index on a shared background.") | arXiv 2026 | - | - |
 | 2026.11 | [Cubic Galileon Gravity on Nonlinear Scales with Hi-COLA for LSST Year 1](https://arxiv.org/abs/2611.18211 "Trains a Gaussian-process emulator on Hi-COLA simulations for the nonlinear Cubic Galileon matter power-spectrum boost and validates it with LSST Y1 mock analyses.") | arXiv 2026 | [Code](https://github.com/LSSTDESC/CubicGalileonEmu) [Forecast Code](https://github.com/CarolaZano/CubicGalileon_Forecasts) | - |
 | 2026.11 | [Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations](https://arxiv.org/abs/2611.18487 "U-Nets trained on mock optical images of hydrodynamical-simulation clusters reconstruct total mass maps and subhalo mass functions, and maps for HST CLASH clusters agree with independent lensing measurements.") | arXiv 2026 | [Code](https://github.com/atulit19/U-Net-Mass-Maps-HST-CLASH) | - |
 | 2026.11 | [ViViViT: a Video-to-Video Vision Transformer for Cosmological Lightcone Reconstruction](https://arxiv.org/abs/2611.14617 "A video-to-video vision transformer separates spatial and line-of-sight attention to reconstruct matter density from simulated 21-cm lightcones at redshifts 7.66–16.") | arXiv 2026 | - | - |
@@ -531,6 +535,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | **COMPASS** [A COMPASS to the Galaxy: Joint nucleosynthetic yield set comparison and parameter inference in Galactic chemical evolution](https://arxiv.org/abs/2611.21175 "A conditional score-based diffusion transformer learns likelihoods and posteriors from simulations to compare stellar yield sets and infer Galactic chemical evolution parameters.") | arXiv 2026 | [Code](https://github.com/bGuenes/COMPASS) | [Model](https://zenodo.org/records/18718146) |
 | 2024.02 | [LtU-ILI: An All-in-One Framework for Implicit Inference in Astrophysics and Cosmology](https://arxiv.org/abs/2402.05137 "Unified interface over sbi, pydelfi and lampe with validation and calibration tools.") | **OJAp 2024** | [Code](https://github.com/maho3/ltu-ili) | [Journal](https://doi.org/10.33232/001c.120559) |
 | 2023.12 | [nbi: The Astronomer's Package for Neural Posterior Estimation](https://arxiv.org/abs/2312.03824 "Neural posterior estimation package with featurizers for light curves and spectra.") | **NeurIPS 2023 Workshop (DLIP)** | [Code](https://github.com/kmzzhang/nbi) | - |
 | 2023.06 | [nautilus: Boosting Bayesian Importance Nested Sampling with Deep Learning](https://arxiv.org/abs/2306.16923 "Importance nested sampling with neural network emulation of the likelihood contours.") | **MNRAS 2023** | [Code](https://github.com/johannesulf/nautilus) | [Journal](https://doi.org/10.1093/mnras/stad2441) |
@@ -548,6 +553,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Neural Surrogates for Tabulated Nuclear Equations of State in Core-Collapse Supernova Simulations](https://arxiv.org/abs/2611.19400 "A neural surrogate with about 10^4 parameters replaces the Lattimer-Swesty equation-of-state table, reproducing shock-tube solutions with hydrodynamic errors near 10^-3 and cutting storage from about 160 MB to 100 KB.") | arXiv 2026 | - | - |
 | 2026.11 | [Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog](https://arxiv.org/abs/2611.16539 "A hexagonal self-organizing map trained on 36,904 Chandra ACIS detections supports an abstaining classifier for X-ray sources.") | arXiv 2026 | [Code](https://github.com/andreascaudo/SOM-CSC) | - |
 | 2026.10 | **GammaLearn** [Deep Learning for Cherenkov Astronomy: Performance of GammaLearn on LST-1](https://arxiv.org/abs/2610.10392 "Applies the gamma-PhysNet CNN to LST-1 Crab Nebula observations, improving sensitivity over the random forest analysis below 1 TeV.") | arXiv 2026 | - | - |
 | 2026.09 | **candela** [A Differentiable Neural Surrogate for Photon Propagation in Neutrino Telescopes](https://arxiv.org/abs/2609.04695 "SIREN neural field that learns the IceCube photon Green function, predicting photon yield and arrival-time distributions for a point energy deposit and sensor.") | arXiv 2026 | - | - |
@@ -665,7 +671,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
-| 2026.11 | [Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning](https://arxiv.org/abs/2611.18968 "A deep neural network predicts the beams of a three-dipole array from scattering parameters and array geometry, with a held-out simulation RMSE of 1.89 dBi when the inputs are exact.") | arXiv 2026 | - | - |
+| 2026.11 | [Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning](https://arxiv.org/abs/2611.18968 "A deep neural network predicts the array patterns of a three-dipole phased array from antenna design, positions, frequency and measured scattering parameters, with tests of sensitivity to position and scattering-parameter errors.") | arXiv 2026 | - | - |
 | 2026.11 | [Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps](https://arxiv.org/abs/2611.14987 "A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.") | arXiv 2026 | [Code](https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations) | - |
 | 2026.11 | [MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations](https://arxiv.org/abs/2611.14710 "A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.") | arXiv 2026 | [Code](https://github.com/francescomonastra/MAGI) | - |
 

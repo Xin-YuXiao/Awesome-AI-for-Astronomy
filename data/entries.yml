@@ -2024,7 +2024,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.19117
-    desc: A physics-informed network uses a shared cosmological background to compare general-relativistic and data-driven reconstructions of structure growth from redshift-space distortions.
+    desc: Cosmo-PINN reconstructs the dark-energy equation of state and the growth index from DESI DR2 BAO, cosmic chronometers, SNe Ia and redshift-space distortions, and compares growth predicted by general relativity with growth from the reconstructed index on a shared background.
   - title: Cubic Galileon Gravity on Nonlinear Scales with Hi-COLA for LSST Year 1
     venue: arXiv 2026
     links:
@@ -2457,7 +2457,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.19400
-    desc: A small neural surrogate replaces the LS220 nuclear equation-of-state table, reproducing one-dimensional shock-tube solutions at relative errors of about 0.001 and reducing storage from about 160 MB to 100 KB.
+    desc: A neural surrogate with about 10^4 parameters replaces the Lattimer-Swesty equation-of-state table, reproducing shock-tube solutions with hydrodynamic errors near 10^-3 and cutting storage from about 160 MB to 100 KB.
   - title: Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog
     venue: arXiv 2026
     links:
@@ -2992,7 +2992,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.18968
-    desc: A deep neural network predicts the beams of a three-dipole array from scattering parameters and array geometry, with a held-out simulation RMSE of 1.89 dBi when the inputs are exact.
+    desc: A deep neural network predicts the array patterns of a three-dipole phased array from antenna design, positions, frequency and measured scattering parameters, with tests of sensitivity to position and scattering-parameter errors.
   - title: 'Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps'
     venue: arXiv 2026
     links:
