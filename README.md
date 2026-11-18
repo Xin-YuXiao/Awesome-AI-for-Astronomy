@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 429 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 430 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -665,6 +665,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning](https://arxiv.org/abs/2611.18968 "A deep neural network predicts the beams of a three-dipole array from scattering parameters and array geometry, with a held-out simulation RMSE of 1.89 dBi when the inputs are exact.") | arXiv 2026 | - | - |
 | 2026.11 | [Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps](https://arxiv.org/abs/2611.14987 "A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.") | arXiv 2026 | [Code](https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations) | - |
 | 2026.11 | [MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations](https://arxiv.org/abs/2611.14710 "A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.") | arXiv 2026 | [Code](https://github.com/francescomonastra/MAGI) | - |
 

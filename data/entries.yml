@@ -2947,6 +2947,11 @@ sections:
     desc: DeepONet thermophysical model of water sublimation, fitted with simulated annealing to the water production curves of 28 comets to estimate nucleus sizes.
 - title: Observing and Instrumentation
   entries:
+  - title: Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.18968
+    desc: A deep neural network predicts the beams of a three-dipole array from scattering parameters and array geometry, with a held-out simulation RMSE of 1.89 dBi when the inputs are exact.
   - title: 'Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps'
     venue: arXiv 2026
     links:
