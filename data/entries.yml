@@ -1541,6 +1541,14 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
+  - name: TDSM
+    title: 'Model-Driven Stellar Spectroscopy with the Total Differential Spectral Model (TDSM): Framework and Its Application to 11 Million LAMOST Low-Resolution Spectra'
+    venue: ApJS 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.20633
+      Journal: https://doi.org/10.3847/1538-4365/aeab87
+      Data: https://www.lamost.org/dr10/
+    desc: A neural emulator of Kurucz fluxes and their first-order derivatives infers eight stellar labels from 11 million low-resolution LAMOST DR10 spectra of eight million stars.
   - title: Symbolic Regression Fitting for Roche Lobe Radius
     venue: arXiv 2026
     links:

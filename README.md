@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 429 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 430 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -381,6 +381,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | **TDSM** [Model-Driven Stellar Spectroscopy with the Total Differential Spectral Model (TDSM): Framework and Its Application to 11 Million LAMOST Low-Resolution Spectra](https://arxiv.org/abs/2611.20633 "A neural emulator of Kurucz fluxes and their first-order derivatives infers eight stellar labels from 11 million low-resolution LAMOST DR10 spectra of eight million stars.") | **ApJS 2026** | - | [Journal](https://doi.org/10.3847/1538-4365/aeab87) [Data](https://www.lamost.org/dr10/) |
 | 2026.11 | [Symbolic Regression Fitting for Roche Lobe Radius](https://arxiv.org/abs/2611.17997 "Symbolic regression on radii computed from the full Roche potential gives a compact Roche-lobe formula that lowers the RMS error of Eggleton's approximation from 1.97e-3 to 5.95e-4 over mass ratios from 1e-5 to 1e5.") | arXiv 2026 | [Code](https://github.com/Iceberg0716/SRLochelobe) | - |
 | 2026.11 | [Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument](https://arxiv.org/abs/2611.14639 "An XGBoost model predicts intrinsic stellar colors from DESI spectroscopic parameters to estimate reddening and constrain extinction curves at high Galactic latitude.") | arXiv 2026 | - | - |
 | 2026.05 | [Spectra as Language: Large Language Models for Scalable Stellar Parameter and Abundance Inference](https://arxiv.org/abs/2605.22162 "Fine-tunes a large language model on LAMOST low-resolution spectra in two stages to infer stellar parameters and elemental abundances, validated against Gaia-ESO and GALAH DR4.") | arXiv 2026 | - | - |
