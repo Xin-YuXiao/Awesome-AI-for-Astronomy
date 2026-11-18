@@ -1997,6 +1997,12 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - name: Cosmo-PINN
+    title: Testing General Relativity by Reconstructing Dark Energy and the Growth Index with Physics-Informed Neural Networks
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.19117
+    desc: A physics-informed network uses a shared cosmological background to compare general-relativistic and data-driven reconstructions of structure growth from redshift-space distortions.
   - title: Cubic Galileon Gravity on Nonlinear Scales with Hi-COLA for LSST Year 1
     venue: arXiv 2026
     links:
