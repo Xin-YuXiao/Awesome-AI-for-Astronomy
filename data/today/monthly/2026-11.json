@@ -3,44 +3,44 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 69,
+ "count": 74,
  "topics": {
-  "Galaxies": 9,
+  "Galaxies": 10,
   "Cosmology and Large-Scale Structure": 8,
   "Stars and Stellar Spectroscopy": 6,
   "Gravitational Lensing": 6,
   "Simulation-Based Inference": 5,
+  "High-Energy Astrophysics and Astroparticle Physics": 5,
   "Gravitational Waves": 5,
+  "Observing and Instrumentation": 5,
   "Solar Physics and Heliophysics": 4,
-  "High-Energy Astrophysics and Astroparticle Physics": 4,
   "Foundation Models and Representation Learning": 3,
   "Benchmarks": 3,
+  "Radio Astronomy": 3,
   "Language and Vision-Language Models": 3,
-  "Observing and Instrumentation": 3,
   "Agents and Retrieval Systems": 2,
   "Time-Domain Astronomy and Transients": 2,
-  "Radio Astronomy": 2,
   "Source Detection, Deblending and Image Simulation": 1,
   "Exoplanets": 1,
   "Planetary Science and Small Bodies": 1,
   "Datasets": 1
  },
- "overview": "Euclid DR1 strong-lens work dominates: a catalogue of 15,072 candidates from neural classifiers, citizen science and expert grading, plus transformer segmentation. Cosmology and inference papers use normalizing flows, simulation-based inference and neural operators or surrogates for N(z), weak lensing, MHD, supernova equations of state and gravitational waves. New benchmarks and releases include COSMIO, the FAIR Universe weak-lensing challenge, Survey of Surveys DR3, and differentiable galpy backends.",
+ "overview": "November combined survey-scale catalogues with simulation-based and generative inference. Euclid DR1 produced strong-lens catalogues and segmentation pipelines; DESI DR1 photometry fed normalizing-flow tomographic N(z), while SBi3PCF and the FAIR Universe challenge addressed weak-lensing inference. Benchmarks included COSMIO cross-survey imputation and the Agentic Observer hackathon. Neural surrogates and operators covered MHD turbulence, rotating neutron stars, supernova equations of state and compact-binary waveforms; LLM pipelines produced dark-matter and galaxy-discussion registries, and Survey of Surveys DR3 homogenised nine spectroscopic surveys.",
  "themes": [
   "Euclid DR1 strong-lens catalogues",
-  "Simulation-based inference and neural surrogates",
-  "Cross-survey benchmarks and weak-lensing challenges",
-  "Spectroscopic surveys and stellar-label models",
-  "Differentiable and LLM research tooling"
+  "Simulation-based and generative inference",
+  "Neural surrogates and operators",
+  "Cross-survey benchmarks and catalogues",
+  "LLM agents and foundation models"
  ],
  "highlights": [
   "2611.15883",
-  "2611.10228",
   "2611.04139",
+  "2611.10228",
   "2611.07936",
   "2611.14614",
-  "2611.04713"
+  "2611.10861"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-17T10:08:39+00:00"
+ "updated": "2026-11-18T04:11:31+00:00"
 }

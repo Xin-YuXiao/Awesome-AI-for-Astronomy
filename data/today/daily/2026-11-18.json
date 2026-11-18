@@ -1,0 +1,113 @@
+{
+ "date": "2026-11-18",
+ "papers": [
+  {
+   "id": "2611.23069",
+   "title": "RevolIACT: a longitudinally distributed array of compact AI-driven Cherenkov telescopes for the time-domain sub-TeV sky",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-17T16:57:36Z",
+   "comment": "23 pages, 6 figures, 6 tables. Submitted for publication. Companion paper: E. Jobst et al., \"A transformer analysis lowers the energy threshold and improves the sensitivity of a compact imaging atmospheric Cherenkov telescope\", Submitted for publication",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "David Paneque",
+    "Elli Jobst",
+    "Lukas Heinrich",
+    "Alexander Hahn"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "A longitudinally distributed array of compact AI-driven Cherenkov stations is assessed for sub-TeV transient coverage, relying on video-transformer analysis to reach required sensitivity.",
+   "topic": "Observing and Instrumentation",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.23047",
+   "title": "A transformer analysis lowers the energy threshold and improves the sensitivity of a compact imaging atmospheric Cherenkov telescope",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-17T16:44:56Z",
+   "comment": "12 pages, 6 figures, 3 tables. Submitted for publication",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Elli Jobst",
+    "David Paneque",
+    "Lukas Heinrich"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Video vision transformer analysis of raw Cherenkov waveforms lowers the energy threshold and improves sensitivity of a compact 5 m telescope versus standard analysis.",
+   "topic": "Observing and Instrumentation",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.22833",
+   "title": "Search for UHE photon sources using direction-time clustering algorithms with a BDT particle discriminant",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-17T14:17:00Z",
+   "comment": "8 pages, 5 figures, presented at the 29th European Cosmic Ray Symposium (ECRS2026)",
+   "journal_ref": "PoS (ECRS2026) 041",
+   "doi": "10.22323/1.528.0041",
+   "links": [],
+   "authors": [
+    "Chaitanya Priyadarshi",
+    "Jarosław Stasielak",
+    "Nataliia Borodai",
+    "Megha Mogarkar",
+    "Jan Pękala",
+    "Dariusz Góra"
+   ],
+   "n_authors": 7,
+   "relevant": true,
+   "summary": "Direction-time clustering with a boosted decision tree photon discriminant improves ultra-high-energy photon-flare searches and reduces the number of events needed.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.22300",
+   "title": "The Role of Galactic Shear in Regulating Local Star Formation Efficiency: A Combined MaNGA DynPop and ALMaQUEST Study",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-17T06:55:51Z",
+   "comment": "23 pages, 6+2 figures, 1 table. Accepted for publication in ApJ",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Kai Zhu",
+    "Shude Mao",
+    "Michele Cappellari",
+    "Sara L. Ellison",
+    "Tao Jing",
+    "Lihwai Lin"
+   ],
+   "n_authors": 11,
+   "relevant": true,
+   "summary": "Random forest regression on MaNGA and ALMaQUEST data identifies galactic shear as the dynamical property most associated with lower local star formation efficiency.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.21733",
+   "title": "Baryonification V: Thermal Sunyaev-Zel'dovich maps from dark-matter-only lightcones"
+  }
+ ],
+ "updated": "2026-11-18T04:11:23+00:00",
+ "model": "deepseek-flash"
+}

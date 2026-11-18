@@ -3,24 +3,25 @@
  "start": "2026-11-16",
  "end": "2026-11-22",
  "final": false,
- "count": 14,
+ "count": 19,
  "topics": {
   "Cosmology and Large-Scale Structure": 4,
+  "Galaxies": 3,
+  "Observing and Instrumentation": 3,
   "Stars and Stellar Spectroscopy": 2,
   "Gravitational Lensing": 2,
-  "Galaxies": 2,
+  "High-Energy Astrophysics and Astroparticle Physics": 2,
   "Time-Domain Astronomy and Transients": 1,
   "Simulation-Based Inference": 1,
-  "High-Energy Astrophysics and Astroparticle Physics": 1,
-  "Observing and Instrumentation": 1
+  "Radio Astronomy": 1
  },
- "overview": "Euclid DR1 papers report CNN strong-lens detection and transformer segmentation; cosmology uses Gaussian-process and neural emulators; unsupervised learning classifies FRBs and IllustrisTNG galaxies; simulation-based inference and neural surrogates model chemical evolution and supernova equations of state.",
+ "overview": "Euclid DR1 strong-lens work dominates, with CNN/vision-transformer segmentation and a catalogue of 11,256 lenses. Other papers apply Gaussian-process and neural emulators to Hi-COLA and core-collapse supernova equations of state, plus unsupervised and symbolic methods on IllustrisTNG, FRB and LAMOST data, and generate FLAMINGO galaxy catalogues.",
  "themes": [
-  "Euclid strong-lens detection and segmentation",
-  "Cosmological emulators for LSST and modified gravity",
-  "Unsupervised classification of FRBs and galaxy formation pathways",
-  "Simulation-based inference and neural equation-of-state surrogates",
-  "Neural stellar spectroscopy and spectral models"
+  "Euclid DR1 strong-lens detection and segmentation",
+  "Emulators and neural surrogates for simulations",
+  "Unsupervised and symbolic regression in astrophysics",
+  "Stellar spectroscopy and large catalogues",
+  "ML for time-domain and high-energy instrumentation"
  ],
  "highlights": [
   "2611.17420",
@@ -28,8 +29,8 @@
   "2611.20633",
   "2611.19400",
   "2611.18211",
-  "2611.21175"
+  "2611.17425"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-17T10:08:32+00:00"
+ "updated": "2026-11-18T04:11:25+00:00"
 }
