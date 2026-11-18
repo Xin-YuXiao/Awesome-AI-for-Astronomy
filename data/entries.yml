@@ -859,6 +859,14 @@ sections:
   subsections:
   - title: Morphology and Catalogues
     entries:
+    - name: Flow-VAE
+      title: 'From Non-parametric Statistics to Images: Generating Galaxy Morphologies'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.19211
+        Code: https://github.com/xuquanfeng/Galaxy_Flow_VAE
+        Data: https://www.legacysurvey.org/
+      desc: A variational autoencoder and conditional normalizing flow learn to generate galaxy images with specified morphology statistics from 240,000 DESI Legacy Surveys r-band images.
     - name: GaMorNet
       title: 'Galaxy Morphology Network: A Convolutional Neural Network Used to Study Morphology and Quenching in ~100,000 SDSS and ~20,000 CANDELS Galaxies'
       venue: ApJ 2020
