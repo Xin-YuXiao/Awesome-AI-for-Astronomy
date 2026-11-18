@@ -2417,6 +2417,11 @@ sections:
     desc: Unified interface over sbi, pydelfi and lampe with validation and calibration tools.
 - title: High-Energy Astrophysics and Astroparticle Physics
   entries:
+  - title: Neural Surrogates for Tabulated Nuclear Equations of State in Core-Collapse Supernova Simulations
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.19400
+    desc: A small neural surrogate replaces the LS220 nuclear equation-of-state table, reproducing one-dimensional shock-tube solutions at relative errors of about 0.001 and reducing storage from about 160 MB to 100 KB.
   - title: Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog
     venue: arXiv 2026
     links:
