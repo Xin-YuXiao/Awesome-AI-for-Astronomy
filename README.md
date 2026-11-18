@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 429 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 430 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -531,6 +531,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | **COMPASS** [A COMPASS to the Galaxy: Joint nucleosynthetic yield set comparison and parameter inference in Galactic chemical evolution](https://arxiv.org/abs/2611.21175 "A conditional score-based diffusion transformer learns likelihoods and posteriors from simulations to compare stellar yield sets and infer Galactic chemical evolution parameters.") | arXiv 2026 | [Code](https://github.com/bGuenes/COMPASS) | [Model](https://zenodo.org/records/18718146) |
 | 2024.02 | [LtU-ILI: An All-in-One Framework for Implicit Inference in Astrophysics and Cosmology](https://arxiv.org/abs/2402.05137 "Unified interface over sbi, pydelfi and lampe with validation and calibration tools.") | **OJAp 2024** | [Code](https://github.com/maho3/ltu-ili) | [Journal](https://doi.org/10.33232/001c.120559) |
 | 2023.12 | [nbi: The Astronomer's Package for Neural Posterior Estimation](https://arxiv.org/abs/2312.03824 "Neural posterior estimation package with featurizers for light curves and spectra.") | **NeurIPS 2023 Workshop (DLIP)** | [Code](https://github.com/kmzzhang/nbi) | - |
 | 2023.06 | [nautilus: Boosting Bayesian Importance Nested Sampling with Deep Learning](https://arxiv.org/abs/2306.16923 "Importance nested sampling with neural network emulation of the likelihood contours.") | **MNRAS 2023** | [Code](https://github.com/johannesulf/nautilus) | [Journal](https://doi.org/10.1093/mnras/stad2441) |
