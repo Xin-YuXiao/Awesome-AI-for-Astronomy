@@ -1228,6 +1228,12 @@ sections:
       desc: Semi-supervised network that combines contrastive, color and redshift losses on CANDELS images.
 - title: Gravitational Lensing
   entries:
+  - title: Euclid Data Release 1 (DR1). Double-source-plane lens candidates
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.20166
+      Data: https://www.cosmos.esa.int/web/euclid/data-release-dr1
+    desc: Machine-learning lens-candidate selection, visual vetting and lens modelling identify 84 double-source-plane candidates in Euclid DR1, including 11 gold candidates with two sets of multiple images.
   - title: 'Euclid Data Release 1 (DR1). Enhancing deep-learning models: the impact of image processing and training data selection for strong-lens detection'
     venue: arXiv 2026
     links:
