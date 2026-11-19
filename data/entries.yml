@@ -1406,6 +1406,12 @@ sections:
     desc: Iterative fine-tuning of a modified VGG16 from 27 seed lenses to 30,686 training images, yielding 441 grade A or B candidates in Euclid Q1, 130 of them new.
 - title: Source Detection, Deblending and Image Simulation
   entries:
+  - title: Spectro-Spatial Survey Fusion
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.21798
+      Code: https://github.com/GeorgeVassilakis/survey-fusion-paper-code
+    desc: Adaptive spatial Gaussians and a jointly learned spectral dictionary fit 400 SDSS exposures and 800 fibre spectra in COSMOS and predict withheld observations.
   - name: scarlet
     title: 'scarlet: Source Separation in Multi-band Images by Constrained Matrix Factorization'
     venue: Astron. Comput. 2018

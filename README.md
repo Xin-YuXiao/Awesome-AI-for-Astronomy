@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 436 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 437 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -355,6 +355,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Spectro-Spatial Survey Fusion](https://arxiv.org/abs/2611.21798 "Adaptive spatial Gaussians and a jointly learned spectral dictionary fit 400 SDSS exposures and 800 fibre spectra in COSMOS and predict withheld observations.") | arXiv 2026 | [Code](https://github.com/GeorgeVassilakis/survey-fusion-paper-code) | - |
 | 2026.07 | **E-BGS** [From DESI to Euclid: A Generative Bridge to Improve Measurements of Galaxy Structure](https://arxiv.org/abs/2607.06891 "Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.") | **ApJL 2026** | [Code](https://github.com/Rh-YE/EBGS) | [Journal](https://doi.org/10.3847/2041-8213/ae9cbf) |
 | 2026.05 | [FluxFlow: Conservative Flow-Matching for Astronomical Image Super-Resolution](https://arxiv.org/abs/2605.03749 "Pixel-space flow matching for super-resolution that weights training by observational uncertainty and source regions, with a training-free Wiener-regularised correction against spurious sources; introduces 19,500 co-registered DESI to HST image pairs.") | **NeurIPS 2026** | [Code](https://github.com/I2WM/FluxFlow) | - |
 | 2026.04 | [Diffusion-based Galaxy Simulations for the Roman High Latitude Survey](https://arxiv.org/abs/2604.22917 "DDPM trained on JWST JADES imaging to generate Roman-like multi-band galaxy stamps for weak lensing.") | arXiv 2026 | - | - |
