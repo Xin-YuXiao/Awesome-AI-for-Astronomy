@@ -1068,6 +1068,11 @@ sections:
       desc: DINOv2 light-curve embeddings, isolation forests and multimodal LLM agents that vet anomaly candidates.
   - title: Physical Properties and Photometric Redshifts
     entries:
+    - title: 'The Role of Galactic Shear in Regulating Local Star Formation Efficiency: A Combined MaNGA DynPop and ALMaQUEST Study'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.22300
+      desc: Random forest regression on spatially resolved MaNGA and ALMaQUEST measurements ranks galactic shear as the strongest dynamical correlate of lower local star-formation efficiency, with modest predictive power.
     - title: Unsupervised learning reveals a small number of galaxy formation pathways in IllustrisTNG
       venue: arXiv 2026
       links:
