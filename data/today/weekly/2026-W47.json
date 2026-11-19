@@ -3,34 +3,39 @@
  "start": "2026-11-16",
  "end": "2026-11-22",
  "final": false,
- "count": 19,
+ "count": 32,
  "topics": {
-  "Cosmology and Large-Scale Structure": 4,
-  "Galaxies": 3,
+  "Cosmology and Large-Scale Structure": 5,
+  "Galaxies": 5,
+  "High-Energy Astrophysics and Astroparticle Physics": 3,
   "Observing and Instrumentation": 3,
   "Stars and Stellar Spectroscopy": 2,
   "Gravitational Lensing": 2,
-  "High-Energy Astrophysics and Astroparticle Physics": 2,
+  "Simulation-Based Inference": 2,
+  "Agents and Retrieval Systems": 2,
+  "Exoplanets": 2,
+  "Foundation Models and Representation Learning": 2,
   "Time-Domain Astronomy and Transients": 1,
-  "Simulation-Based Inference": 1,
-  "Radio Astronomy": 1
+  "Radio Astronomy": 1,
+  "Benchmarks": 1,
+  "Surveys and Reviews": 1
  },
- "overview": "Euclid DR1 strong-lens work dominates, with CNN/vision-transformer segmentation and a catalogue of 11,256 lenses. Other papers apply Gaussian-process and neural emulators to Hi-COLA and core-collapse supernova equations of state, plus unsupervised and symbolic methods on IllustrisTNG, FRB and LAMOST data, and generate FLAMINGO galaxy catalogues.",
+ "overview": "Euclid DR1 strong-lens papers dominate, with CNN ablations and vision-transformer segmentation. Other work applies neural posterior estimation to FRB cosmology and JWST exoplanet retrieval, Gaussian-process emulators to Galileon power spectra, and unsupervised clustering to IllustrisTNG and FRB bursts; a 963-planet mass-radius benchmark is presented.",
  "themes": [
   "Euclid DR1 strong-lens detection and segmentation",
-  "Emulators and neural surrogates for simulations",
-  "Unsupervised and symbolic regression in astrophysics",
-  "Stellar spectroscopy and large catalogues",
-  "ML for time-domain and high-energy instrumentation"
+  "Neural posterior estimation and simulation-based inference",
+  "Emulators for cosmology and nuclear equations of state",
+  "Unsupervised learning of galaxies and FRBs",
+  "Foundation models and representation learning"
  ],
  "highlights": [
+  "2611.24812",
   "2611.17420",
-  "2611.17894",
   "2611.20633",
-  "2611.19400",
-  "2611.18211",
-  "2611.17425"
+  "2611.23818",
+  "2611.24542",
+  "2611.19400"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-18T04:11:25+00:00"
+ "updated": "2026-11-19T10:04:15+00:00"
 }

@@ -1,0 +1,323 @@
+{
+ "date": "2026-11-19",
+ "papers": [
+  {
+   "id": "2611.24939",
+   "title": "Map-Level Inference of Primordial Gravitational Waves from the CMB with Spherical Neural Networks",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-18T18:59:32Z",
+   "comment": "15 pages, 8 figures, 6 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Anto I. Lonappan",
+    "Adrian E. Bayer",
+    "Brian Keating",
+    "Kam Arnold",
+    "Giuseppe Puglisi",
+    "Ethan O. Nadler"
+   ],
+   "n_authors": 6,
+   "relevant": true,
+   "summary": "Spherical graph convolutional network infers tensor-to-scalar ratio directly from simulated multifrequency CMB B-mode maps, reducing RMSE by 1.3 times versus a bandpower likelihood.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.24812",
+   "title": "A Homogeneous Benchmark of Exoplanet Mass-Radius Relations",
+   "primary": "astro-ph.EP",
+   "categories": [
+    "astro-ph.EP"
+   ],
+   "published": "2026-11-18T17:46:21Z",
+   "comment": "Accepted by the Astrophysics Journal",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Ailar Alizadehsabegh",
+    "Soroush Sarabi",
+    "Atila Poro"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Benchmark of 963 exoplanets compares power laws, probabilistic models and ML regressors; random forest gives lowest RMSE but empirical relations remain competitive.",
+   "topic": "Benchmarks",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.24803",
+   "title": "Cross-Dataset Inference of Central-Satellite Classification and Host Halo Masses from Galaxy neighbours with Machine Learning",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-18T17:43:25Z",
+   "comment": "15 pages, 16 Figures (including appendix), comments are welcome",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Alice Chen",
+    "Camille Avestruz",
+    "Niayesh Afshordi",
+    "Yen-Ting Lin"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "XGBoost trained on IllustrisTNG neighbour distances and stellar masses classifies central/satellite galaxies and estimates halo masses, generalizing to EAGLE after domain alignment.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.24727",
+   "title": "Surrogate Modeling and Reduced-Order Methods in Gravitational-Wave Physics and Numerical Relativity: From Spectral Representations to Adaptive Compression",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.HE",
+    "cs.LG",
+    "physics.comp-ph"
+   ],
+   "published": "2026-11-18T16:43:51Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Manuel Tiglio"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "Review of reduced-order modeling and surrogate waveforms for gravitational-wave data analysis, covering projection methods, approximation limits and scientific machine learning routes.",
+   "topic": "Surveys and Reviews",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.24615",
+   "title": "Thermodynamics of gas giants accreting via shocks: the role of molecular hydrogen dissociation",
+   "primary": "astro-ph.EP",
+   "categories": [
+    "astro-ph.EP"
+   ],
+   "published": "2026-11-18T15:33:59Z",
+   "comment": "submitted to A&A, comments welcome",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Bingjie Zha",
+    "Zhuo Chen"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Physics-informed neural network trained on radiation-hydrodynamics simulations supplies post-shock boundary conditions to MESA, yielding brighter and more magnetic accreting gas giants than cold-start models.",
+   "topic": "Exoplanets",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.24542",
+   "title": "Interpretable attention-based neural posterior estimation for fast radio burst cosmology",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "astro-ph.HE"
+   ],
+   "published": "2026-11-18T14:50:00Z",
+   "comment": "14 pages, 6 figures, 5 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Tian-Yang Sun",
+    "Ji-Guo Zhang",
+    "Wan-Peng Sun",
+    "Jing-Fei Zhang",
+    "Xin Zhang"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Attention-based neural posterior estimator compresses FRB catalogues and generates seven-parameter posteriors in 0.036 s, matching MCMC at about 10^6 speedup.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.24370",
+   "title": "Geodesic-informed neural networks for testing spacetimes with S2",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.GA",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-18T13:01:05Z",
+   "comment": "16 pages, 11 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Prajwal Hassan Puttasiddappa",
+    "Dennis Fremstad",
+    "Abdolali Banihashemi",
+    "David F. Mota"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Geodesic-informed neural network models S2's orbit around Sagittarius A* by optimization, reproducing exact-solver parameter estimates and finding no significant deviation from Schwarzschild.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.24347",
+   "title": "automodel: A Skill for Agentic Model Discovery",
+   "primary": "cs.AI",
+   "categories": [
+    "cs.AI",
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "cs.NE"
+   ],
+   "published": "2026-11-18T12:43:45Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/unlayer-ai/automodel"
+   ],
+   "authors": [
+    "Marco Virgolin",
+    "Harry Desmond",
+    "Ester Bergantin",
+    "Giorgio Morales",
+    "John W. Sheppard",
+    "Luigi Romano"
+   ],
+   "n_authors": 7,
+   "relevant": true,
+   "summary": "Presents automodel, a portable agent skill letting commercial coding agents discover models, with astrophysics case studies among five domains.",
+   "topic": "Agents and Retrieval Systems",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.23818",
+   "title": "NEXONN: Advancing the NEXOTRANS Exoplanet Atmospheric Retrieval Framework with Transformer-Based Neural Posterior Estimation for JWST Transmission Spectroscopy of WASP-39b",
+   "primary": "astro-ph.EP",
+   "categories": [
+    "astro-ph.EP",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-18T04:20:17Z",
+   "comment": "28 pages, 11 figures, 3 tables. Revised and resubmitted to The Astronomical Journal. We thank the anonymous referee for their constructive comments. Further comments are welcome",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Tasneem Basra Khan",
+    "Liton Majumdar",
+    "Mithun Patra",
+    "Tonmoy Deka",
+    "Swastik Dewan",
+    "Priyankush Ghosh"
+   ],
+   "n_authors": 7,
+   "relevant": true,
+   "summary": "Transformer-conditioned normalizing flows replace nested sampling for JWST exoplanet atmospheric retrieval, matching PyMultiNest on WASP-39b within seconds.",
+   "topic": "Exoplanets",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.23639",
+   "title": "Searching the Pareto Front: Multi-Objective Retrieval for Heterogeneous Scientific Modalities",
+   "primary": "cs.AI",
+   "categories": [
+    "cs.AI",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-18T00:03:22Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Song Young Oh",
+    "Nesar Ramachandra",
+    "Bin Xia",
+    "Ian Foster",
+    "Kyle Chard"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Multi-objective Pareto fusion of separately trained modality embeddings is compared with a foundation model for galaxy retrieval across spectra and survey images.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.23492",
+   "title": "JEPA for astronomy: multi-survey spectral alignment puts stellar parameters on the leading principal axes",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.IM",
+    "astro-ph.SR",
+    "cs.LG"
+   ],
+   "published": "2026-11-17T20:44:12Z",
+   "comment": "15 pages, 5 figures, 2 tables. Submitted to AAS journals. Comments welcome",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Xiaosheng Zhao",
+    "Rosemary F.G. Wyse",
+    "Yuan-Sen Ting",
+    "Alexander S. Szalay"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Varying only the alignment loss for multi-survey stellar spectra, a JEPA objective yields the most linearly recoverable stellar parameters and abundances.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.23389",
+   "title": "Isotropic diffuse gamma-ray flux limits from Carpet-3 experiment data using neural networks with domain adaptation",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-17T19:00:15Z",
+   "comment": "9 pages, 7 figures, 2 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "D. D. Dzhappuev",
+    "I. M. Dzaparova",
+    "T. A. Dzhatdoev",
+    "E. A. Gorbacheva",
+    "I. S. Karpikov",
+    "M. M. Khadzhiev"
+   ],
+   "n_authors": 19,
+   "relevant": true,
+   "summary": "Neural network with unsupervised domain adaptation separates photons from hadrons in Carpet-3 data, giving diffuse gamma-ray flux limits from 100 TeV to 10 PeV.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.24937",
+   "title": "LEMUR: A Searchable Web Archive of Deep Chandra Images of Galaxies and Galaxy Clusters"
+  }
+ ],
+ "updated": "2026-11-19T10:04:12+00:00",
+ "model": "deepseek-flash"
+}

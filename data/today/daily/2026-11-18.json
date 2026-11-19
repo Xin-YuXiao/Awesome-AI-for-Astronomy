@@ -100,6 +100,30 @@
    "summary": "Random forest regression on MaNGA and ALMaQUEST data identifies galactic shear as the dynamical property most associated with lower local star formation efficiency.",
    "topic": "Galaxies",
    "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.23334",
+   "title": "Integrating AI Coding Agents Into Scientific Research",
+   "primary": "cs.SE",
+   "categories": [
+    "cs.SE",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-17T01:03:38Z",
+   "comment": "36 pages, 3 figures, 3 tables. Software publicly available at https://github.com/RoryBarnes/vaibify",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/RoryBarnes/vaibify"
+   ],
+   "authors": [
+    "Rory Barnes"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "Discusses AI coding agents in scientific software, proposing a six-level PROOF scale and the vaibify package with containerized agents and change monitoring.",
+   "topic": "Agents and Retrieval Systems",
+   "model": "deepseek-flash"
   }
  ],
  "excluded": [
@@ -108,6 +132,6 @@
    "title": "Baryonification V: Thermal Sunyaev-Zel'dovich maps from dark-matter-only lightcones"
   }
  ],
- "updated": "2026-11-18T04:11:23+00:00",
+ "updated": "2026-11-19T10:04:12+00:00",
  "model": "deepseek-flash"
 }
