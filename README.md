@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 436 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 437 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -625,6 +625,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Improving Early Detection of Scientifically Interesting Radio Sources Using Enhanced Isolation Forest](https://arxiv.org/abs/2611.21674 "Four Isolation Forest variants rank 1,031 extended MeerKAT sources from BYOL features, with Pooled Gain recovering six expert-labelled anomalies among the top ten.") | arXiv 2026 | - | - |
 | 2026.11 | [Identification of extragalactic radio sources in the VISTA survey of the Magellanic Clouds using an unsupervised machine learning algorithm](https://arxiv.org/abs/2611.15880 "Unsupervised t-SNE organizes optical-to-radio photometry for 8,008 sources toward the Magellanic Clouds, with SALT follow-up identifying new active galactic nuclei.") | arXiv 2026 | - | - |
 | 2026.11 | [Active Learning for Molecular Discovery: A Retrospective Test toward TMC-1](https://arxiv.org/abs/2611.16741 "A seven-feature logistic-regression model prioritizes candidate molecules for radio spectroscopy and is evaluated on a time-ordered reconstruction of TMC-1 discovery history.") | arXiv 2026 | [Code](https://github.com/rehamelkholy/TMC-1) | - |
 | 2026.08 | **YOLO-Chars** [Radio Galaxies Detection and Characterization Using Deep Learning Techniques](https://arxiv.org/abs/2608.21474 "Two-stage YOLO detection and characterisation network for flux, size and position angle on SKA SDC1 images.") | **MNRAS 2026** | - | - |
