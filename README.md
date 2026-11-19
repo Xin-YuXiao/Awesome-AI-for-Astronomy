@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 436 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 437 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -475,6 +475,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Effects of QCD Equation of State on Cosmological Parameters and Stochastic Gravitational-Waves Spectrum](https://arxiv.org/abs/2611.22719 "Gaussian process regression generates 1,000 thermodynamically consistent HotQCD-based equations of state to propagate QCD and electroweak effects into early-Universe expansion and stochastic gravitational-wave spectra.") | arXiv 2026 | - | - |
 | 2026.11 | **Cosmo-PINN** [Testing General Relativity by Reconstructing Dark Energy and the Growth Index with Physics-Informed Neural Networks](https://arxiv.org/abs/2611.19117 "Cosmo-PINN reconstructs the dark-energy equation of state and the growth index from DESI DR2 BAO, cosmic chronometers, SNe Ia and redshift-space distortions, and compares growth predicted by general relativity with growth from the reconstructed index on a shared background.") | arXiv 2026 | - | - |
 | 2026.11 | [Cubic Galileon Gravity on Nonlinear Scales with Hi-COLA for LSST Year 1](https://arxiv.org/abs/2611.18211 "Trains a Gaussian-process emulator on Hi-COLA simulations for the nonlinear Cubic Galileon matter power-spectrum boost and validates it with LSST Y1 mock analyses.") | arXiv 2026 | [Code](https://github.com/LSSTDESC/CubicGalileonEmu) [Forecast Code](https://github.com/CarolaZano/CubicGalileon_Forecasts) | - |
 | 2026.11 | [Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations](https://arxiv.org/abs/2611.18487 "U-Nets trained on mock optical images of hydrodynamical-simulation clusters reconstruct total mass maps and subhalo mass functions, and maps for HST CLASH clusters agree with independent lensing measurements.") | arXiv 2026 | [Code](https://github.com/atulit19/U-Net-Mass-Maps-HST-CLASH) | - |
