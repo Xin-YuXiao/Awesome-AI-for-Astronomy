@@ -2030,6 +2030,11 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - title: Effects of QCD Equation of State on Cosmological Parameters and Stochastic Gravitational-Waves Spectrum
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.22719
+    desc: Gaussian process regression generates 1,000 thermodynamically consistent HotQCD-based equations of state to propagate QCD and electroweak effects into early-Universe expansion and stochastic gravitational-wave spectra.
   - name: Cosmo-PINN
     title: Testing General Relativity by Reconstructing Dark Energy and the Growth Index with Physics-Informed Neural Networks
     venue: arXiv 2026
