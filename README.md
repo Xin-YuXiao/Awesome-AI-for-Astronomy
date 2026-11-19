@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 436 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 439 papers and 66 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -553,6 +553,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [Search for UHE photon sources using direction-time clustering algorithms with a BDT particle discriminant](https://arxiv.org/abs/2611.22833 "A boosted decision tree combines air-shower observables for photon tagging and reduces the events needed for simulated ultra-high-energy flares in a direction-time clustering search.") | **PoS ECRS 2026** | [Code](https://doi.org/10.5281/zenodo.22262501) | [Journal](https://doi.org/10.22323/1.528.0041) |
 | 2026.11 | [Neural Surrogates for Tabulated Nuclear Equations of State in Core-Collapse Supernova Simulations](https://arxiv.org/abs/2611.19400 "A neural surrogate with about 10^4 parameters replaces the Lattimer-Swesty equation-of-state table, reproducing shock-tube solutions with hydrodynamic errors near 10^-3 and cutting storage from about 160 MB to 100 KB.") | arXiv 2026 | - | - |
 | 2026.11 | [Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog](https://arxiv.org/abs/2611.16539 "A hexagonal self-organizing map trained on 36,904 Chandra ACIS detections supports an abstaining classifier for X-ray sources.") | arXiv 2026 | [Code](https://github.com/andreascaudo/SOM-CSC) | - |
 | 2026.10 | **GammaLearn** [Deep Learning for Cherenkov Astronomy: Performance of GammaLearn on LST-1](https://arxiv.org/abs/2610.10392 "Applies the gamma-PhysNet CNN to LST-1 Crab Nebula observations, improving sensitivity over the random forest analysis below 1 TeV.") | arXiv 2026 | - | - |
@@ -671,6 +672,8 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [RevolIACT: a longitudinally distributed array of compact AI-driven Cherenkov telescopes for the time-domain sub-TeV sky](https://arxiv.org/abs/2611.23069 "Simulations of compact Cherenkov stations with video vision transformers and a replay of 4,401 Fermi-GBM triggers assess sub-TeV transient coverage for ten to fourteen stations.") | arXiv 2026 | - | - |
+| 2026.11 | [A transformer analysis lowers the energy threshold and improves the sensitivity of a compact imaging atmospheric Cherenkov telescope](https://arxiv.org/abs/2611.23047 "A video vision transformer on simulated camera waveforms lowers the threshold of a compact Cherenkov telescope from 0.73 to 0.18 TeV with LST-1 photomultipliers.") | arXiv 2026 | - | - |
 | 2026.11 | [Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning](https://arxiv.org/abs/2611.18968 "A deep neural network predicts the array patterns of a three-dipole phased array from antenna design, positions, frequency and measured scattering parameters, with tests of sensitivity to position and scattering-parameter errors.") | arXiv 2026 | - | - |
 | 2026.11 | [Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps](https://arxiv.org/abs/2611.14987 "A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.") | arXiv 2026 | [Code](https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations) | - |
 | 2026.11 | [MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations](https://arxiv.org/abs/2611.14710 "A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.") | arXiv 2026 | [Code](https://github.com/francescomonastra/MAGI) | - |

@@ -2453,6 +2453,13 @@ sections:
     desc: Unified interface over sbi, pydelfi and lampe with validation and calibration tools.
 - title: High-Energy Astrophysics and Astroparticle Physics
   entries:
+  - title: Search for UHE photon sources using direction-time clustering algorithms with a BDT particle discriminant
+    venue: PoS ECRS 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.22833
+      Journal: https://doi.org/10.22323/1.528.0041
+      Code: https://doi.org/10.5281/zenodo.22262501
+    desc: A boosted decision tree combines air-shower observables for photon tagging and reduces the events needed for simulated ultra-high-energy flares in a direction-time clustering search.
   - title: Neural Surrogates for Tabulated Nuclear Equations of State in Core-Collapse Supernova Simulations
     venue: arXiv 2026
     links:
@@ -2988,6 +2995,17 @@ sections:
     desc: DeepONet thermophysical model of water sublimation, fitted with simulated annealing to the water production curves of 28 comets to estimate nucleus sizes.
 - title: Observing and Instrumentation
   entries:
+  - name: RevolIACT
+    title: 'RevolIACT: a longitudinally distributed array of compact AI-driven Cherenkov telescopes for the time-domain sub-TeV sky'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.23069
+    desc: Simulations of compact Cherenkov stations with video vision transformers and a replay of 4,401 Fermi-GBM triggers assess sub-TeV transient coverage for ten to fourteen stations.
+  - title: A transformer analysis lowers the energy threshold and improves the sensitivity of a compact imaging atmospheric Cherenkov telescope
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.23047
+    desc: A video vision transformer on simulated camera waveforms lowers the threshold of a compact Cherenkov telescope from 0.73 to 0.18 TeV with LST-1 photomultipliers.
   - title: Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning
     venue: arXiv 2026
     links:
