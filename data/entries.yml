@@ -509,7 +509,7 @@ sections:
     links:
       Paper: https://arxiv.org/abs/2611.24347
       Code: https://github.com/unlayer-ai/automodel
-    desc: A four-stage coding-agent workflow searches and independently re-evaluates scientific model structures, with an astrophysical stellar-mass-function case improving description length over the Bernardi form.
+    desc: An agent skill gives general-purpose coding agents a model-discovery recipe; with it, commercial agents identify new models in case studies from astrophysics and four other fields.
   - name: GalaxyWiki
     title: Extracting Published Discussions of 13,616 Galaxies with Language Models
     venue: WASP 2026 Workshop
@@ -2521,7 +2521,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.23389
-    desc: A convolutional classifier with gradient-reversal domain adaptation uses 1,078 days of Carpet-3 data to set 100 TeV–10 PeV diffuse gamma-ray limits and reduces simulation–data prediction divergence by about 15 times.
+    desc: A neural network combining surface-array and muon-detector signals, trained with unsupervised domain adaptation on unlabelled events, identifies photon candidates in 1,078 days of Carpet-3 data and sets isotropic diffuse gamma-ray limits from 100 TeV to 10 PeV.
   - title: Search for UHE photon sources using direction-time clustering algorithms with a BDT particle discriminant
     venue: PoS ECRS 2026
     links:
