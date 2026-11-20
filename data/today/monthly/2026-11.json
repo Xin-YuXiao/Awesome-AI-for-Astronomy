@@ -3,15 +3,15 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 87,
+ "count": 91,
  "topics": {
-  "Galaxies": 12,
+  "Galaxies": 13,
   "Cosmology and Large-Scale Structure": 9,
-  "Simulation-Based Inference": 6,
+  "Simulation-Based Inference": 8,
+  "Foundation Models and Representation Learning": 6,
   "High-Energy Astrophysics and Astroparticle Physics": 6,
   "Stars and Stellar Spectroscopy": 6,
   "Gravitational Lensing": 6,
-  "Foundation Models and Representation Learning": 5,
   "Gravitational Waves": 5,
   "Observing and Instrumentation": 5,
   "Solar Physics and Heliophysics": 4,
@@ -26,22 +26,22 @@
   "Datasets": 1,
   "Surveys and Reviews": 1
  },
- "overview": "Euclid DR1 strong-lens work closed out with the ECLIPSE catalogue of 15,072 candidates and the AstroVink-TREX segmentation pipeline. Inference papers applied normalizing flows and neural posterior estimation to DESI DR1 N(z), FRB cosmology, gravitational-wave tests of general relativity and JWST retrievals. Surrogate and differentiable modelling advanced for MHD turbulence, compact-binary waveforms, rotating neutron stars and galpy. Benchmarks and releases include the FAIR Universe weak-lensing uncertainty challenge, COSMIO cross-survey imputation, a 963-planet mass-radius benchmark, and 11 million LAMOST stellar labels.",
+ "overview": "The period is dominated by Euclid DR1 strong-lens work: a catalogue of 15,072 candidates and segmentation/mass-modelling pipelines built on CNN and vision-transformer ensembles. Benchmarks and data releases include COSMIO for LSST/Euclid/Roman imputation, the FAIR Universe weak-lensing uncertainty challenge, and Survey of Surveys DR3 with 10.13 million homogenised stellar parameters. Methods range from normalizing flows for tomographic N(z) and gravitational-wave inference to Fourier neural operators, PINNs and differentiable JAX/PyTorch galpy backends.",
  "themes": [
-  "Euclid DR1 strong-lens detection and segmentation",
-  "neural posterior estimation and normalizing flows",
-  "neural surrogates and differentiable simulators",
-  "LLM agents and literature extraction",
-  "cross-survey benchmarks and released catalogues"
+  "Euclid DR1 strong lenses",
+  "Simulation-based inference",
+  "Neural surrogates and operators",
+  "Cross-survey benchmarks and catalogues",
+  "Foundation models and self-supervision"
  ],
  "highlights": [
-  "2611.20633",
-  "2611.17894",
-  "2611.04713",
-  "2611.14582",
-  "2611.16697",
-  "2611.10861"
+  "2611.15883",
+  "2611.04139",
+  "2611.10228",
+  "2611.07936",
+  "2611.14614",
+  "2611.14987"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-19T10:04:21+00:00"
+ "updated": "2026-11-20T10:03:49+00:00"
 }

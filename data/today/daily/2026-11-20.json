@@ -1,0 +1,113 @@
+{
+ "date": "2026-11-20",
+ "papers": [
+  {
+   "id": "2611.26411",
+   "title": "Low-Latency Alerts of Massive Black Hole Binaries in LISA",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-19T16:59:35Z",
+   "comment": "34 pages, 14 figures, 8 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Rahul Srinivasan",
+    "Lorenzo Copparoni",
+    "Chantal Pitte",
+    "Enrico Barausse",
+    "Roberto Trotta"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "TRUFFLE uses transformer-conditioned normalizing flows for simulation-based inference of massive black hole binaries in LISA, providing rapid calibrated alerts robust to overlapping sources.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.26310",
+   "title": "Feature redundancy, redshift, and class-prior effects in SDSS--WISE photometric classification",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-19T15:58:58Z",
+   "comment": "17 pages, 9 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Mohammad Sadeghi",
+    "Kayoomars Karami"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Five classifiers are evaluated on 3.65 million SDSS-WISE sources across feature scenarios, showing redshift dominates photometric galaxy-quasar-star classification and internal photo-z is redundant.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.25080",
+   "title": "EuclidFM: Foundation Model for Compact Photometric Survey Representation",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-18T19:21:05Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/AI-Driven-HEP/EuclidFM"
+   ],
+   "authors": [
+    "Reyhaneh Vojoudi Salmani",
+    "Mahsa Berahman",
+    "Saeed Ansarifard",
+    "Michael M. Fausnaugh",
+    "Seyed Mohammad Sadegh Movahed"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "EuclidFM trains a masked-autoencoder Transformer on 90,258 Euclid catalogue sources, producing embeddings that predict VIS magnitudes and flag quasar candidates with uncertain transferability.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.25036",
+   "title": "Simulation-based inference for gravitational-wave cosmology: parameter reconstruction of a first-order electroweak phase transition",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "hep-ph"
+   ],
+   "published": "2026-11-18T19:00:04Z",
+   "comment": "29 pages, 9 figures, 1 table",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Thomas Biekötter",
+    "Andrii Dashko",
+    "Kateryna Radchenko"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Simulation-based inference reconstructs first-order electroweak phase-transition parameters from a stochastic gravitational-wave background, matching MCMC posteriors at negligible per-dataset cost after training.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.25642",
+   "title": "TWIN-2: Timing Solar Radio Bursts between 180-350 MHz Against GOES and Aditya-L1 X-ray Detections"
+  }
+ ],
+ "updated": "2026-11-20T10:03:22+00:00",
+ "model": "deepseek-flash"
+}

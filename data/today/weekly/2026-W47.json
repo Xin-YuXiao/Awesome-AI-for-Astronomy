@@ -3,39 +3,39 @@
  "start": "2026-11-16",
  "end": "2026-11-22",
  "final": false,
- "count": 32,
+ "count": 36,
  "topics": {
+  "Galaxies": 6,
   "Cosmology and Large-Scale Structure": 5,
-  "Galaxies": 5,
+  "Simulation-Based Inference": 4,
   "High-Energy Astrophysics and Astroparticle Physics": 3,
   "Observing and Instrumentation": 3,
+  "Foundation Models and Representation Learning": 3,
   "Stars and Stellar Spectroscopy": 2,
   "Gravitational Lensing": 2,
-  "Simulation-Based Inference": 2,
   "Agents and Retrieval Systems": 2,
   "Exoplanets": 2,
-  "Foundation Models and Representation Learning": 2,
   "Time-Domain Astronomy and Transients": 1,
   "Radio Astronomy": 1,
   "Benchmarks": 1,
   "Surveys and Reviews": 1
  },
- "overview": "Euclid DR1 strong-lens papers dominate, with CNN ablations and vision-transformer segmentation. Other work applies neural posterior estimation to FRB cosmology and JWST exoplanet retrieval, Gaussian-process emulators to Galileon power spectra, and unsupervised clustering to IllustrisTNG and FRB bursts; a 963-planet mass-radius benchmark is presented.",
+ "overview": "Euclid DR1 strong-lens detection and segmentation, simulation-based inference with normalizing flows and diffusion models, and transformer/foundation-model representations for survey and spectral data are prominent. Neural emulators and surrogates target LSST cosmology, supernova equations of state, and CMB inference; new benchmarks and agent tooling also appear.",
  "themes": [
   "Euclid DR1 strong-lens detection and segmentation",
-  "Neural posterior estimation and simulation-based inference",
-  "Emulators for cosmology and nuclear equations of state",
-  "Unsupervised learning of galaxies and FRBs",
-  "Foundation models and representation learning"
+  "Simulation-based inference and neural posterior estimation",
+  "Foundation models and spectral representation learning",
+  "Neural surrogates and emulators for cosmology and supernovae",
+  "Agentic and transformer workflows for time-domain and radio data"
  ],
  "highlights": [
   "2611.24812",
-  "2611.17420",
+  "2611.25080",
   "2611.20633",
-  "2611.23818",
+  "2611.17894",
   "2611.24542",
-  "2611.19400"
+  "2611.26411"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-19T10:04:15+00:00"
+ "updated": "2026-11-20T10:03:39+00:00"
 }
