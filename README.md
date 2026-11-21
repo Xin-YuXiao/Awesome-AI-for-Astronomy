@@ -39,6 +39,7 @@ This list tracks machine learning work in astronomy with public papers, linking 
   - [Images](#images)
   - [Spectra](#spectra)
   - [Time Series](#time-series)
+  - [Photometric Catalogues](#photometric-catalogues)
   - [Multimodal](#multimodal)
 - [Language and Vision-Language Models](#language-and-vision-language-models)
 - [Agents and Retrieval Systems](#agents-and-retrieval-systems)
@@ -100,10 +101,6 @@ This list tracks machine learning work in astronomy with public papers, linking 
 
 ## Foundation Models and Representation Learning
 
-| Date | Paper | Venue | Code | Links |
-|:--|:--|:--|:--|:--|
-| 2026.11 | [EuclidFM: Foundation Model for Compact Photometric Survey Representation](https://arxiv.org/abs/2611.25080 "A masked photometric Transformer learns 128-dimensional embeddings from 90,258 Euclid Q1 sources across three deep fields for photometry reconstruction and downstream analysis.") | arXiv 2026 | [Code](https://github.com/AI-Driven-HEP/EuclidFM) | - |
-
 ### Images
 
 | Date | Paper | Venue | Code | Links |
@@ -143,6 +140,12 @@ This list tracks machine learning work in astronomy with public papers, linking 
 | 2024.08 | [Maven: A Multimodal Foundation Model for Supernova Science](https://arxiv.org/abs/2408.16829 "Contrastive alignment of supernova photometry and spectroscopy, pretrained on 0.5M synthetic events and finetuned on ZTF.") | **MLST 2024** | [Code](https://github.com/ThomasHelfer/multimodal-supernovae) | - |
 | 2023.09 | [Astroconformer: The Prospects of Analyzing Stellar Light Curves with Transformer-Based Deep Learning Models](https://arxiv.org/abs/2309.16316 "Conformer model for Kepler light curves that infers surface gravity and frequency of maximum oscillation power.") | **MNRAS 2024** | - | [Journal](https://doi.org/10.1093/mnras/stae068) [Workshop Version](https://arxiv.org/abs/2207.02787) |
 | 2022.05 | [ASTROMER: A Transformer-Based Embedding for the Representation of Light Curves](https://arxiv.org/abs/2205.01677 "Self-supervised light-curve encoder pretrained with masked magnitude prediction on MACHO R-band data.") | **A&A 2023** | [Code](https://github.com/astromer-science) | [Journal](https://doi.org/10.1051/0004-6361/202243928) [Astromer 2](https://arxiv.org/abs/2502.02717) |
+
+### Photometric Catalogues
+
+| Date | Paper | Venue | Code | Links |
+|:--|:--|:--|:--|:--|
+| 2026.11 | [EuclidFM: Foundation Model for Compact Photometric Survey Representation](https://arxiv.org/abs/2611.25080 "A masked photometric Transformer learns 128-dimensional embeddings from 90,258 Euclid Q1 sources across three deep fields for photometry reconstruction and downstream analysis.") | arXiv 2026 | [Code](https://github.com/AI-Driven-HEP/EuclidFM) | - |
 
 ### Multimodal
 
@@ -203,7 +206,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
-| 2026.11 | **SDC3b** [Square Kilometre Array Science Data Challenge 3b: EoR inference](https://arxiv.org/abs/2611.25823 "A common set of simulated SKA-Low observations benchmarks 16 pipelines, including learned emulators and neural inference, on neutral-hydrogen fractions at three reionization redshifts.") | arXiv 2026 | [Code](https://github.com/abonaldi/SDC3b) | [Data](https://www.skao.int/en/science-users/170/simulated-data-products/ska-low-eor) |
+| 2026.11 | **SDC3b** [Square Kilometre Array Science Data Challenge 3b: EoR inference](https://arxiv.org/abs/2611.25823 "Community challenge on common simulated SKA-Low data in which 16 teams infer the neutral-hydrogen fraction in three redshift intervals between z = 8.41 and 6.25; results vary widely across teams, while their average stays close to the inputs.") | arXiv 2026 | [Code](https://github.com/abonaldi/SDC3b) | [Data](https://www.skao.int/en/science-users/170/simulated-data-products/ska-low-eor) |
 | 2026.11 | **FAIR Universe WL** [FAIR Universe Weak Lensing ML Uncertainty Challenge: Dataset and Cosmological Inference Competition](https://arxiv.org/abs/2611.10228 "Simulated HSC-like weak lensing convergence maps and a competition scoring cosmological parameter estimates together with their uncertainty calibration.") | arXiv 2026 | [Code](https://github.com/FAIR-Universe/Cosmology_Challenge) | [Data](https://doi.org/10.5281/zenodo.20056065) |
 | 2026.08 | [JW-FD: A Long Horizon Multimodal Solar Flare Forecasting Dataset](https://arxiv.org/abs/2608.19195 "Fifteen-year flare forecasting dataset from 2011 to 2025 built from SDO/HMI magnetograms, NOAA region summaries and flare lists, with active region level splits and configurable horizons.") | arXiv 2026 | - | - |
 | 2026.07 | [Moonstone: A Multimodal Foundation Model and Benchmark for Lunar Remote Sensing](https://arxiv.org/abs/2607.03644 "Lunar remote sensing foundation model released with a benchmark of six downstream tasks.") | arXiv 2026 | - | - |
@@ -394,8 +397,8 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
-| 2026.11 | [Kinetic Tomography with Diffuse Interstellar Bands in APOGEE DR17](https://arxiv.org/abs/2611.25084 "Geometric variational inference with learned Gaussian-process field priors reconstructs DIB density and radial velocity within 6 kpc from roughly 150,000 APOGEE sightlines.") | arXiv 2026 | - | [Data](https://doi.org/10.5281/zenodo.24136276) |
-| 2026.11 | [Chemical Cartography Across Time: The Age-Dependent Chemical Structure of the Milky Way with a Homogeneous Sample of 580,000 Giants from Five Surveys](https://arxiv.org/abs/2611.26550 "A neural-network-homogenized catalogue of roughly 580,000 giants from five spectroscopic surveys traces the Milky Way disk metallicity gradient across stellar ages.") | arXiv 2026 | - | [Data](https://doi.org/10.5281/zenodo.19830515) |
+| 2026.11 | [Kinetic Tomography with Diffuse Interstellar Bands in APOGEE DR17](https://arxiv.org/abs/2611.25084 "Variational inference with Gaussian-process priors and a mixture likelihood for low signal-to-noise detections reconstructs 3D density and radial-velocity maps of the 15,273 Å DIB within 6 kpc from APOGEE DR17.") | arXiv 2026 | - | [Data](https://doi.org/10.5281/zenodo.24136276) |
+| 2026.11 | [Chemical Cartography Across Time: The Age-Dependent Chemical Structure of the Milky Way with a Homogeneous Sample of 580,000 Giants from Five Surveys](https://arxiv.org/abs/2611.26550 "One model places atmospheric parameters, abundances, distances and ages for about 580,000 giants from five spectroscopic surveys on a single scale, revealing a U-shaped age dependence of the disk metallicity gradient.") | arXiv 2026 | - | [Data](https://doi.org/10.5281/zenodo.19830515) |
 | 2026.11 | **GINN** [Geodesic-informed neural networks for testing spacetimes with S2](https://arxiv.org/abs/2611.24370 "A geodesic-constrained differentiable orbit network recovers S2 parameters and uncertainties in one optimization and finds no significant departure from Schwarzschild across six static spherical spacetimes.") | arXiv 2026 | - | - |
 | 2026.11 | **TDSM** [Model-Driven Stellar Spectroscopy with the Total Differential Spectral Model (TDSM): Framework and Its Application to 11 Million LAMOST Low-Resolution Spectra](https://arxiv.org/abs/2611.20633 "A neural emulator of Kurucz fluxes and their first-order derivatives infers eight stellar labels from 11 million low-resolution LAMOST DR10 spectra of eight million stars.") | **ApJS 2026** | - | [Journal](https://doi.org/10.3847/1538-4365/aeab87) [Data](https://www.lamost.org/dr10/) |
 | 2026.11 | [Symbolic Regression Fitting for Roche Lobe Radius](https://arxiv.org/abs/2611.17997 "Symbolic regression on radii computed from the full Roche potential gives a compact Roche-lobe formula that lowers the RMS error of Eggleton's approximation from 1.97e-3 to 5.95e-4 over mass ratios from 1e-5 to 1e5.") | arXiv 2026 | [Code](https://github.com/Iceberg0716/SRLochelobe) | - |
@@ -492,7 +495,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
-| 2026.11 | [First Ωₘ–w Measurement Using Only Fast Radio Burst Observations](https://arxiv.org/abs/2611.25312 "A neural nonlinear matter-power emulator makes the cosmic dispersion-measure likelihood cosmology-dependent for joint Ωₘ and w inference from 125 localized fast radio bursts.") | arXiv 2026 | - | - |
+| 2026.11 | [First Ωₘ–w Measurement Using Only Fast Radio Burst Observations](https://arxiv.org/abs/2611.25312 "An emulator of the nonlinear matter power spectrum and an electron prescription give a cosmology-dependent dispersion-measure distribution, yielding joint Ωₘ and w constraints from 125 localized fast radio bursts.") | arXiv 2026 | - | - |
 | 2026.11 | [Map-Level Inference of Primordial Gravitational Waves from the CMB with Spherical Neural Networks](https://arxiv.org/abs/2611.24939 "A spherical graph convolutional network infers the tensor-to-scalar ratio directly from multifrequency B-mode maps, lowering r error by 1.3 times and narrowing calibrated 68% intervals by 1.2 times.") | arXiv 2026 | [Code](https://github.com/antolonappan/rnet) | - |
 | 2026.11 | [Effects of QCD Equation of State on Cosmological Parameters and Stochastic Gravitational-Waves Spectrum](https://arxiv.org/abs/2611.22719 "Gaussian process regression generates 1,000 thermodynamically consistent HotQCD-based equations of state to propagate QCD and electroweak effects into early-Universe expansion and stochastic gravitational-wave spectra.") | arXiv 2026 | - | - |
 | 2026.11 | **Cosmo-PINN** [Testing General Relativity by Reconstructing Dark Energy and the Growth Index with Physics-Informed Neural Networks](https://arxiv.org/abs/2611.19117 "Cosmo-PINN reconstructs the dark-energy equation of state and the growth index from DESI DR2 BAO, cosmic chronometers, SNe Ia and redshift-space distortions, and compares growth predicted by general relativity with growth from the reconstructed index on a shared background.") | arXiv 2026 | - | - |
@@ -598,7 +601,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
-| 2026.11 | [SlotFlow-GB: A Neural Framework for Trans-Dimensional Inference of Overlapping Galactic Binaries](https://arxiv.org/abs/2611.26057 "Set-valued source slots and conditional normalizing flows infer source counts and per-binary parameters for up to ten overlapping sources in simulated LISA data.") | arXiv 2026 | - | - |
+| 2026.11 | [SlotFlow-GB: A Neural Framework for Trans-Dimensional Inference of Overlapping Galactic Binaries](https://arxiv.org/abs/2611.26057 "A neural trans-dimensional posterior returns the source count and per-binary parameter densities for up to ten overlapping Galactic binaries in simulated LISA data, with the count within one of the truth in 94% of cases and 41 ms per band on a GPU.") | arXiv 2026 | - | - |
 | 2026.11 | [Efficient Standard Siren Cosmological Inference with Posterior Reuse](https://arxiv.org/abs/2611.16697 "ASPIRE combines normalizing flows and sequential Monte Carlo to reuse posterior samples across GWTC-5.0 dark-siren cosmological analyses.") | arXiv 2026 | [Code](https://github.com/alexpapad0poulos/aspire_gwcosmo) | - |
 | 2026.11 | [Deep-Learning-Assisted Bayesian Inference for Extreme-Mass-Ratio Inspirals](https://arxiv.org/abs/2611.11922 "Deep learning acceleration of Bayesian parameter inference for EMRI signals.") | arXiv 2026 | - | - |
 | 2026.10 | [Scalable and Sequential Inference of the Neutron Star Equation of State with the Einstein Telescope](https://arxiv.org/abs/2610.07975 "Normalizing-flow stacking of single-event posteriors with GPU sequential Monte Carlo for EOS inference.") | arXiv 2026 | - | - |

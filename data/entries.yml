@@ -117,15 +117,6 @@ sections:
       Paper: https://arxiv.org/abs/2501.19064
     desc: Review of deep learning methods for Imaging Atmospheric Cherenkov Telescope data, covering gamma-hadron separation, event reconstruction and fast simulation.
 - title: Foundation Models and Representation Learning
-  entries:
-  - name: EuclidFM
-    title: 'EuclidFM: Foundation Model for Compact Photometric Survey Representation'
-    venue: arXiv 2026
-    links:
-      Paper: https://arxiv.org/abs/2611.25080
-      Code: https://github.com/AI-Driven-HEP/EuclidFM
-    desc: 'A masked photometric Transformer learns 128-dimensional embeddings from 90,258 Euclid Q1 sources across three deep fields for photometry reconstruction and downstream analysis.'
-    modality: [Tabular]
   subsections:
   - title: Images
     entries:
@@ -361,6 +352,17 @@ sections:
       desc: Measures the information that self-supervised light-curve encoders add beyond engineered periodogram and variability features.
       modality:
       - Time series
+  - title: Photometric Catalogues
+    entries:
+    - name: EuclidFM
+      title: 'EuclidFM: Foundation Model for Compact Photometric Survey Representation'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.25080
+        Code: https://github.com/AI-Driven-HEP/EuclidFM
+      desc: A masked photometric Transformer learns 128-dimensional embeddings from 90,258 Euclid Q1 sources across three deep fields for photometry reconstruction and downstream analysis.
+      modality:
+      - Tabular
   - title: Multimodal
     entries:
     - name: AstroCLIP
@@ -614,8 +616,10 @@ sections:
         Paper: https://arxiv.org/abs/2611.25823
         Data: https://www.skao.int/en/science-users/170/simulated-data-products/ska-low-eor
         Code: https://github.com/abonaldi/SDC3b
-      desc: 'A common set of simulated SKA-Low observations benchmarks 16 pipelines, including learned emulators and neural inference, on neutral-hydrogen fractions at three reionization redshifts.'
-      modality: [Simulations, Images]
+      desc: Community challenge on common simulated SKA-Low data in which 16 teams infer the neutral-hydrogen fraction in three redshift intervals between z = 8.41 and 6.25; results vary widely across teams, while their average stays close to the inputs.
+      modality:
+      - Simulations
+      - Images
     - name: LenghuSky-8
       title: 'LenghuSky-8: An 8-Year All-Sky Cloud Dataset with Star-Aware Masks and Alt-Az Calibration for Segmentation and Nowcasting'
       venue: CVPR Findings 2026
@@ -893,11 +897,11 @@ sections:
   subsections:
   - title: Morphology and Catalogues
     entries:
-    - title: 'Feature redundancy, redshift, and class-prior effects in SDSS--WISE photometric classification'
+    - title: Feature redundancy, redshift, and class-prior effects in SDSS--WISE photometric classification
       venue: arXiv 2026
       links:
         Paper: https://arxiv.org/abs/2611.26310
-      desc: 'Five classifiers and twelve feature scenarios on 3.65 million SDSS–WISE sources quantify how redshift, feature redundancy and class priors alter photometric classification.'
+      desc: Five classifiers and twelve feature scenarios on 3.65 million SDSS–WISE sources quantify how redshift, feature redundancy and class priors alter photometric classification.
     - name: Flow-VAE
       title: 'From Non-parametric Statistics to Images: Generating Galaxy Morphologies'
       venue: arXiv 2026
@@ -1610,18 +1614,18 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
-  - title: 'Kinetic Tomography with Diffuse Interstellar Bands in APOGEE DR17'
+  - title: Kinetic Tomography with Diffuse Interstellar Bands in APOGEE DR17
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.25084
       Data: https://doi.org/10.5281/zenodo.24136276
-    desc: 'Geometric variational inference with learned Gaussian-process field priors reconstructs DIB density and radial velocity within 6 kpc from roughly 150,000 APOGEE sightlines.'
+    desc: Variational inference with Gaussian-process priors and a mixture likelihood for low signal-to-noise detections reconstructs 3D density and radial-velocity maps of the 15,273 Å DIB within 6 kpc from APOGEE DR17.
   - title: 'Chemical Cartography Across Time: The Age-Dependent Chemical Structure of the Milky Way with a Homogeneous Sample of 580,000 Giants from Five Surveys'
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.26550
       Data: https://doi.org/10.5281/zenodo.19830515
-    desc: 'A neural-network-homogenized catalogue of roughly 580,000 giants from five spectroscopic surveys traces the Milky Way disk metallicity gradient across stellar ages.'
+    desc: One model places atmospheric parameters, abundances, distances and ages for about 580,000 giants from five spectroscopic surveys on a single scale, revealing a U-shaped age dependence of the disk metallicity gradient.
   - name: GINN
     title: Geodesic-informed neural networks for testing spacetimes with S2
     venue: arXiv 2026
@@ -2107,11 +2111,11 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
-  - title: 'First Ωₘ–w Measurement Using Only Fast Radio Burst Observations'
+  - title: First Ωₘ–w Measurement Using Only Fast Radio Burst Observations
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.25312
-    desc: 'A neural nonlinear matter-power emulator makes the cosmic dispersion-measure likelihood cosmology-dependent for joint Ωₘ and w inference from 125 localized fast radio bursts.'
+    desc: An emulator of the nonlinear matter power spectrum and an electron prescription give a cosmology-dependent dispersion-measure distribution, yielding joint Ωₘ and w constraints from 125 localized fast radio bursts.
   - title: Map-Level Inference of Primordial Gravitational Waves from the CMB with Spherical Neural Networks
     venue: arXiv 2026
     links:
@@ -2476,7 +2480,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.25036
-    desc: 'Neural posterior estimation and exact-likelihood importance sampling reconstruct electroweak phase-transition parameters from simulated LISA stochastic backgrounds.'
+    desc: Neural posterior estimation and exact-likelihood importance sampling reconstruct electroweak phase-transition parameters from simulated LISA stochastic backgrounds.
   - name: COMPASS
     title: 'A COMPASS to the Galaxy: Joint nucleosynthetic yield set comparison and parameter inference in Galactic chemical evolution'
     venue: arXiv 2026
@@ -2673,7 +2677,7 @@ sections:
     venue: arXiv 2026
     links:
       Paper: https://arxiv.org/abs/2611.26057
-    desc: 'Set-valued source slots and conditional normalizing flows infer source counts and per-binary parameters for up to ten overlapping sources in simulated LISA data.'
+    desc: A neural trans-dimensional posterior returns the source count and per-binary parameter densities for up to ten overlapping Galactic binaries in simulated LISA data, with the count within one of the truth in 94% of cases and 41 ms per band on a GPU.
   - title: Efficient Standard Siren Cosmological Inference with Posterior Reuse
     venue: arXiv 2026
     links:
@@ -3026,12 +3030,12 @@ sections:
     desc: Fine-tunes multimodal LLMs on diagnostic plots, text and numerical features to classify pulsar candidates, outperforming earlier machine learning classifiers after a few training epochs.
 - title: Planetary Science and Small Bodies
   entries:
-  - title: 'Improving On-board Shape Models Using Sun Sensors and Implicit Representations'
+  - title: Improving On-board Shape Models Using Sun Sensors and Implicit Representations
     venue: SPAICE 2026
     links:
       Paper: https://arxiv.org/abs/2611.24976
       Proceedings: https://doi.org/10.5281/zenodo.24024807
-    desc: 'EclipseNet refines asteroid silhouettes from simulated Sun-sensor eclipse events and a neural signed-distance field reconstructs Eros, raising silhouette IoU from 0.70 to 0.87.'
+    desc: EclipseNet refines asteroid silhouettes from simulated Sun-sensor eclipse events and a neural signed-distance field reconstructs Eros, raising silhouette IoU from 0.70 to 0.87.
   - name: DeepMoon
     title: Lunar Crater Identification via Deep Learning
     venue: Icarus 2019
