@@ -4,6 +4,12 @@ name: AstroAI Today
 # refresh the weekly and monthly digests, commit data/today/ and rebuild the web page.
 
 on:
+  # A change to this marker on main triggers an immediate run. This is useful when
+  # GitHub's scheduled workflows are delayed and avoids triggering on data commits.
+  push:
+    branches: [main]
+    paths:
+      - .github/astroai-today.trigger
   # arXiv announces new papers at 20:00 US Eastern time (00:00 or 01:00 UTC). GitHub often starts
   # scheduled runs hours late, so the workflow is scheduled every hour and the first run in DeepSeek
   # off-peak hours after the announcement does the work. Peak pricing applies 01:00-04:00 and
