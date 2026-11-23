@@ -9,3 +9,6 @@
 ^https://doi\.org/10\.1109/
 ^https://doi\.org/10\.3847/
 ^https://doi\.org/10\.34133/
+
+# Official LAMOST DR10 portal is reachable in browsers but intermittently unreachable from GitHub Actions.
+^https://www\.lamost\.org/dr10/?$
