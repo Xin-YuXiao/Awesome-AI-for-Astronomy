@@ -2,7 +2,7 @@
  "period": "2026-W47",
  "start": "2026-11-16",
  "end": "2026-11-22",
- "final": false,
+ "final": true,
  "count": 36,
  "topics": {
   "Galaxies": 6,
@@ -37,5 +37,5 @@
   "2611.26411"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-20T10:03:39+00:00"
+ "updated": "2026-11-23T00:46:57+00:00"
 }
