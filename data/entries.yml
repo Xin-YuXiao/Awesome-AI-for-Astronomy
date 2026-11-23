@@ -1614,6 +1614,29 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
+  - title: Machine learning reveals new Galactic C-rich and O-rich AGB sources
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.26701
+      Data: https://doi.org/10.5281/zenodo.20336870
+    desc: 'Similarity-based selection followed by an XGBoost classifier on Gaia DR3 colour and spectroscopic features identifies 304,090 O-rich and 4,227 C-rich AGB candidates among about 140 million Gaia sources.'
+  - title: 'Characterising stellar photometry with invertible neural networks: Joint inference of stellar parameters and extinction'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.27342
+    desc: 'A conditional invertible neural network trained on PARSEC stellar models jointly infers posteriors of stellar parameters and extinction from Gaia and 2MASS photometry, tested on synthetic data and on Taurus and Upper Scorpius.'
+  - title: Precise Interstellar Extinction Estimates for Nearly Ten Million Stars Based on Multiple Spectroscopic Surveys
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.27773
+      Data: https://nadc.china-vo.org/res/r101883/
+    desc: 'Multilayer perceptrons and polynomial regressions calibrate stellar parameters from LAMOST, APOGEE, GALAH, Gaia-ESO, SEGUE and DESI onto the APOGEE scale, giving extinction estimates for nearly ten million stars with a precision of 0.019–0.022 mag.'
+  - title: Recovering buoyancy-glitch parameters in low-luminosity red giants from global stellar properties with machine learning
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.27954
+      Code: https://doi.org/10.5281/zenodo.23839430
+    desc: 'XGBoost and LightGBM regressors trained on 12,580 stellar models recover the buoyancy-glitch location and width (R² 0.98 and 0.97) and amplitude (R² 0.68) of low-luminosity red giants from global stellar properties.'
   - title: Kinetic Tomography with Diffuse Interstellar Bands in APOGEE DR17
     venue: arXiv 2026
     links:
@@ -2111,6 +2134,23 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - title: Kinetic Sunyaev Zel'dovich Velocity Reconstruction Using Vision Transformers
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.26822
+    desc: 'A Vision Transformer pipeline reconstructs the large-scale peculiar velocity field from correlated CMB and large-scale-structure maps and improves reconstruction fidelity over quadratic estimators on a single simulation realization.'
+  - title: Fast and accurate large-volume Lyman-α forest mocks with three-dimensional U-Net trained on IllustrisTNG and FLAMINGO
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.27151
+    desc: 'A field-level three-dimensional U-Net maps approximate density and velocity fields to Lyman-α optical depth and flux, trained on small IllustrisTNG and FLAMINGO boxes and reproducing the one-dimensional flux power spectrum to 2.8 and 5.6 per cent in test boxes up to 2.8 cGpc.'
+  - name: CLiENT
+    title: 'Features investigated: A detailed study of axion monodromy inflation using CLiENT'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.27265
+      Code: https://github.com/AarhusCosmology/client-f/tree/papers/2026-axion-monodromy
+    desc: 'The CLiENT likelihood emulator computes posteriors, profile likelihoods and Bayesian evidence for axion monodromy features with Planck PR4, DESI DR2 BAO, Pantheon+, ACT and SPT data, finding no robust oscillation.'
   - title: First Ωₘ–w Measurement Using Only Fast Radio Burst Observations
     venue: arXiv 2026
     links:
