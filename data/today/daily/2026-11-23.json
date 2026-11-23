@@ -1,0 +1,185 @@
+{
+ "date": "2026-11-23",
+ "papers": [
+  {
+   "id": "2611.27954",
+   "title": "Recovering buoyancy-glitch parameters in low-luminosity red giants from global stellar properties with machine learning",
+   "primary": "astro-ph.SR",
+   "categories": [
+    "astro-ph.SR"
+   ],
+   "published": "2026-11-20T18:27:31Z",
+   "comment": "11 pages, 8 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Jiang Chen"
+   ],
+   "n_authors": 1,
+   "relevant": true,
+   "summary": "Gradient-boosted trees infer buoyancy-glitch parameters from global properties of 12,580 synthetic low-luminosity red giants, accurately recovering location and width but not amplitude.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.27848",
+   "title": "Diffusing the assumptions: towards realistic LISA stochastic component separation with physics-aware simulation-based inference",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-20T17:00:49Z",
+   "comment": "38 pages, 15 figures, 2 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Iuliu Cuceu",
+    "Nelson Christensen",
+    "Astrid Lamberts",
+    "Coen Rondeel",
+    "Natalia Korsakova"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Simulation-based inference with a diffusion/flow-matching transformer separates LISA stochastic components, matching MCMC posteriors and remaining robust to glitches, gaps, and varying noise.",
+   "topic": "Gravitational Waves",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.27342",
+   "title": "Characterising stellar photometry with invertible neural networks: Joint inference of stellar parameters and extinction",
+   "primary": "astro-ph.SR",
+   "categories": [
+    "astro-ph.SR"
+   ],
+   "published": "2026-11-20T09:18:49Z",
+   "comment": "27 pages, 14 figures, 1 table, submitted to Astronomy & Astrophysics",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Victor F. Ksoll",
+    "Isabelle Joncour",
+    "Prasanta Gorai",
+    "Ralf S. Klessen"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Conditional invertible neural networks jointly infer stellar parameters and extinction from Gaia+2MASS photometry, matching extinction structures but overestimating values by 0.5–0.7 mag.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.27151",
+   "title": "Fast and accurate large-volume Lyman-$\\alpha$ forest mocks with three-dimensional U-Net trained on IllustrisTNG and FLAMINGO",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-20T05:33:42Z",
+   "comment": "25 pages, 9 figures, 2 tables, submitted to JCAP. Comments are welcome",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Bhaskar Arya",
+    "Soumak Maitra",
+    "Shadab Alam"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "A 3D U-Net emulates Lyman-alpha forest flux from density and velocity fields, reproducing TNG and FLAMINGO statistics in large-volume mocks.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.27006",
+   "title": "Physics-Guided Recursive Self-Improvement of Amortized Bayesian Inference Across Physics",
+   "primary": "physics.comp-ph",
+   "categories": [
+    "physics.comp-ph",
+    "astro-ph.CO",
+    "astro-ph.EP",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-20T02:36:12Z",
+   "comment": "7 pages, 2 figures, 2 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Bo Liang",
+    "Mingtao Chen",
+    "Minghui Du",
+    "Ziren Luo",
+    "Guohua Wang",
+    "Peng Xu"
+   ],
+   "n_authors": 8,
+   "relevant": true,
+   "summary": "An AI agent recursively designs amortized Bayesian inference networks for six physics fields, returning accurate posteriors for real observations after likelihood reweighting.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.26822",
+   "title": "Kinetic Sunyaev Zel'dovich Velocity Reconstruction Using Vision Transformers",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-19T21:19:35Z",
+   "comment": "15 pages, 13 figures. Accepted to the New in Machine Learning (NewInML) workshop at NeurIPS 2026",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Sophie Coulombe",
+    "Matthew C. Johnson"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Vision Transformers reconstruct kSZ velocity fields from CMB and large-scale structure maps, improving fidelity over quadratic estimators in a single simulation.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.26701",
+   "title": "Machine learning reveals new Galactic C-rich and O-rich AGB sources",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA",
+    "astro-ph.SR"
+   ],
+   "published": "2026-11-19T19:01:12Z",
+   "comment": "Accepted for publication in MNRAS. 30 pages, 24 figures, 5 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Tanya Kushwahaa",
+    "Mikako Matsuura",
+    "Jason A. S. Hunt",
+    "Daisuke Kawata",
+    "Roger Wesson",
+    "Timothy A. Davis"
+   ],
+   "n_authors": 6,
+   "relevant": true,
+   "summary": "XGBoost classifies Gaia DR3 AGB candidates into 304,090 O-rich and 4,227 C-rich stars, revealing distinct spatial and vertical Milky Way distributions.",
+   "topic": "Stars and Stellar Spectroscopy",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.27778",
+   "title": "QuASAR: Toward an LLM-Assisted Framework for Screening, Prototyping, and Assessing Quantum-Advantage Opportunities in Scientific Computing"
+  }
+ ],
+ "updated": "2026-11-23T10:19:52+00:00",
+ "model": "deepseek-flash"
+}

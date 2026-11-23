@@ -3,16 +3,16 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 91,
+ "count": 98,
  "topics": {
   "Galaxies": 13,
-  "Cosmology and Large-Scale Structure": 9,
-  "Simulation-Based Inference": 8,
+  "Cosmology and Large-Scale Structure": 11,
+  "Simulation-Based Inference": 9,
+  "Stars and Stellar Spectroscopy": 9,
   "Foundation Models and Representation Learning": 6,
   "High-Energy Astrophysics and Astroparticle Physics": 6,
-  "Stars and Stellar Spectroscopy": 6,
+  "Gravitational Waves": 6,
   "Gravitational Lensing": 6,
-  "Gravitational Waves": 5,
   "Observing and Instrumentation": 5,
   "Solar Physics and Heliophysics": 4,
   "Agents and Retrieval Systems": 4,
@@ -26,22 +26,22 @@
   "Datasets": 1,
   "Surveys and Reviews": 1
  },
- "overview": "The period is dominated by Euclid DR1 strong-lens work: a catalogue of 15,072 candidates and segmentation/mass-modelling pipelines built on CNN and vision-transformer ensembles. Benchmarks and data releases include COSMIO for LSST/Euclid/Roman imputation, the FAIR Universe weak-lensing uncertainty challenge, and Survey of Surveys DR3 with 10.13 million homogenised stellar parameters. Methods range from normalizing flows for tomographic N(z) and gravitational-wave inference to Fourier neural operators, PINNs and differentiable JAX/PyTorch galpy backends.",
+ "overview": "Euclid DR1 produced a 15,072-object strong-lens catalogue and segmentation tools, while new benchmarks (COSMIO, FAIR Universe weak lensing) test cross-survey imputation and uncertainty-aware cosmology. Simulation-based inference with normalizing flows and neural posterior estimation appears across DESI N(z), DES Y3 3PCF, LISA, gravitational-wave tests of general relativity, FRB cosmology and exoplanet retrieval. Neural operators and surrogates target MHD turbulence, rotating neutron stars and supernova equations of state; foundation-model and contrastive/JEPA representations target light curves, spectra and survey photometry.",
  "themes": [
-  "Euclid DR1 strong lenses",
-  "Simulation-based inference",
-  "Neural surrogates and operators",
-  "Cross-survey benchmarks and catalogues",
-  "Foundation models and self-supervision"
+  "Euclid DR1 strong-lens catalogues and segmentation",
+  "Simulation-based and amortized Bayesian inference",
+  "Neural operators and physics-informed surrogates",
+  "Foundation models and contrastive/JEPA representations",
+  "Cross-survey benchmarks and homogenised catalogues"
  ],
  "highlights": [
   "2611.15883",
-  "2611.04139",
   "2611.10228",
+  "2611.04139",
   "2611.07936",
-  "2611.14614",
-  "2611.14987"
+  "2611.04713",
+  "2611.14614"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-20T10:03:49+00:00"
+ "updated": "2026-11-23T10:20:00+00:00"
 }
