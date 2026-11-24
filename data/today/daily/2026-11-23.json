@@ -172,6 +172,28 @@
    "summary": "XGBoost classifies Gaia DR3 AGB candidates into 304,090 O-rich and 4,227 C-rich stars, revealing distinct spatial and vertical Milky Way distributions.",
    "topic": "Stars and Stellar Spectroscopy",
    "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.28057",
+   "title": "Tearing stability of pulsar equatorial current sheets",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE"
+   ],
+   "published": "2026-11-06T14:06:13Z",
+   "comment": "4 pages, 1 figure, submitted to Astronomy and Astrophysics Letters",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Ioannis Contopoulos",
+    "Spyros Rigas"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Combines tearing-stability theory with PINN-solved global force-free models to show normal fields can suppress pulsar equatorial current-sheet tearing.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
   }
  ],
  "excluded": [
@@ -180,6 +202,6 @@
    "title": "QuASAR: Toward an LLM-Assisted Framework for Screening, Prototyping, and Assessing Quantum-Advantage Opportunities in Scientific Computing"
   }
  ],
- "updated": "2026-11-23T10:19:52+00:00",
+ "updated": "2026-11-24T05:57:16+00:00",
  "model": "deepseek-flash"
 }

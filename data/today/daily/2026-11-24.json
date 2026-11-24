@@ -1,0 +1,268 @@
+{
+ "date": "2026-11-24",
+ "papers": [
+  {
+   "id": "2611.30872",
+   "title": "Joint Flow-Matching Posteriors for Overlapping LISA Galactic Binaries",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-23T15:42:56Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Davide Sartor",
+    "Giorgio Mentasti"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Flow-matching transformer learns joint posteriors for overlapping LISA galactic binaries, scaling to 15,653 sources and matching MCMC calibration.",
+   "topic": "Gravitational Waves",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.30661",
+   "title": "Reconstructing the depth of first interaction in extensive air showers from fluorescence detector profiles with a physics-motivated neural network",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-23T13:21:41Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Marcos Olegario",
+    "Vitor de Souza"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "A physics-motivated CNN-decoder reconstructs cosmic-ray first-interaction depth from fluorescence profiles, reaching about 21 g/cm2 MAE for 10^19 eV protons.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.30444",
+   "title": "A Cross-Domain Simulator and Benchmark for Uncertainty Quantification in Global 21-cm Inference",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-23T10:34:54Z",
+   "comment": "25 pages, 4 figures, Accepted at the Sim2Science, NeurIPS 2026",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Jacob Tutt",
+    "Harry Bevins",
+    "James Alvey",
+    "Dominic Anstey",
+    "John Cumner",
+    "Eloy de Lera Acedo"
+   ],
+   "n_authors": 7,
+   "relevant": true,
+   "summary": "A differentiable GPU hybrid model emulates global 21-cm signals and foregrounds, enabling fast calibrated inference across 100 injected realisations with 94 inside 95% bands.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.30416",
+   "title": "Luminosity function of millisecond pulsars in globular clusters from their gamma-ray emission",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-23T10:16:06Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Francesca Calore",
+    "Christopher Eckner",
+    "Silvia Manconi",
+    "Francesco Xotta",
+    "Gabrijela Zaharijaš"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Simulation-based inference constrains a log-normal gamma-ray millisecond-pulsar luminosity function in 36 globular clusters, reproducing nested-sampling posteriors and scaling to joint fits.",
+   "topic": "Simulation-Based Inference",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.29991",
+   "title": "Performance of attention-based deep-learning models in Shack-Hartmann wavefront sensor measurements",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-23T03:53:50Z",
+   "comment": "13 pages, 5 figures, 1 table",
+   "journal_ref": "Proc. SPIE 14150, Adaptive Optics Systems X, 141505I (2026)",
+   "doi": "10.1117/12.3101171",
+   "links": [],
+   "authors": [
+    "Matias Marambio-Jimenez",
+    "Yosuke Minowa",
+    "Yoshito Ono",
+    "Hajime Ogane",
+    "Shin Oya",
+    "Yusei Koyama"
+   ],
+   "n_authors": 7,
+   "relevant": true,
+   "summary": "A custom Vision Transformer reconstructs Shack-Hartmann wavefronts from 3.5 million simulated Subaru pupil images, outperforming U-Net and MAP across subaperture configurations.",
+   "topic": "Observing and Instrumentation",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.29856",
+   "title": "World Models Are the Right Foundation for Simulating Mars Terraforming",
+   "primary": "cs.LG",
+   "categories": [
+    "cs.LG",
+    "astro-ph.EP",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-23T00:29:34Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Sameera S Kashyap",
+    "Akshitha Nagaraj",
+    "Razvan Marinescu"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Position paper argues physics-regularized recurrent state-space world models with JEPA-style latents and a MarsWorld benchmark suit Mars terraforming policy search.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.29816",
+   "title": "Predicting the Orbital Retention of Habitable-Zone Planets Following Stellar Flybys Using Machine Learning",
+   "primary": "astro-ph.EP",
+   "categories": [
+    "astro-ph.EP",
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-22T22:46:54Z",
+   "comment": "9 pages, 4 figures(2 pdf and 2 png)",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Fatemeh Rahimi",
+    "Ahmad Farhani Asl"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "An XGBoost classifier trained on N-body simulations predicts habitable-zone planet retention after stellar flybys with 0.90 accuracy and about 74 times speedup.",
+   "topic": "Exoplanets",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.29363",
+   "title": "Is the learner or the summary the limit? Auditing machine-learning energy reconstruction for air-shower arrays on KASCADE and GRAPES-3",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "astro-ph.IM",
+    "cs.LG",
+    "hep-ex",
+    "physics.data-an"
+   ],
+   "published": "2026-11-22T10:03:58Z",
+   "comment": "26 pages, 14 figures, 14 tables. Submitted to Eur. Phys. J. C. Code: https://github.com/SamarjeetMalik/summary-representation-limits",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/SamarjeetMalik/summary-representation-limits"
+   ],
+   "authors": [
+    "Mugdha Raje Ashiya",
+    "Samarjeet Malik"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Audits machine-learning cosmic-ray energy reconstruction on KASCADE and GRAPES-3, finding gradient boosting near the Bayes-risk floor and station signals adding little.",
+   "topic": "High-Energy Astrophysics and Astroparticle Physics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.28983",
+   "title": "Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-21T18:43:42Z",
+   "comment": "Accepted to the 9th Annual Workshop for Machine Learning & the Physical Sciences (ML4PS), 2026",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Tianao Li",
+    "Jimena González",
+    "Xinfeng Xu",
+    "Aggelos K. Katsaggelos",
+    "Rebecca Willett",
+    "Aleksandra Ćiprijanović"
+   ],
+   "n_authors": 8,
+   "relevant": true,
+   "summary": "Blind-FlowSGS uses flow-matching priors for blind posterior sampling of strong gravitational lenses, outperforming diffusion methods on simulated Euclid data.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.28728",
+   "title": "Neural-Network Approximators for Low-Thrust Multi-Asteroid Rendezvous Optimization",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.EP",
+    "cs.NE"
+   ],
+   "published": "2026-11-21T10:52:34Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Xingyu Zhou",
+    "Roberto Armellin",
+    "Jack Yarndley",
+    "Xiangyu Li"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Neural-network approximators predict low-thrust transfer capacity and propellant use, improving beam-search multi-asteroid rendezvous mission design by up to 17.8%.",
+   "topic": "Planetary Science and Small Bodies",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.29471",
+   "title": "On extracting Science information from a large data set of RXTE X-ray binary spectra using KDE technique"
+  },
+  {
+   "id": "2611.28918",
+   "title": "DIPS-OjOS I: Project Design and Science Validation"
+  }
+ ],
+ "updated": "2026-11-24T05:57:16+00:00",
+ "model": "deepseek-flash"
+}

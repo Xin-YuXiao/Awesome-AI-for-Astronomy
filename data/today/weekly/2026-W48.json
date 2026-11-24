@@ -3,28 +3,34 @@
  "start": "2026-11-23",
  "end": "2026-11-29",
  "final": false,
- "count": 7,
+ "count": 18,
  "topics": {
   "Stars and Stellar Spectroscopy": 3,
-  "Cosmology and Large-Scale Structure": 2,
-  "Gravitational Waves": 1,
-  "Simulation-Based Inference": 1
+  "Cosmology and Large-Scale Structure": 3,
+  "High-Energy Astrophysics and Astroparticle Physics": 3,
+  "Gravitational Waves": 2,
+  "Simulation-Based Inference": 2,
+  "Observing and Instrumentation": 1,
+  "Foundation Models and Representation Learning": 1,
+  "Exoplanets": 1,
+  "Gravitational Lensing": 1,
+  "Planetary Science and Small Bodies": 1
  },
- "overview": "Amortized and simulation-based inference dominates: diffusion/flow-matching transformers for LISA, recursive agent-designed Bayesian networks, and invertible networks for stellar photometry. Emulators reconstruct Lyman-alpha forest and kSZ velocity fields with 3D U-Nets and vision transformers. XGBoost delivers a Gaia DR3 AGB classification; gradient-boosted trees recover red-giant glitch parameters.",
+ "overview": "Simulation-based inference and flow-matching transformers dominate, applied to LISA galactic binaries and stochastic backgrounds, strong lenses, and gamma-ray millisecond pulsars. Emulators and benchmarks appear for Lyman-alpha forest mocks and global 21-cm inference. Stellar work uses XGBoost and invertible networks on Gaia photometry; cosmic-ray and wavefront studies use CNNs and Vision Transformers.",
  "themes": [
-  "simulation-based and amortized inference",
-  "emulators for large-scale structure",
-  "transformer reconstruction of CMB and LSS",
-  "stellar parameter and AGB classification",
-  "red-giant asteroseismology with gradient boosting"
+  "Simulation-based inference and flow matching",
+  "LISA gravitational-wave source separation",
+  "Stellar parameter inference and AGB classification",
+  "Cosmological emulators and benchmarks",
+  "Cosmic-ray and instrument reconstruction"
  ],
  "highlights": [
+  "2611.30444",
   "2611.27006",
-  "2611.27848",
-  "2611.27151",
-  "2611.26822",
-  "2611.26701"
+  "2611.26701",
+  "2611.28983",
+  "2611.30872"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-23T10:19:54+00:00"
+ "updated": "2026-11-24T05:57:18+00:00"
 }
