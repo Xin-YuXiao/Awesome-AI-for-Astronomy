@@ -2,6 +2,110 @@
  "date": "2026-11-24",
  "papers": [
   {
+   "id": "2611.31231",
+   "title": "Euclid Data Release 1 (DR1). Learning machine learning: Investigating the complementarity and biases of strong gravitational lens finding networks on Euclid data",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-23T18:59:05Z",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Euclid Collaboration: S. H. Vincken",
+    "N. E. P. Lines",
+    "S. Schuldt",
+    "P. Holloway",
+    "T. E. Collett",
+    "M. Fogliardi"
+   ],
+   "n_authors": 1278,
+   "relevant": true,
+   "summary": "Compare five neural networks on Euclid DR1 strong lens search, showing differing selection biases and gains from combining.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.31204",
+   "title": "JAISP: A Joint Rubin-Euclid Foundation Model for Cross-Instrument Source Detection and Astrometry",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.CO",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-23T18:51:02Z",
+   "comment": "24 pages, 11 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Shoubaneh Hemmati",
+    "George Helou",
+    "Yu-Heng Lin",
+    "Rachel Akeson",
+    "Charles Darren Dowell",
+    "Andreas Faisst"
+   ],
+   "n_authors": 8,
+   "relevant": true,
+   "summary": "Label-free ten-band Rubin-Euclid foundation model uses band prediction to improve source detection and cross-band astrometry.",
+   "topic": "Foundation Models and Representation Learning",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.31167",
+   "title": "Interpretable morphology-based marked statistics",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-23T18:28:54Z",
+   "comment": "17 pages, 7 figures, submitted",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Federico Semenzato",
+    "Benjamin D. Wandelt",
+    "Michele Liguori",
+    "Alvise Raccanelli"
+   ],
+   "n_authors": 4,
+   "relevant": true,
+   "summary": "Rotation-equivariant neural marked statistics trained with contrastive learning tighten cosmological parameter constraints beyond power spectrum in simulations.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.31088",
+   "title": "MAASAI: A Tool-Augmented Multi-Agent System for Astronomical Data Analysis",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-23T17:35:44Z",
+   "comment": "29 pages, 16 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "S. Riggi",
+    "A. Ingallinera",
+    "C. Bordiu",
+    "C. Buemi",
+    "F. Bufano",
+    "M. Burgay"
+   ],
+   "n_authors": 12,
+   "relevant": true,
+   "summary": "Modular multi-agent system combining foundation models, retrieval, and astronomical tools improves radio image classification and supports multi-step workflows.",
+   "topic": "Agents and Retrieval Systems",
+   "model": "deepseek-flash"
+  },
+  {
    "id": "2611.30872",
    "title": "Joint Flow-Matching Posteriors for Overlapping LISA Galactic Binaries",
    "primary": "astro-ph.GA",
@@ -261,8 +365,12 @@
   {
    "id": "2611.28918",
    "title": "DIPS-OjOS I: Project Design and Science Validation"
+  },
+  {
+   "id": "2611.31162",
+   "title": "Shaderous: A Browser-based Hydrodynamics Code for Physics Research and Teaching"
   }
  ],
- "updated": "2026-11-24T05:57:16+00:00",
+ "updated": "2026-11-24T17:32:00+00:00",
  "model": "deepseek-flash"
 }

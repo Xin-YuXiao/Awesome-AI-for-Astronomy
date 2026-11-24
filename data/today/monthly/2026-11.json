@@ -3,19 +3,19 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 109,
+ "count": 113,
  "topics": {
+  "Cosmology and Large-Scale Structure": 13,
   "Galaxies": 13,
-  "Cosmology and Large-Scale Structure": 12,
   "Simulation-Based Inference": 10,
   "High-Energy Astrophysics and Astroparticle Physics": 9,
   "Stars and Stellar Spectroscopy": 9,
-  "Foundation Models and Representation Learning": 7,
+  "Foundation Models and Representation Learning": 8,
+  "Gravitational Lensing": 8,
   "Gravitational Waves": 7,
-  "Gravitational Lensing": 7,
   "Observing and Instrumentation": 6,
+  "Agents and Retrieval Systems": 5,
   "Solar Physics and Heliophysics": 4,
-  "Agents and Retrieval Systems": 4,
   "Benchmarks": 4,
   "Exoplanets": 4,
   "Radio Astronomy": 3,
@@ -26,22 +26,22 @@
   "Datasets": 1,
   "Surveys and Reviews": 1
  },
- "overview": "Euclid DR1 yielded a 15,072-candidate strong-lens catalogue from a pipeline fusing five ML scores with citizen-science and expert grading; companion papers cover CNN/vision-transformer segmentation and ablations. Simulation-based inference with normalizing flows, flow matching and diffusion is applied to DESI N(z), DES Y3 cosmic shear, LISA binaries and gravitational-wave tests of general relativity. Released benchmarks and tools include COSMIO, the FAIR Universe weak-lensing challenge, Survey of Surveys DR3, differentiable JAX/PyTorch galpy and SWXAI.",
+ "overview": "November's papers centre on Euclid DR1 strong-lens releases (15,072 candidates; segmentation and lens-finding ablations), simulation-based inference with normalizing flows, flow matching and diffusion for LISA, gravitational waves and cosmology, and foundation models or agent tooling (EuclidFM, JAISP, MAASAI). New benchmarks include COSMIO, the FAIR Universe weak-lensing challenge and a 21-cm uncertainty simulator. Differentiable and neural-operator surrogates target galpy dynamics, MHD turbulence, neutron-star structure and Lyman-alpha mocks; homogenised stellar catalogues and ML source classification extend survey data products.",
  "themes": [
-  "Euclid DR1 strong lenses",
-  "simulation-based inference",
-  "foundation models and self-supervision",
-  "neural surrogates and operators",
-  "benchmarks and agent tooling"
+  "Euclid DR1 strong-lens releases",
+  "simulation-based inference and generative surrogates",
+  "foundation models and agent pipelines",
+  "cross-survey and uncertainty benchmarks",
+  "differentiable and neural-operator methods"
  ],
  "highlights": [
   "2611.15883",
-  "2611.04139",
-  "2611.10228",
   "2611.07936",
+  "2611.10228",
+  "2611.04139",
   "2611.14614",
-  "2611.10861"
+  "2611.31204"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-24T05:57:25+00:00"
+ "updated": "2026-11-24T17:32:23+00:00"
 }
