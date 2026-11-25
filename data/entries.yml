@@ -120,6 +120,14 @@ sections:
   subsections:
   - title: Images
     entries:
+    - name: JAISP
+      title: 'JAISP: A Joint Rubin-Euclid Foundation Model for Cross-Instrument Source Detection and Astrometry'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.31204
+        Code: https://github.com/xoubish/JAISP
+      desc: A label-free model trained to predict each of ten Rubin and Euclid bands from the other nine over about 0.2 deg² of ECDFS drives detection and astrometry heads that extend the point-source limit about 0.3 mag beyond VIS and cut cross-band offsets from about 50 to 6–10 mas.
+      modality: [Images]
     - name: SSL-SDSS
       title: Self-Supervised Representation Learning for Astronomical Images
       venue: ApJL 2021
@@ -514,6 +522,12 @@ sections:
     note: Oral
 - title: Agents and Retrieval Systems
   entries:
+  - name: MAASAI
+    title: 'MAASAI: A Tool-Augmented Multi-Agent System for Astronomical Data Analysis'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.31088
+    desc: A modular multi-agent system combining foundation-model reasoning, retrieval-augmented knowledge and astronomical tools raises macro-averaged F1 over a commercial-model baseline from 0.53 to 0.72 for extended emission and from 0.37 to 0.88 for source morphology classification.
   - name: automodel
     title: 'automodel: A Skill for Agentic Model Discovery'
     venue: arXiv 2026
@@ -1281,6 +1295,18 @@ sections:
       desc: Semi-supervised network that combines contrastive, color and redshift losses on CANDELS images.
 - title: Gravitational Lensing
   entries:
+  - title: 'Euclid Data Release 1 (DR1). Learning machine learning: Investigating the complementarity and biases of strong gravitational lens finding networks on Euclid data'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.31231
+    desc: Five independently developed CNN and vision-transformer lens finders applied to about 68 million Euclid DR1 galaxies show distinct preferences in Einstein radius and compactness, and their combination recovers over 500 candidates in a 50 deg² calibration set within a 2,000-object inspection budget.
+  - name: Blind-FlowSGS
+    title: Probabilistic Inversion of Strong Gravitational Lenses with Flow Matching Priors
+    venue: NeurIPS 2026 Workshop (ML4PS)
+    links:
+      Paper: https://arxiv.org/abs/2611.28983
+      Project: https://nubivlab.github.io/Blind-FlowSGS/
+    desc: A blind posterior sampler with a flow-matching source prior jointly reconstructs source images and lens parameters, improving on diffusion-based samplers in accuracy and efficiency on simulated Euclid data.
   - title: Euclid Data Release 1 (DR1). Double-source-plane lens candidates
     venue: arXiv 2026
     links:
@@ -1614,6 +1640,12 @@ sections:
     desc: Image-to-image Schrödinger bridge translates DESI Legacy Survey images of Bright Galaxy Survey targets into Euclid VIS-like images, recovering structure down to 0.37 arcsec and reducing the bias of structural measurements such as the Petrosian radius.
 - title: Stars and Stellar Spectroscopy
   entries:
+  - title: Unresolved binaries from Gaia XP to SPHEREx
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.29702
+      Code: https://github.com/jiadonglee/spbin
+    desc: The J-CaPS emulator fits absolute Gaia XP and SPHEREx spectra of about 71,000 nearby low-mass stars as single stars or coeval binaries, recovering 44% of the binaries a colour-magnitude cut misses and flagging 2,841 Gaia DR3 astrometric orbits that need more companion mass than a single main-sequence star allows.
   - title: Machine learning reveals new Galactic C-rich and O-rich AGB sources
     venue: arXiv 2026
     links:
@@ -1948,6 +1980,11 @@ sections:
     desc: Compares Conv1D-BiLSTM and Swin Transformer classifiers with fine-tuned LLM, multimodal LLM and audio LLM models on Kepler and K2 variable-star light curves; the Swin Transformer reaches 99% accuracy and the LLM-based models about 90%.
 - title: Exoplanets
   entries:
+  - title: Predicting the Orbital Retention of Habitable-Zone Planets Following Stellar Flybys Using Machine Learning
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.29816
+    desc: An XGBoost classifier trained on three-body N-body simulations of stellar flybys predicts whether habitable-zone planets keep fully habitable orbits with a test ROC-AUC of 0.97, about 74 times faster than direct integration.
   - title: 'NEXONN: Advancing the NEXOTRANS Exoplanet Atmospheric Retrieval Framework with Transformer-Based Neural Posterior Estimation for JWST Transmission Spectroscopy of WASP-39b'
     venue: arXiv 2026
     links:
@@ -2134,6 +2171,17 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - name: Wavelet-CFM
+    title: Wavelet-CFM for the extragalactic millimeter-wave sky
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.28695
+    desc: Wavelet-factorised conditional flow matching jointly generates lensing convergence, kSZ, tSZ and CIB maps on about 9×9 deg² patches at 1-arcminute resolution with a tractable likelihood, matching validation power spectra, one-point distributions and Minkowski functionals to a few percent.
+  - title: Interpretable morphology-based marked statistics
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.31167
+    desc: A rotation-equivariant neural mark combining learned density responses with local morphology and trained with contrastive learning tightens σ8 and Ωm Fisher constraints from real-space matter simulations by 1.7× and 1.5× over the power spectrum plus bispectrum at k_max = 0.3 h/Mpc.
   - title: Kinetic Sunyaev Zel'dovich Velocity Reconstruction Using Vision Transformers
     venue: arXiv 2026
     links:
@@ -2516,6 +2564,11 @@ sections:
     desc: Extremely randomized trees for centrals and a Gaussian-process emulator with feature selection for satellites predict stellar-mass distributions from halo properties, producing a galaxy catalogue for the 2.8 Gpc FLAMINGO-10k dark-matter-only run.
 - title: Simulation-Based Inference
   entries:
+  - title: A Cross-Domain Simulator and Benchmark for Uncertainty Quantification in Global 21-cm Inference
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.30444
+    desc: A differentiable GPU forward model combining a neural emulator of the global 21-cm signal, a physics-informed foreground model and a linear antenna surrogate cuts evaluation time by 7.2×10⁷ and, with nested slice sampling, places 94 of 100 unseen injected signals within their 95% credible bands.
   - title: 'Simulation-based inference for gravitational-wave cosmology: parameter reconstruction of a first-order electroweak phase transition'
     venue: arXiv 2026
     links:
@@ -2606,6 +2659,22 @@ sections:
     desc: Unified interface over sbi, pydelfi and lampe with validation and calibration tools.
 - title: High-Energy Astrophysics and Astroparticle Physics
   entries:
+  - title: 'Is the learner or the summary the limit? Auditing machine-learning energy reconstruction for air-shower arrays on KASCADE and GRAPES-3'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.29363
+      Code: https://github.com/SamarjeetMalik/summary-representation-limits
+    desc: An audit against a learner-independent estimate of the Bayes-risk floor on KASCADE simulations, 13,848,509 measured KASCADE events and GRAPES-3 simulations finds gradient boosting on nine reconstructed features within 2.2% of the floor below 10^16 eV, so the summary rather than the learner limits energy resolution.
+  - title: Reconstructing the depth of first interaction in extensive air showers from fluorescence detector profiles with a physics-motivated neural network
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.30661
+    desc: A convolutional encoder with a Gaisser-Hillas decoder predicts quantiles of the first-interaction depth from fluorescence profiles, trained on four million simulated proton and iron showers, reaching a mean absolute error of about 21 g cm⁻² for protons near 10^19 eV.
+  - title: Luminosity function of millisecond pulsars in globular clusters from their gamma-ray emission
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.30416
+    desc: Simulation-based inference on a forward model of summed millisecond-pulsar spectra constrains their gamma-ray luminosity function from Fermi-LAT SEDs of 36 globular-cluster sources, reproducing likelihood-based posteriors where direct sampling remains feasible.
   - title: Isotropic diffuse gamma-ray flux limits from Carpet-3 experiment data using neural networks with domain adaptation
     venue: arXiv 2026
     links:
@@ -2712,6 +2781,12 @@ sections:
     desc: Predicts hits on virtual optical modules between real ones to super-resolve neutrino telescope events, improving muon angular reconstruction.
 - title: Gravitational Waves
   entries:
+  - title: Joint Flow-Matching Posteriors for Overlapping LISA Galactic Binaries
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.30872
+      Code: https://github.com/davidesartor/canna
+    desc: Flow matching with a multimodal transformer learns the joint posterior of overlapping LISA galactic binaries across 0.1–16 mHz with full instrument response and noise, scaling to 15,653 simultaneously fitted sources with calibration and coverage checked against MCMC.
   - name: SlotFlow-GB
     title: 'SlotFlow-GB: A Neural Framework for Trans-Dimensional Inference of Overlapping Galactic Binaries'
     venue: arXiv 2026
@@ -3170,6 +3245,11 @@ sections:
     desc: DeepONet thermophysical model of water sublimation, fitted with simulated annealing to the water production curves of 28 comets to estimate nucleus sizes.
 - title: Observing and Instrumentation
   entries:
+  - title: Performance of attention-based deep-learning models in Shack-Hartmann wavefront sensor measurements
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.29991
+    desc: A vision transformer trained on 3.5 million simulated open-loop turbulent phase and spot-image pairs for the Subaru pupil gives the lowest residual phase variance against a U-Net and a MAP linear reconstructor across 8×8 to 32×32 subaperture sampling.
   - name: RevolIACT
     title: 'RevolIACT: a longitudinally distributed array of compact AI-driven Cherenkov telescopes for the time-domain sub-TeV sky'
     venue: arXiv 2026
