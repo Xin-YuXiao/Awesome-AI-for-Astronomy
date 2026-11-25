@@ -355,6 +355,30 @@
    "summary": "Neural-network approximators predict low-thrust transfer capacity and propellant use, improving beam-search multi-asteroid rendezvous mission design by up to 17.8%.",
    "topic": "Planetary Science and Small Bodies",
    "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.31282",
+   "title": "CosmoMap: Predicting Hot Gas Temperature and Density from Dark Matter with a Conditioned 3D U-Net",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-19T15:55:20Z",
+   "comment": "15 pages, 12 figures, 5 tables. Code available at https://github.com/amanbh1/CosmoMap",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/amanbh1/CosmoMap"
+   ],
+   "authors": [
+    "Aman Bhutani",
+    "Maggie Lieu"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "A cosmological-parameter-conditioned 3D U-Net predicts hot gas temperature and density from dark matter, improving on boosted trees and reproducing X-ray scaling relations.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
   }
  ],
  "excluded": [
@@ -371,6 +395,6 @@
    "title": "Shaderous: A Browser-based Hydrodynamics Code for Physics Research and Teaching"
   }
  ],
- "updated": "2026-11-24T17:32:00+00:00",
+ "updated": "2026-11-25T12:39:11+00:00",
  "model": "deepseek-flash"
 }

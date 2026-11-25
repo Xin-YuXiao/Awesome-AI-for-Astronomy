@@ -3,12 +3,12 @@
  "start": "2026-11-23",
  "end": "2026-11-29",
  "final": false,
- "count": 22,
+ "count": 26,
  "topics": {
-  "Cosmology and Large-Scale Structure": 4,
+  "Cosmology and Large-Scale Structure": 7,
   "Stars and Stellar Spectroscopy": 3,
+  "Gravitational Waves": 3,
   "High-Energy Astrophysics and Astroparticle Physics": 3,
-  "Gravitational Waves": 2,
   "Simulation-Based Inference": 2,
   "Gravitational Lensing": 2,
   "Foundation Models and Representation Learning": 2,
@@ -17,21 +17,22 @@
   "Exoplanets": 1,
   "Planetary Science and Small Bodies": 1
  },
- "overview": "The period is dominated by simulation-based inference and generative models: flow-matching and diffusion transformers for LISA binaries and stochastic backgrounds, and amortized Bayesian networks. Cosmology work applies U-Nets to Lyman-alpha mocks, Vision Transformers to kSZ velocities, and neural lens finding to Euclid DR1. Foundation models and agents appear in JAISP (Rubin-Euclid) and MAASAI.",
+ "overview": "Work concentrated on simulation-based inference for LISA and gravitational lenses, generative emulators for the Lyman-alpha forest and cosmological fields, and foundation-model or agentic tooling. Euclid DR1 strong-lens searches, a Rubin-Euclid cross-instrument model, Gaia DR3 AGB classification, and a 21-cm uncertainty benchmark provide concrete data sets and benchmarks.",
  "themes": [
   "Simulation-based and amortized inference",
-  "LISA and gravitational-wave source separation",
-  "Foundation models and agentic workflows",
-  "Euclid/Rubin lensing and cosmology",
-  "Stellar photometry and 21-cm inference"
+  "Cosmological emulation and field reconstruction",
+  "Foundation models and agentic tools",
+  "Euclid/Rubin lens and source detection",
+  "Stellar, transient and cosmic-ray classification"
  ],
  "highlights": [
-  "2611.31204",
-  "2611.31088",
+  "2611.26701",
+  "2611.27006",
   "2611.30444",
-  "2611.31231",
-  "2611.28983"
+  "2611.31088",
+  "2611.31204",
+  "2611.31231"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-24T17:32:18+00:00"
+ "updated": "2026-11-25T12:41:50+00:00"
 }

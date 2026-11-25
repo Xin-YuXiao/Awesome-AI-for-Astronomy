@@ -3,16 +3,16 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 113,
+ "count": 117,
  "topics": {
-  "Cosmology and Large-Scale Structure": 13,
+  "Cosmology and Large-Scale Structure": 16,
   "Galaxies": 13,
   "Simulation-Based Inference": 10,
   "High-Energy Astrophysics and Astroparticle Physics": 9,
   "Stars and Stellar Spectroscopy": 9,
   "Foundation Models and Representation Learning": 8,
+  "Gravitational Waves": 8,
   "Gravitational Lensing": 8,
-  "Gravitational Waves": 7,
   "Observing and Instrumentation": 6,
   "Agents and Retrieval Systems": 5,
   "Solar Physics and Heliophysics": 4,
@@ -26,22 +26,22 @@
   "Datasets": 1,
   "Surveys and Reviews": 1
  },
- "overview": "November's papers centre on Euclid DR1 strong-lens releases (15,072 candidates; segmentation and lens-finding ablations), simulation-based inference with normalizing flows, flow matching and diffusion for LISA, gravitational waves and cosmology, and foundation models or agent tooling (EuclidFM, JAISP, MAASAI). New benchmarks include COSMIO, the FAIR Universe weak-lensing challenge and a 21-cm uncertainty simulator. Differentiable and neural-operator surrogates target galpy dynamics, MHD turbulence, neutron-star structure and Lyman-alpha mocks; homogenised stellar catalogues and ML source classification extend survey data products.",
+ "overview": "Euclid DR1 dominated: CNN/ViT ensembles, citizen science and expert grading produced a 15,072-candidate strong-lens catalogue, with segmentation and bias studies. Simulation-based inference with normalizing flows and flow matching targeted DES Y3 shear, LISA binaries, gravitational-wave tests of general relativity and FRB cosmology; neural surrogates emulated MHD turbulence, supernova equations of state and Lyman-alpha forests. New benchmarks and releases include COSMIO cross-survey imputation, the FAIR Universe weak-lensing challenge, Survey of Surveys DR3, EuclidFM, and differentiable galpy backends.",
  "themes": [
-  "Euclid DR1 strong-lens releases",
-  "simulation-based inference and generative surrogates",
-  "foundation models and agent pipelines",
-  "cross-survey and uncertainty benchmarks",
-  "differentiable and neural-operator methods"
+  "Euclid DR1 strong-lens detection and segmentation",
+  "Simulation-based inference and neural surrogates",
+  "Foundation and contrastive representation learning",
+  "ML benchmarks, catalogues and open tools",
+  "Cross-survey imputation and multimodal retrieval"
  ],
  "highlights": [
+  "2611.04139",
+  "2611.10228",
   "2611.15883",
   "2611.07936",
-  "2611.10228",
-  "2611.04139",
   "2611.14614",
-  "2611.31204"
+  "2611.10861"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-24T17:32:23+00:00"
+ "updated": "2026-11-25T12:41:58+00:00"
 }

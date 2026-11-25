@@ -1,0 +1,85 @@
+{
+ "date": "2026-11-25",
+ "papers": [
+  {
+   "id": "2611.31916",
+   "title": "Machine learning enables full Bayesian inference for spinning extreme-mass-ratio inspirals",
+   "primary": "gr-qc",
+   "categories": [
+    "gr-qc",
+    "astro-ph.HE",
+    "astro-ph.IM",
+    "cs.AI"
+   ],
+   "published": "2026-11-24T04:21:47Z",
+   "comment": "22 pages, 5 figures, 1 table; Extended Data: 4 figures, 2 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Bo Liang",
+    "Minghui Du",
+    "Zhenwei Lyu",
+    "Hanlin Song",
+    "Jiakai Zhang",
+    "Weichen Qin"
+   ],
+   "n_authors": 13,
+   "relevant": true,
+   "summary": "Generative networks plus exact LISA-Taiji likelihood produce first 14-parameter posterior for a spinning extreme-mass-ratio inspiral from the complete prior.",
+   "topic": "Gravitational Waves",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.31494",
+   "title": "Learning to find cosmic filaments with graph neural networks",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-23T20:05:48Z",
+   "comment": "5 pages, 5 figures, accepted at Machine Learning and the Physical Sciences 2026 workshop",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Alexis Tastet",
+    "Daniela Galárraga-Espinosa",
+    "Leander Thiele"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Flow matching with graph neural networks generates probabilistic cosmic filament configurations from galaxy surveys, reproducing target statistics and modeling uncertainty.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.31450",
+   "title": "Symbolic Regression Diagnostics of 1D Lyman Alpha Forest Emulator",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO"
+   ],
+   "published": "2026-11-23T19:25:06Z",
+   "comment": "16 pages, 7 figures",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Aidan Behmer",
+    "Ming-Feng Ho",
+    "Camille Avestruz",
+    "Yanhui Yang",
+    "Simeon Bird"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Symbolic regression with a Sobolev derivative-matching loss recovers derivative-faithful equations for 9 of 11 Lyman-alpha forest emulator parameters at z=3.6.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [],
+ "updated": "2026-11-25T12:39:11+00:00",
+ "model": "deepseek-flash"
+}
