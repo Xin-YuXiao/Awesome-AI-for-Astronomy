@@ -3,45 +3,45 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "final": false,
- "count": 117,
+ "count": 124,
  "topics": {
-  "Cosmology and Large-Scale Structure": 16,
-  "Galaxies": 13,
+  "Cosmology and Large-Scale Structure": 17,
+  "Galaxies": 14,
   "Simulation-Based Inference": 10,
   "High-Energy Astrophysics and Astroparticle Physics": 9,
   "Stars and Stellar Spectroscopy": 9,
+  "Gravitational Lensing": 9,
   "Foundation Models and Representation Learning": 8,
   "Gravitational Waves": 8,
-  "Gravitational Lensing": 8,
+  "Agents and Retrieval Systems": 7,
   "Observing and Instrumentation": 6,
-  "Agents and Retrieval Systems": 5,
-  "Solar Physics and Heliophysics": 4,
+  "Solar Physics and Heliophysics": 5,
   "Benchmarks": 4,
   "Exoplanets": 4,
   "Radio Astronomy": 3,
   "Language and Vision-Language Models": 3,
+  "Source Detection, Deblending and Image Simulation": 2,
   "Time-Domain Astronomy and Transients": 2,
   "Planetary Science and Small Bodies": 2,
-  "Source Detection, Deblending and Image Simulation": 1,
   "Datasets": 1,
   "Surveys and Reviews": 1
  },
- "overview": "Euclid DR1 dominated: CNN/ViT ensembles, citizen science and expert grading produced a 15,072-candidate strong-lens catalogue, with segmentation and bias studies. Simulation-based inference with normalizing flows and flow matching targeted DES Y3 shear, LISA binaries, gravitational-wave tests of general relativity and FRB cosmology; neural surrogates emulated MHD turbulence, supernova equations of state and Lyman-alpha forests. New benchmarks and releases include COSMIO cross-survey imputation, the FAIR Universe weak-lensing challenge, Survey of Surveys DR3, EuclidFM, and differentiable galpy backends.",
+ "overview": "The period is dominated by Euclid DR1 strong-lens work: ML classification plus citizen-science/expert grading produced 15,072 candidates and segmentation/mass-modelling pipelines. Simulation-based inference with normalizing flows, flow matching and neural posterior estimation spans DES Y3 cosmic shear, LISA and EMRI gravitational waves, and lens modelling. Benchmarks and releases include COSMIO cross-survey imputation, the FAIR Universe weak-lensing uncertainty challenge, Survey of Surveys DR3 (10.13 million stars), differentiable galpy backends, and Euclid/Rubin foundation models and agent tooling.",
  "themes": [
-  "Euclid DR1 strong-lens detection and segmentation",
-  "Simulation-based inference and neural surrogates",
-  "Foundation and contrastive representation learning",
-  "ML benchmarks, catalogues and open tools",
-  "Cross-survey imputation and multimodal retrieval"
+  "Euclid DR1 strong-lens searches and segmentation",
+  "Simulation-based inference and flow matching for cosmology and gravitational waves",
+  "Neural surrogates and emulators for simulations",
+  "Survey foundation models and cross-survey representation learning",
+  "Agentic and LLM-based research workflows and benchmarks"
  ],
  "highlights": [
+  "2611.15883",
   "2611.04139",
   "2611.10228",
-  "2611.15883",
   "2611.07936",
   "2611.14614",
-  "2611.10861"
+  "2611.31204"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-25T12:41:58+00:00"
+ "updated": "2026-11-26T04:57:45+00:00"
 }

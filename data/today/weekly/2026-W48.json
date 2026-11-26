@@ -3,36 +3,39 @@
  "start": "2026-11-23",
  "end": "2026-11-29",
  "final": false,
- "count": 26,
+ "count": 33,
  "topics": {
-  "Cosmology and Large-Scale Structure": 7,
+  "Cosmology and Large-Scale Structure": 8,
   "Stars and Stellar Spectroscopy": 3,
   "Gravitational Waves": 3,
   "High-Energy Astrophysics and Astroparticle Physics": 3,
+  "Gravitational Lensing": 3,
+  "Agents and Retrieval Systems": 3,
   "Simulation-Based Inference": 2,
-  "Gravitational Lensing": 2,
   "Foundation Models and Representation Learning": 2,
-  "Agents and Retrieval Systems": 1,
   "Observing and Instrumentation": 1,
   "Exoplanets": 1,
-  "Planetary Science and Small Bodies": 1
+  "Planetary Science and Small Bodies": 1,
+  "Solar Physics and Heliophysics": 1,
+  "Source Detection, Deblending and Image Simulation": 1,
+  "Galaxies": 1
  },
- "overview": "Work concentrated on simulation-based inference for LISA and gravitational lenses, generative emulators for the Lyman-alpha forest and cosmological fields, and foundation-model or agentic tooling. Euclid DR1 strong-lens searches, a Rubin-Euclid cross-instrument model, Gaia DR3 AGB classification, and a 21-cm uncertainty benchmark provide concrete data sets and benchmarks.",
+ "overview": "Across 33 papers, simulation-based inference and flow matching dominate LISA gravitational-wave and strong-lens posterior work, including Euclid DR1/Q1 lens searches and spinning EMRIs. Cosmological emulators use 3D U-Nets and graph networks for Lyman-alpha forests, hot gas and filaments. Foundation models and agents appear in Rubin-Euclid source detection, radio analysis and IceCube neutrino searches.",
  "themes": [
-  "Simulation-based and amortized inference",
-  "Cosmological emulation and field reconstruction",
-  "Foundation models and agentic tools",
-  "Euclid/Rubin lens and source detection",
-  "Stellar, transient and cosmic-ray classification"
+  "Simulation-based inference for LISA and gravitational waves",
+  "Euclid strong-lens finding and agentic modeling",
+  "Foundation models and LLM agents for astronomy workflows",
+  "Cosmological emulation and generative field reconstruction",
+  "Stellar and Galactic parameter inference"
  ],
  "highlights": [
-  "2611.26701",
-  "2611.27006",
   "2611.30444",
   "2611.31088",
+  "2611.33324",
   "2611.31204",
-  "2611.31231"
+  "2611.27006",
+  "2611.31916"
  ],
  "model": "deepseek-flash",
- "updated": "2026-11-25T12:41:50+00:00"
+ "updated": "2026-11-26T04:57:36+00:00"
 }

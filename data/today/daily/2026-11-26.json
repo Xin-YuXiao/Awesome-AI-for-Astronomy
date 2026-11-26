@@ -1,0 +1,205 @@
+{
+ "date": "2026-11-26",
+ "papers": [
+  {
+   "id": "2611.34458",
+   "title": "Very fast 2D inversions of Stokes profiles using neural emulators",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM"
+   ],
+   "published": "2026-11-25T14:31:56Z",
+   "comment": "12 pages, 2 appendices, 5 figures, submitted to A&A",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "A. Asensio Ramos",
+    "J. de la Cruz Rodriguez",
+    "C. Kuckein",
+    "S. J. Gonzalez Manrique",
+    "C. Diaz Baso  ( IAC",
+    "ULL"
+   ],
+   "n_authors": 9,
+   "relevant": true,
+   "summary": "Neural emulators of photospheric and chromospheric Stokes profiles enable fast regularized 2D solar inversions, processing full fields of view in minutes on a GPU.",
+   "topic": "Solar Physics and Heliophysics",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.34332",
+   "title": "Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS",
+   "primary": "astro-ph.CO",
+   "categories": [
+    "astro-ph.CO",
+    "cs.LG"
+   ],
+   "published": "2026-11-25T13:10:54Z",
+   "comment": "16 pages, 12 figures, 4 tables",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Kalash Thakkar",
+    "Unnati Shah"
+   ],
+   "n_authors": 2,
+   "relevant": true,
+   "summary": "Graph neural networks classify galaxies into cosmic-web environments in CAMELS, reaching macro F1 about 0.65 and transferring across hydrodynamical simulations, outperforming an MLP.",
+   "topic": "Cosmology and Large-Scale Structure",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.34047",
+   "title": "UNIONS and Euclid: Calibrating point source-galaxy separation for ground-based surveys",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-25T09:25:10Z",
+   "comment": "Accepted for publication in A&A. Some material is available online on https://github.com/GFThomas/StarGal_ground_Euclid",
+   "journal_ref": "",
+   "doi": "10.1051/0004-6361/202661856",
+   "links": [
+    "https://github.com/GFThomas/StarGal_ground_Euclid"
+   ],
+   "authors": [
+    "G. Thomas",
+    "S. E. T. Smith",
+    "S. Gwyn",
+    "A. W. McConnachie",
+    "J.-C. Cuillandre",
+    "M. Gatto"
+   ],
+   "n_authors": 132,
+   "relevant": true,
+   "summary": "Euclid data train and validate a neural-network star-galaxy classifier for UNIONS imaging, reaching 80% purity at r~24 where curve-of-growth methods fail.",
+   "topic": "Source Detection, Deblending and Image Simulation",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.33953",
+   "title": "PINN-Slicer: Exploiting Rotational Symmetry to Solve the Photon Orbit Equation Around a Black Hole",
+   "primary": "cs.CL",
+   "categories": [
+    "cs.CL",
+    "astro-ph.IM",
+    "gr-qc",
+    "physics.comp-ph"
+   ],
+   "published": "2026-11-25T08:13:49Z",
+   "comment": "11 pages, 14 figures, 2 tables. Accepted at the 9th Workshop on Machine Learning and the Physical Sciences (ML4PS 2026). Code: https://github.com/soot-bit/pinnslicer",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/soot-bit/pinnslicer"
+   ],
+   "authors": [
+    "Claire David",
+    "Tlotlo Oepeng",
+    "Harrison B. Prosper"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "Physics-informed neural network with symmetry-based slicing solves the photon-orbit equation around a Schwarzschild black hole, reaching RMSE below 1e-3 without retraining for new initial conditions.",
+   "topic": "Gravitational Lensing",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.33660",
+   "title": "Towards three-dimensional dark matter mapping in the extended solar neighbourhood with Gaia Data Release 3 and deep learning",
+   "primary": "astro-ph.GA",
+   "categories": [
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-25T02:25:35Z",
+   "comment": "17 pages, 15 figures, accepted for publication in MNRAS on the Nov. 24, 2026",
+   "journal_ref": "",
+   "doi": "",
+   "links": [],
+   "authors": [
+    "Yigon Kim",
+    "Ho Seong Hwang",
+    "Sungwook E. Hong",
+    "Donghui Jeong",
+    "Mingyeong Yang",
+    "Ji-hoon Kim"
+   ],
+   "n_authors": 6,
+   "relevant": true,
+   "summary": "Deep learning maps Gaia DR3 stellar kinematics to local dark matter density using FIRE-2 simulations, yielding 0.80–1.12 GeV cm−3 estimates.",
+   "topic": "Galaxies",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.33363",
+   "title": "Toward Automated Strong-Lens Modeling with Agentic Workflows: An Application to Euclid Q1 Lenses",
+   "primary": "astro-ph.IM",
+   "categories": [
+    "astro-ph.IM",
+    "astro-ph.CO",
+    "astro-ph.GA"
+   ],
+   "published": "2026-11-24T19:50:38Z",
+   "comment": "15 pages, 4 figures, 1 table. The lens-model catalog and diagnostic plots are available at https://github.com/caoxiaoyue/lens-orchestra. The full codebase will be released upon acceptance",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/caoxiaoyue/lens-orchestra"
+   ],
+   "authors": [
+    "Xiaoyue Cao",
+    "Ran Li",
+    "Yunlong Yin",
+    "Rui Li",
+    "Liang Gao"
+   ],
+   "n_authors": 5,
+   "relevant": true,
+   "summary": "Lens-Orchestra couples multimodal LLM agents to forward strong-lens modeling, autonomously fitting 149 Euclid Q1 lenses and recovering Einstein radii and density slopes.",
+   "topic": "Agents and Retrieval Systems",
+   "model": "deepseek-flash"
+  },
+  {
+   "id": "2611.33324",
+   "title": "NuSrcAgent: An AI Agent for High-Energy Neutrino Source Searches",
+   "primary": "astro-ph.HE",
+   "categories": [
+    "astro-ph.HE",
+    "hep-ex",
+    "hep-ph"
+   ],
+   "published": "2026-11-24T19:12:17Z",
+   "comment": "Main text 12 pages, 8 figures, and appendices. Comments are welcome. Code available at github.com/beizhouphys/NuSrcAgent",
+   "journal_ref": "",
+   "doi": "",
+   "links": [
+    "https://github.com/beizhouphys/NuSrcAgent"
+   ],
+   "authors": [
+    "Bei Zhou",
+    "Po-Wen Chang",
+    "Kohta Murase"
+   ],
+   "n_authors": 3,
+   "relevant": true,
+   "summary": "NuSrcAgent is a public AI agent that runs IceCube neutrino source likelihood analyses from natural-language requests, reproducing single-source and stacking results and enabling new analyses.",
+   "topic": "Agents and Retrieval Systems",
+   "model": "deepseek-flash"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "2611.33528",
+   "title": "Superfit: A Supernova Spectral Classification Tool with Host-Galaxy Decomposition"
+  },
+  {
+   "id": "2611.33435",
+   "title": "A Variability Metric Pipeline for AGN studies"
+  }
+ ],
+ "updated": "2026-11-26T04:56:42+00:00",
+ "model": "deepseek-flash"
+}
