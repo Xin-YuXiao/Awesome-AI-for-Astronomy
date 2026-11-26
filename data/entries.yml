@@ -522,6 +522,12 @@ sections:
     note: Oral
 - title: Agents and Retrieval Systems
   entries:
+  - title: 'NuSrcAgent: An AI Agent for High-Energy Neutrino Source Searches'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.33324
+      Code: https://github.com/beizhouphys/NuSrcAgent
+    desc: Runs likelihood-based single-source and catalog-stacking searches on public IceCube track data from natural-language requests and records inputs and settings for reruns.
   - name: MAASAI
     title: 'MAASAI: A Tool-Augmented Multi-Agent System for Astronomical Data Analysis'
     venue: arXiv 2026
@@ -911,6 +917,13 @@ sections:
   subsections:
   - title: Morphology and Catalogues
     entries:
+    - title: 'UNIONS and Euclid: Calibrating point source-galaxy separation for ground-based surveys'
+      venue: A&A 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.34047
+        Journal: https://doi.org/10.1051/0004-6361/202661856
+        Code: https://github.com/GFThomas/StarGal_ground_Euclid
+      desc: Uses Euclid morphology to train and evaluate a point-source classifier for ground-based UNIONS data across more than 700,000 sources.
     - title: Feature redundancy, redshift, and class-prior effects in SDSS--WISE photometric classification
       venue: arXiv 2026
       links:
@@ -1125,6 +1138,16 @@ sections:
       desc: DINOv2 light-curve embeddings, isolation forests and multimodal LLM agents that vet anomaly candidates.
   - title: Physical Properties and Photometric Redshifts
     entries:
+    - title: 'Curvature Mismatch and Local Errors in Galaxy Property Estimation'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.29224
+      desc: Tests how embedding curvature affects local physical-property errors from linear probes across five pretrained galaxy encoders.
+    - title: 'Towards three-dimensional dark matter mapping in the extended solar neighbourhood with Gaia Data Release 3 and deep learning'
+      venue: arXiv 2026
+      links:
+        Paper: https://arxiv.org/abs/2611.33660
+      desc: Trains VNet and ViT-VNet on FIRE-2 simulations to map stellar kinematics to three-dimensional dark matter density and applies the models to Gaia DR3.
     - title: Cross-Dataset Inference of Central-Satellite Classification and Host Halo Masses from Galaxy neighbours with Machine Learning
       venue: arXiv 2026
       links:
@@ -1295,6 +1318,13 @@ sections:
       desc: Semi-supervised network that combines contrastive, color and redshift losses on CANDELS images.
 - title: Gravitational Lensing
   entries:
+  - name: Lens-Orchestra
+    title: 'Toward Automated Strong-Lens Modeling with Agentic Workflows: An Application to Euclid Q1 Lenses'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.33363
+      Catalog: https://github.com/caoxiaoyue/lens-orchestra
+    desc: Combines multimodal agents with physical forward modeling for 185 Euclid Q1 strong-lens candidates, yielding 140 usable models in independent human evaluation.
   - title: 'Euclid Data Release 1 (DR1). Learning machine learning: Investigating the complementarity and biases of strong gravitational lens finding networks on Euclid data'
     venue: arXiv 2026
     links:
@@ -2171,6 +2201,11 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - title: 'Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.34332
+    desc: Tests graph classifiers of cosmic-web environments on independent CAMELS realizations from IllustrisTNG, SIMBA, and Astrid.
   - name: CosmoMap
     title: 'CosmoMap: Predicting Hot Gas Temperature and Density from Dark Matter with a Conditioned 3D U-Net'
     venue: arXiv 2026
@@ -2676,6 +2711,12 @@ sections:
     desc: Unified interface over sbi, pydelfi and lampe with validation and calibration tools.
 - title: High-Energy Astrophysics and Astroparticle Physics
   entries:
+  - title: 'PINN-Slicer: Exploiting Rotational Symmetry to Solve the Photon Orbit Equation Around a Black Hole'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.33953
+      Code: https://github.com/soot-bit/pinnslicer
+    desc: Reuses a physics-informed neural network trained on short intervals to integrate black-hole photon trajectories across longer domains.
   - title: 'Is the learner or the summary the limit? Auditing machine-learning energy reconstruction for air-shower arrays on KASCADE and GRAPES-3'
     venue: arXiv 2026
     links:
@@ -2951,6 +2992,12 @@ sections:
     desc: Extends DINGO to lensed signals, reducing parameter estimation and lensing Bayes factor computation from weeks to seconds while matching Bilby.
 - title: Solar Physics and Heliophysics
   entries:
+  - title: 'Very fast 2D inversions of Stokes profiles using neural emulators'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.34458
+      Code: https://github.com/aasensio/inv_emulator
+    desc: Uses differentiable neural surrogates of solar Stokes profiles for spatially regularized full-field inversions with optional telescope-aberration correction.
   - title: Identification of chromospheric dynamical signatures in the 2022 December 27 solar flare with DKIST
     venue: arXiv 2026
     links:
@@ -3344,6 +3391,9 @@ sections:
       desc: 15 TB across 16 physics simulation datasets, including MHD and supernova explosion simulations.
 - title: Tools and Libraries
   entries:
+  - name: astroquery-mcp
+    url: https://github.com/NASA-IMPACT/astroquery-mcp
+    desc: Exposes astronomical archive queries to MCP clients and returns FITS products with checksums and source URLs when available.
   - name: AspGap
     url: https://github.com/jiadonglee/aspgap
     desc: infers red giant stellar parameters and abundances from Gaia XP spectra.
