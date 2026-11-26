@@ -2171,6 +2171,23 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - name: CosmoMap
+    title: 'CosmoMap: Predicting Hot Gas Temperature and Density from Dark Matter with a Conditioned 3D U-Net'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.31282
+      Code: https://github.com/amanbh1/CosmoMap
+    desc: A 3D U-Net conditioned on cosmological and feedback parameters predicts hot-gas temperature and electron density from dark matter density and velocity on the CAMELS IllustrisTNG Latin hypercube, reaching R² of 0.765 for log T and 0.934 for log n_e at z = 0 and cutting the error of gradient-boosted trees by 22–23 per cent.
+  - title: Learning to find cosmic filaments with graph neural networks
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.31494
+    desc: A conditional generative model combining flow matching and graph neural networks samples cosmic filament configurations from galaxy catalogues, reproducing key statistics of the target filament distribution while representing the uncertainty of the reconstruction.
+  - title: Symbolic Regression Diagnostics of 1D Lyman Alpha Forest Emulator
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.31450
+    desc: Symbolic regression with a derivative-matching Sobolev loss turns a multi-fidelity Gaussian-process emulator of the PRIYA Lyman-alpha forest 1D flux power spectrum into explicit equations whose parameter derivatives stay faithful for 9 of the 11 parameters at z = 3.6.
   - name: Wavelet-CFM
     title: Wavelet-CFM for the extragalactic millimeter-wave sky
     venue: arXiv 2026
@@ -3245,6 +3262,11 @@ sections:
     desc: DeepONet thermophysical model of water sublimation, fitted with simulated annealing to the water production curves of 28 comets to estimate nucleus sizes.
 - title: Observing and Instrumentation
   entries:
+  - title: 'From Historical Schedules to On-Sky Control: Autonomous Scheduling on the 4-m Blanco Telescope'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.32963
+    desc: A behavior-cloning scheduler trained only on historical schedules ran autonomously on the 4-m Blanco Telescope, scheduling 149 exposures in 5.2 hours with a mean t_eff of 0.75 ± 0.26, consistent with closed-loop rollouts that were 6.9 ± 3.4% below the expert.
   - title: Performance of attention-based deep-learning models in Shack-Hartmann wavefront sensor measurements
     venue: arXiv 2026
     links:
