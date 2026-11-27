@@ -2010,6 +2010,11 @@ sections:
     desc: Compares Conv1D-BiLSTM and Swin Transformer classifiers with fine-tuned LLM, multimodal LLM and audio LLM models on Kepler and K2 variable-star light curves; the Swin Transformer reaches 99% accuracy and the LLM-based models about 90%.
 - title: Exoplanets
   entries:
+  - title: 'NASA''s Pandora SmallSat Mission: Gaussian Processes for Simulated Stellar Heterogeneity Corrections under Imperfect Stellar Models'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.34720
+    desc: Gaussian processes learn wavelength-dependent deviations from photosphere and spot model grids in simulated Pandora data, improving composite stellar spectrum recovery across eight K- and M-dwarf scenarios and propagating stellar contamination into planetary atmospheric retrievals.
   - title: Predicting the Orbital Retention of Habitable-Zone Planets Following Stellar Flybys Using Machine Learning
     venue: arXiv 2026
     links:
@@ -2201,6 +2206,12 @@ sections:
     desc: Transformer world model trained on 16,499 Kepler light curves predicts stellar flux, with matched filtering on residuals reaching AUC 0.938 on DR25 and recovering 47 TESS planets zero-shot.
 - title: Cosmology and Large-Scale Structure
   entries:
+  - title: A Genetic Algorithm Approach to Reconstructing Scalar-Tensor Lagrangians
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2611.34512
+      Code: https://github.com/Rivillion/ScalarTensor_GA/tree/v1.0.0
+    desc: A genetic algorithm evolves symbolic nonminimal couplings and scalar potentials ranked by DESI DR2 BAO, Pantheon+, CMB distance priors and fσ8 data, with the best of 64 runs improving the fit over ΛCDM by Δχ² = −16.6 compared with −10.6 for CPL.
   - title: 'Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS'
     venue: arXiv 2026
     links:
