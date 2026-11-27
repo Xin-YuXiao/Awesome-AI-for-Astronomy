@@ -3320,6 +3320,13 @@ sections:
     desc: DeepONet thermophysical model of water sublimation, fitted with simulated annealing to the water production curves of 28 comets to estimate nucleus sizes.
 - title: Observing and Instrumentation
   entries:
+  - name: Hyrax
+    title: 'Hyrax: An Extensible Framework for Rapid ML Experimentation and Unsupervised Discovery in the Era of Rubin, Roman, and Euclid'
+    venue: arXiv 2026
+    links:
+      Paper: https://arxiv.org/abs/2605.18959
+      Code: https://github.com/lincc-frameworks/hyrax
+    desc: Presents a reusable survey ML framework and demonstrates it on Rubin DP1 galaxy discovery and lens candidate searches, multimodal ZTF transient classification, distant solar system object filtering, and dwarf galaxy detection.
   - title: 'From Historical Schedules to On-Sky Control: Autonomous Scheduling on the 4-m Blanco Telescope'
     venue: arXiv 2026
     links:
@@ -3402,6 +3409,9 @@ sections:
       desc: 15 TB across 16 physics simulation datasets, including MHD and supernova explosion simulations.
 - title: Tools and Libraries
   entries:
+  - name: Hyrax
+    url: https://github.com/lincc-frameworks/hyrax
+    desc: Provides reusable data loading, training, inference, and similarity search workflows for astronomical surveys.
   - name: astroquery-mcp
     url: https://github.com/NASA-IMPACT/astroquery-mcp
     desc: Exposes astronomical archive queries to MCP clients and returns FITS products with checksums and source URLs when available.

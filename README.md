@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 496 papers and 67 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 497 papers and 68 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -740,6 +740,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 | 2026.11 | [Beam-pattern Prediction for Radio Antenna Arrays using Mutual Coupling and Machine Learning](https://arxiv.org/abs/2611.18968 "A deep neural network predicts the array patterns of a three-dipole phased array from antenna design, positions, frequency and measured scattering parameters, with tests of sensitivity to position and scattering-parameter errors.") | arXiv 2026 | - | - |
 | 2026.11 | [Sky Monitor AI: classifying night-sky conditions from an observatory all-sky camera with a CNN ensemble, label-free sky types and exact evidence maps](https://arxiv.org/abs/2611.14987 "A CNN ensemble classifies all-sky images from 32 observing nights at Higashi-Hiroshima Observatory and uses local logit maps to explain cloud predictions.") | arXiv 2026 | [Code](https://github.com/waqas6767/Sky-Monitor-AI-for-Remote-Observatory-Operations) | - |
 | 2026.11 | [MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations](https://arxiv.org/abs/2611.14710 "A conditional variational autoencoder learns correlated particle states at intermediate boundaries for faster Geant4 simulations of detector backgrounds.") | arXiv 2026 | [Code](https://github.com/francescomonastra/MAGI) | - |
+| 2026.05 | [Hyrax: An Extensible Framework for Rapid ML Experimentation and Unsupervised Discovery in the Era of Rubin, Roman, and Euclid](https://arxiv.org/abs/2605.18959 "Presents a reusable survey ML framework and demonstrates it on Rubin DP1 galaxy discovery and lens candidate searches, multimodal ZTF transient classification, distant solar system object filtering, and dwarf galaxy detection.") | arXiv 2026 | [Code](https://github.com/lincc-frameworks/hyrax) | - |
 
 <p align="right"><a href="#contents">Back to contents</a></p>
 
@@ -766,6 +767,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Name | Description |
 |:--|:--|
+| [Hyrax](https://github.com/lincc-frameworks/hyrax) | Provides reusable data loading, training, inference, and similarity search workflows for astronomical surveys. |
 | [astroquery-mcp](https://github.com/NASA-IMPACT/astroquery-mcp) | Exposes astronomical archive queries to MCP clients and returns FITS products with checksums and source URLs when available. |
 | [AspGap](https://github.com/jiadonglee/aspgap) | infers red giant stellar parameters and abundances from Gaia XP spectra. |
 | [astroML](https://github.com/astroML/astroML) | provides machine learning and statistics routines for astronomy. |
