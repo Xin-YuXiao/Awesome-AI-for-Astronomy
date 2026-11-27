@@ -17,7 +17,7 @@
 </div>
 
 > [!TIP]
-> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 494 papers and 67 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
+> The [searchable web page](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/) filters all 496 papers and 67 software packages by section, year, venue type, public code, model weights or data, and data modality, and shows a one-sentence summary for every paper. The full list can also be downloaded as [JSON](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/entries.json) or [CSV](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/papers.csv).
 >
 > [AstroAI Today](https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/today.html) collects new arXiv papers on machine learning in astronomy every day. A language model (DeepSeek V4.1 Flash) screens them and writes a one-line TL;DR for each paper and a TL;DR for each week and month. These papers are not reviewed; the curated list below is.
 >
@@ -473,6 +473,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [NASA's Pandora SmallSat Mission: Gaussian Processes for Simulated Stellar Heterogeneity Corrections under Imperfect Stellar Models](https://arxiv.org/abs/2611.34720 "Gaussian processes learn wavelength-dependent deviations from photosphere and spot model grids in simulated Pandora data, improving composite stellar spectrum recovery across eight K- and M-dwarf scenarios and propagating stellar contamination into planetary atmospheric retrievals.") | arXiv 2026 | - | - |
 | 2026.11 | [Predicting the Orbital Retention of Habitable-Zone Planets Following Stellar Flybys Using Machine Learning](https://arxiv.org/abs/2611.29816 "An XGBoost classifier trained on three-body N-body simulations of stellar flybys predicts whether habitable-zone planets keep fully habitable orbits with a test ROC-AUC of 0.97, about 74 times faster than direct integration.") | arXiv 2026 | - | - |
 | 2026.11 | [NEXONN: Advancing the NEXOTRANS Exoplanet Atmospheric Retrieval Framework with Transformer-Based Neural Posterior Estimation for JWST Transmission Spectroscopy of WASP-39b](https://arxiv.org/abs/2611.23818 "Transformer-conditioned normalizing flows match PyMultiNest posteriors for simulated and JWST WASP-39 b spectra while reducing trained inference to seconds.") | arXiv 2026 | - | - |
 | 2026.11 | [A Homogeneous Benchmark of Exoplanet Mass-Radius Relations](https://arxiv.org/abs/2611.24812 "A unified 963-planet benchmark finds a multi-feature random forest reaches 0.329 dex mass RMSE versus 0.368 dex for a two-parameter power law, with gains concentrated below 1.6 Earth radii.") | arXiv 2026 | - | - |
@@ -510,6 +511,7 @@ Benchmarks are grouped by input type. Data and modality benchmarks provide obser
 
 | Date | Paper | Venue | Code | Links |
 |:--|:--|:--|:--|:--|
+| 2026.11 | [A Genetic Algorithm Approach to Reconstructing Scalar-Tensor Lagrangians](https://arxiv.org/abs/2611.34512 "A genetic algorithm evolves symbolic nonminimal couplings and scalar potentials ranked by DESI DR2 BAO, Pantheon+, CMB distance priors and fσ8 data, with the best of 64 runs improving the fit over ΛCDM by Δχ² = −16.6 compared with −10.6 for CPL.") | arXiv 2026 | [Code](https://github.com/Rivillion/ScalarTensor_GA/tree/v1.0.0) | - |
 | 2026.11 | [Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS](https://arxiv.org/abs/2611.34332 "Tests graph classifiers of cosmic-web environments on independent CAMELS realizations from IllustrisTNG, SIMBA, and Astrid.") | arXiv 2026 | - | - |
 | 2026.11 | [CosmoMap: Predicting Hot Gas Temperature and Density from Dark Matter with a Conditioned 3D U-Net](https://arxiv.org/abs/2611.31282 "A 3D U-Net conditioned on cosmological and feedback parameters predicts hot-gas temperature and electron density from dark matter density and velocity on the CAMELS IllustrisTNG Latin hypercube, reaching R² of 0.765 for log T and 0.934 for log n_e at z = 0 and cutting the error of gradient-boosted trees by 22–23 per cent.") | arXiv 2026 | [Code](https://github.com/amanbh1/CosmoMap) | - |
 | 2026.11 | [Learning to find cosmic filaments with graph neural networks](https://arxiv.org/abs/2611.31494 "A conditional generative model combining flow matching and graph neural networks samples cosmic filament configurations from galaxy catalogues, reproducing key statistics of the target filament distribution while representing the uncertainty of the reconstruction.") | arXiv 2026 | - | - |
